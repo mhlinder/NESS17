@@ -1,6 +1,38 @@
 /*
-Green #183219
-Beige #e2c3a7
+Green #182514
+Beige #d5b79a
 */
+
 a { color: #000000; }
 a:hover { color: #000000; }
+a.head {
+    color: #d5b79a;
+    text-decoration: none;
+}
+
+body {
+    background-color: #182514;
+    background-image: url(bg.gif);
+}
+
+.container {
+    border: 2px solid #d5b79a;
+    background-color: #d5b79a;
+    margin-top: 5%;
+}
+
+.content {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+
+.toprow {
+    padding-top: 3%;
+    width: 100%;
+    color: #d5b79a;
+    background-color: #182514;
+    text-align: center;
+}
+
