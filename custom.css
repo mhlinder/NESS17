@@ -14,6 +14,10 @@ body {
     background-image: url(bg.gif);
 }
 
+td, th {
+    border: none;
+}
+
 td > * {
     vertical-align: middle;
     margin-bottom: 0;
@@ -26,6 +30,7 @@ td > * {
     color: #182514;
 }
 
+.red { color: red; }
 
 .toprow {
     margin-top: 5%;
