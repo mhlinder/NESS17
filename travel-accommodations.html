@@ -51,6 +51,12 @@
 	    <li><a href="travel-accommodations">Travel and Accommodations</a></li>
 	    <li><a href="contact">Contact</a></li>
 	  </ul>
+
+	  <hr />
+
+	  <ul>
+	    <li><a href="http://stat.uconn.edu/ness/">NESS History</a></li>
+	  </ul>
 	</div> <!-- .column -->
 
 	<div class="two-thirds column">

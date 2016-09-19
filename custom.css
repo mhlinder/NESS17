@@ -1,19 +1,23 @@
 /*
 
-Green #182514
-Beige #d5b79a
+Colors: https://coolors.co/086788-07a0c3-f0c808-fff1d0-dd1c1a
 
 */
 
-a { color: #182514; }
-a:hover { color: #FED766; }
+a { color: black; }
+a:hover { color: #07A0C3; }
 a.head {
-    color: #d5b79a;
+    color: #DD1C1A;
     text-decoration: none;
 }
 
 body {
-    background-image: url(bg.gif);
+    background-color: #EEEBD0;
+    color: black;
+}
+
+hr {
+    border-color: #086788;
 }
 
 td, th {
@@ -25,24 +29,17 @@ td > * {
     margin-bottom: 0;
 }
 
-.box {
-    border: 1px solid #d5b79a;
+.box, .toprow {
+    border: 2px solid #086788;
     margin-top: 20px;
     padding: 20px;
-    background-color: #696773;
+    background-color: #FFF1D0;
     color: #182514;
 }
 
-.red { color: red; }
+.red { color: #DD1C1A; }
 
 .toprow {
-    margin-top: 5%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
     text-align: center;
-    background-color: #182514;
-    border: 2px solid #D8E4FF;
-    color: #d5b79a;
 }
 
