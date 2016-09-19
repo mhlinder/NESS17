@@ -54,7 +54,7 @@
 	<div class="two-thirds column">
 	  <div class="main box">
 	    <h3>Registration</h3>
-	    <p>Further details TBA.</p>
+	    <p><?php include('regform.php'); ?></p>
 	  </div> <!-- .main -->
 	</div>
 

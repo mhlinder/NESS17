@@ -2,5 +2,5 @@
 title: Registration
 ---
 
-Further details TBA.
+1234321
 
