@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <title>NESS 2017 : Short Courses</title>
+    <title>NESS 2017 : Review Registration</title>
     <style type="text/css">code{white-space: pre;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -61,8 +61,8 @@
 
 	<div class="two-thirds column">
 	  <div class="main box">
-	    <h3>Short Courses</h3>
-	    <p>Further details TBA.</p>
+	    <h3>Review Registration</h3>
+	    <p><?php include('regreview.php'); ?></p>
 	  </div> <!-- .main -->
 	</div>
 

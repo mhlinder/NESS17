@@ -20,13 +20,16 @@ hr {
     border-color: #086788;
 }
 
-td, th {
-    border: none;
-}
-
-td > * {
+input[type="text"], td > * {
     vertical-align: middle;
     margin-bottom: 0;
+}
+
+table { margin-bottom: 0; }
+
+td, th {
+    border: none;
+    padding-top: 0;
 }
 
 .box, .toprow {
@@ -36,6 +39,8 @@ td > * {
     background-color: #FFF1D0;
     color: black;
 }
+
+.container { margin-bottom: 3%; }
 
 .red { color: #DD1C1A; }
 

@@ -27,7 +27,7 @@
 	<div class="twelve columns">
 	  <h1>
 	    <a href="index" class="head">
-	      31<sup>st</sup> New England Statistical Symposium</a>
+	      The 31<sup>st</sup> New England Statistical Symposium</a>
 	  </h1>
 
 	  <h3>April 21&ndash;April 22, 2017, University of Connecticut</h3>

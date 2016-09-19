@@ -1,14 +1,14 @@
 
-<form id="registration" name="registration" method="post" enctype="multipart/form-data" action="regsubmit.php">
+<form id="registration" name="registration" method="post" enctype="multipart/form-data" action="regsend">
   <table>
     <tr>
       <td>Short Course:</td>
       <td>
 	<select name="short-course">
-	  <option selected="selected">No short course</option>
-	  <option>Short Course 1</option>
-	  <option>Short Course 2</option>
-	  <option>Short Course 3</option>
+	  <option value=0 selected="selected">No short course</option>
+	  <option value=1>Short Course 1</option>
+	  <option value=2>Short Course 2</option>
+	  <option value=3>Short Course 3</option>
 	</select>
       </td>
     </tr>
@@ -48,7 +48,7 @@
       <td><input type="text" name="dept" /></td>
     </tr>
 
-     <tr>
+    <tr>
       <td>Reception</td>
       <td>
 	<input type="radio" name="reception" value="No" checked> No
@@ -75,11 +75,16 @@
 	<textarea name="comments" rows="2" cols="25"></textarea>
       </td>
     </tr>
+
+    <tr>
+      <td>
+	<input type="submit" name="Submit" value="Submit registration" />
+      </td>
+      <td></td>
+    </tr>
     
   </table>
 
-  <input type="submit" name="Submit" value="Submit registration" />
+  <span class="red">Items marked with * are required.</span>
 
 </form>
-
-<span class="red">Items marked with * are required.</span>
