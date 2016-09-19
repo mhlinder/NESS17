@@ -16,13 +16,15 @@
     <div class="container">
 
       <div class="row toprow">
+	<!-- 
 	<div class="two columns logo">
 	  <a href="index" style="border: none;">
 	    <img src="logo.gif">
 	  </a>
 	</div>
-
-	<div class="ten columns">
+	-->
+	
+	<div class="twelve columns">
 	  <h1>
 	    <a href="index" class="head">
 	      31<sup>st</sup> New England Statistical Symposium</a>

@@ -1,10 +1,12 @@
 /*
+
 Green #182514
 Beige #d5b79a
+
 */
 
 a { color: #182514; }
-a:hover { color: #182514; }
+a:hover { color: #FED766; }
 a.head {
     color: #d5b79a;
     text-decoration: none;
@@ -24,9 +26,10 @@ td > * {
 }
 
 .box {
+    border: 1px solid #d5b79a;
     margin-top: 20px;
     padding: 20px;
-    background-color: #d5b79a;
+    background-color: #696773;
     color: #182514;
 }
 
@@ -39,7 +42,7 @@ td > * {
     width: 100%;
     text-align: center;
     background-color: #182514;
-    border: 2px solid #d5b79a;
+    border: 2px solid #D8E4FF;
     color: #d5b79a;
 }
 
