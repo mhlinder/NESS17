@@ -53,5 +53,12 @@ $headers .= 'From: NESS 2017<m.henry.linder@uconn.edu>' . "\r\n";
 
 mail($email, $subject, $msg, $headers);
 
+$fp = fopen('reg.csv', 'a');
+fputcsv($fp,
+	array($name, $email, $shortcourse, $registration, $reception,
+	      $dinner, $donation, $comments, $charge));
+fclose($fp);
+unlink("reg.csv");
+
 ?>
 
