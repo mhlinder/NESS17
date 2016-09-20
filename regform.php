@@ -17,9 +17,9 @@
       <td>NESS Registration<span class="red">*</span></td>
       <td>
 	<select name="registration">
-	  <option value="Non-Student" selected="selected">Non-Student ($40)</option>
-	  <option value="Student">Student ($20)</option>
-	  <option value="Presenter">Presenter ($0)</option>
+	  <option value="Non-Student ($40)" selected="selected">Non-Student ($40)</option>
+	  <option value="Student ($20)">Student ($20)</option>
+	  <option value="Presenter ($0)">Presenter ($0)</option>
 	</select>
       </td>
     </tr>

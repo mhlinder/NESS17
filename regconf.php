@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <title>NESS 2017 : Registration</title>
+    <title>NESS 2017 : Registration Confirmation</title>
     <style type="text/css">code{white-space: pre;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -61,9 +61,8 @@
 
 	<div class="two-thirds column">
 	  <div class="main box">
-	    <h3>Registration</h3>
-	    <p><?php include('regform.php'); ?></p>
-<p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
+	    <h3>Registration Confirmation</h3>
+	    <p><?php include('regemail.php'); ?></p>
 	  </div> <!-- .main -->
 	</div>
 
