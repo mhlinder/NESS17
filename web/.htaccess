@@ -3,4 +3,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule registration registration.php [NC,L]
 RewriteRule regsend regsend.php [NC,L]
 RewriteRule regconf regconf.php [NC,L]
+RewriteRule regdata regdata.php [NC,L]
 RewriteRule ^([^\.]+)$ $1.html [NC,L]

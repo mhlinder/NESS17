@@ -58,7 +58,6 @@ fputcsv($fp,
 	array($name, $email, $shortcourse, $registration, $reception,
 	      $dinner, $donation, $comments, $charge));
 fclose($fp);
-unlink("reg.csv");
 
 ?>
 

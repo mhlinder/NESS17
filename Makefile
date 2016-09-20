@@ -34,4 +34,4 @@ html:
 		call-for-papers.html abstracts.html \
 		travel-accommodations.html contact.html custom.css \
 		normalize.css skeleton.css regform.php regsend.php \
-		regreview.php regconf.php regemail.php web/
+		regreview.php regconf.php regemail.php regdata.php web/
