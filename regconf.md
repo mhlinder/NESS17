@@ -2,5 +2,5 @@
 title: Registration Confirmation
 ---
 
-1234321
+<?php include("regemail.php"); ?>
 

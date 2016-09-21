@@ -2,7 +2,7 @@
 title: Registration
 ---
 
-1234321
+<?php include("regform.php"); ?>
 
 If you are experiencing technical difficulties, contact our
 [webmaster](m.henry.linder@uconn.edu).

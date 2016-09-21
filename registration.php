@@ -16,14 +16,14 @@
     <div class="container">
 
       <div class="row toprow">
-	<!-- 
+	<!--
 	<div class="two columns logo">
 	  <a href="index" style="border: none;">
 	    <img src="logo.gif">
 	  </a>
 	</div>
 	-->
-	
+
 	<div class="twelve columns">
 	  <h1>
 	    <a href="index" class="head">
@@ -45,7 +45,7 @@
 	    <li><a href="program">Program</a></li>
 	    <li><a href="committees">Committees</a></li>
 	    <li><a href="short-courses">Short Courses</a></li>
-	    <li><a href="registration">Registration</a></li>
+	    <!-- <li><a href="registration">Registration</a></li> -->
 	    <li><a href="call-for-papers">Call for Papers</a></li>
 	    <li><a href="abstracts">Abstract Submission</a></li>
 	    <li><a href="travel-accommodations">Travel and Accommodations</a></li>
@@ -62,7 +62,7 @@
 	<div class="two-thirds column">
 	  <div class="main box">
 	    <h3>Registration</h3>
-	    <p><?php include('regform.php'); ?></p>
+	    <?php include("regform.php"); ?>
 <p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>
