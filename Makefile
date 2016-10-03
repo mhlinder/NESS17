@@ -10,7 +10,7 @@ html:
 	pandoc --template template.html -T "NESS 2017" \
 		--smart -o short-courses.html short-courses.md
 	pandoc --template template.html -T "NESS 2017" \
-		--smart -o call-for-papers.html call-for-papers.md
+		--smart -o call-for-participation.html call-for-participation.md
 	pandoc --template template.html -T "NESS 2017" \
 		--smart -o abstracts.html abstracts.md
 	pandoc --template template.html -T "NESS 2017" \
@@ -25,7 +25,7 @@ html:
 		--smart -o regconf.php -t html regconf.md
 	cp index.html keynote-speakers.html program.html \
 		committees.html short-courses.html registration.php \
-		call-for-papers.html abstracts.html \
+		call-for-participation.html abstracts.html \
 		travel-accommodations.html contact.html custom.css \
 		normalize.css skeleton.css regform.php regsend.php \
-		regreview.php regconf.php regemail.php web/
+		regreview.php regconf.php regemail.php ness17.png web/
