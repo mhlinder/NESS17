@@ -4,7 +4,7 @@
     <tr>
       <td>Short Course:</td>
       <td>
-	<select name="short-course">
+	<select name="shortcourse">
 	  <option value="None" selected="selected">No short course</option>
 	  <option value="1">Short Course 1</option>
 	  <option value="2">Short Course 2</option>
@@ -14,24 +14,31 @@
     </tr>
 
     <tr>
+	<td>Short course only<span class="red">*</span></td>
+	<td>
+	    <input type="radio" name="sconly" value="No" checked> No
+	    <input type="radio" name="sconly" value="Yes"> Yes
+	</td>
+    <tr>
       <td>NESS Registration<span class="red">*</span></td>
       <td>
 	<select name="registration">
 	  <option value="Non-Student ($40)" selected="selected">Non-Student ($40)</option>
 	  <option value="Student ($20)">Student ($20)</option>
-	  <option value="Presenter ($0)">Presenter ($0)</option>
+	  <option value="Student Presenter ($0)">Student Presenter ($0)</option>
+	  <option value="None">None</option>
 	</select>
       </td>
     </tr>
 
     <tr>
       <td>First name<span class="red">*</span></td>
-      <td><input type="text" name="first-name" /></td>
+      <td><input type="text" name="fname" /></td>
     </tr>
     
     <tr>
       <td>Last name<span class="red">*</span></td>
-      <td><input type="text" name="last-name" /></td>
+      <td><input type="text" name="lname" /></td>
     </tr>
     
     <tr>

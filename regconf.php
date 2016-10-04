@@ -6,6 +6,7 @@
     <title>NESS 2017 : Registration Confirmation</title>
     <style type="text/css">code{white-space: pre;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The 31st New England Statistics Symposium">
 
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="skeleton.css">
@@ -25,7 +26,7 @@
 	<div class="eight columns">
 	  <h1>
 	    <a href="index" class="head">
-	      The 31<sup>st</sup> New England Statistical Symposium</a>
+	      The 31<sup>st</sup> New England Statistics Symposium</a>
 	  </h1>
 
 	  <h3>April 21&ndash;April 22, 2017, University of Connecticut</h3>
@@ -72,6 +73,7 @@
 	  <div class="main box">
 	    <h3>Registration Confirmation</h3>
 	    <?php include("regemail.php"); ?>
+<p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>
 

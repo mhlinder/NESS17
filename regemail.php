@@ -1,7 +1,8 @@
 
 <?php
 
-$shortcourse = $_POST['short-course'];
+$shortcourse = $_POST['shortcourse'];
+$sconly = $_POST['sconly'];
 $registration = $_POST['registration'];
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -16,6 +17,7 @@ $comments = $_POST['comments'];
 
 $table =  "<table>
     <tr><td><b>Short Course</b></td><td>$shortcourse</td></tr>
+    <tr><td><b>Short course only</b></td><td>$sconly</td></tr>
     <tr><td><b>Registration</b></td><td>$registration</td></tr>
     <tr><td><b>Name</b></td><td>$name</td></tr>
     <tr><td><b>Email</b></td><td>$email</td></tr>
@@ -39,10 +41,6 @@ by the Department of Statistics at the University of Connecticut.</p>
 
 <p>$table</p>";
 
-echo $msg;
-
-echo "<p class=\"red\">A confirmation will be sent to $email.</span></p>";
-
 // Send email confirmation
 
 $subject = "NESS 2017: Confirmation";
@@ -51,13 +49,22 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: NESS 2017<m.henry.linder@uconn.edu>' . "\r\n";
 
-mail($email, $subject, $msg, $headers);
-
 $fp = fopen('reg.csv', 'a');
-fputcsv($fp,
-	array($name, $email, $shortcourse, $registration, $reception,
-	      $dinner, $donation, $comments, $charge));
+$fpcheck = fputcsv($fp, array($name, $email, $shortcourse, $sconly,
+			      $registration, $reception, $dinner,
+			      $donation, $comments, $charge)); 
 fclose($fp);
+
+if (!$fpcheck) {
+    echo "<p class=\"red\">There was an error and your registration was not saved!</p>";
+    echo $fpcheck;
+} else {
+    echo $msg;
+    mail($email, $subject, $msg, $headers);
+    echo "<p class=\"red\">A confirmation will be sent to $email.</span></p>";
+}
+
+
 
 ?>
 

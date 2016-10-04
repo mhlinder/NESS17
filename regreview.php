@@ -1,10 +1,11 @@
 
 <?php
 
-$shortcourse = $_POST['short-course'];
+$shortcourse = $_POST['shortcourse'];
+$sconly = $_POST['sconly'];
 $registration = $_POST['registration'];
-$fname = $_POST['first-name'];
-$lname = $_POST['last-name'];
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
 $email = $_POST['email'];
 $org = $_POST['org'];
 $dept = $_POST['dept'];
@@ -22,6 +23,11 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
     <p><span class="red">Please fill in all required fields.</span></p>
     <p><input name="Back" type="button" class="text" value="Back"
 	      onClick="javascript:history.back()" /></p>
+    <?php if (empty($fname)) { echo("fname"); } ?>
+    <?php if (empty($lname)) { echo("lname"); } ?>
+    <?php if (empty($email)) { echo("email"); } ?>
+    <?php if (empty($org)) { echo("org"); } ?>
+
 <?php } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) { ?>
 
     <h2>Registration unsuccessful!</h2>
@@ -36,6 +42,20 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
     <p><input name="Back" type="button" class="text" value="Back"
 	      onClick="javascript:history.back()" /></p>
 
+<?php } elseif (strcmp($registration, "None") == 0 && strcmp($sconly, "No") == 0) { ?>
+
+    <h2>Registration unsuccessful!</h2>
+    <p><span class="red">NESS Registration cannot be "None".</span></p>
+    <p><input name="Back" type="button" class="text" value="Back"
+	      onClick="javascript:history.back()" /></p>
+
+<?php } elseif (strcmp($sconly, "Yes") == 0 && strcmp($shortcourse, "None") == 0) { ?>
+
+    <h2>Registration unsuccessful!</h2>
+    <p><span class="red">Please register for NESS or a short course (or both!).</span></p>
+    <p><input name="Back" type="button" class="text" value="Back"
+	      onClick="javascript:history.back()" /></p>
+
 <?php } else {
 
     $charge = 0;
@@ -43,6 +63,10 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
 	$charge += 40;
     } elseif ($registration == 'Student ($20)') {
 	$charge += 20;
+    }
+
+    if (strcmp($shortcourse, "None") != 0) {
+	$charge += 250;
     }
 
     $charge += (int)$donation;
@@ -53,6 +77,7 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
 
     <table>
 	<tr><td><b>Short Course</b></td><td><?php echo $shortcourse; ?></td></tr>
+	<tr><td><b>Short course only</b></td><td><?php echo $sconly; ?></td></tr>
 	<tr><td><b>Registration</b></td><td><?php echo $registration; ?></td></tr>
 	<tr><td><b>Name</b></td><td><?php echo $name; ?></td></tr>
 	<tr><td><b>Email</b></td><td><?php echo $email; ?></td></tr>
@@ -68,7 +93,8 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
 
     <p>
 	<form id="data" name="data" method="post" enctype="multipart/form-data" action="regconf">
-	    <input type="hidden" name="short-course" value="<?php echo $shortcourse; ?>">
+	    <input type="hidden" name="shortcourse" value="<?php echo $shortcourse; ?>">
+	    <input type="hidden" name="sconly" value="<?php echo $sconly; ?>">
 	    <input type="hidden" name="registration" value="<?php echo $registration; ?>">
 	    <input type="hidden" name="name" value="<?php echo $name; ?>">
 	    <input type="hidden" name="email" value="<?php echo $email; ?>">

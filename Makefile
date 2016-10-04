@@ -23,9 +23,12 @@ html:
 		--smart -o regsend.php -t html regsend.md
 	pandoc --template template.html -T "NESS 2017" \
 		--smart -o regconf.php -t html regconf.md
+	pandoc --template template.html -T "NESS 2017" \
+		--smart -o 404.html 404.md
 	cp index.html keynote-speakers.html program.html \
 		committees.html short-courses.html registration.php \
 		call-for-participation.html abstracts.html \
 		travel-accommodations.html contact.html custom.css \
 		normalize.css skeleton.css regform.php regsend.php \
-		regreview.php regconf.php regemail.php ness17.png web/
+		regreview.php regconf.php regemail.php ness17.png \
+		404.html web/
