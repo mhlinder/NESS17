@@ -25,6 +25,8 @@ html:
 		--smart -o regconf.php -t html regconf.md
 	pandoc --template template.html -T "NESS 2017" \
 		--smart -o 404.html 404.md
+	pandoc --template template.html -T "NESS 2017" \
+		--smart -o invited-sessions.html invited-sessions.md
 	cp index.html keynote-speakers.html program.html \
 		committees.html short-courses.html registration.php \
 		call-for-participation.html abstracts.html \
