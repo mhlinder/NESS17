@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <title>NESS 2017 : Program</title>
+    <title>NESS 2017 : Registration</title>
     <style type="text/css">code{white-space: pre;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The 31st New England Statistics Symposium">
@@ -47,6 +47,7 @@
 	    <li><a href="index">Home</a></li>
 	    <li><a href="keynote-speakers">Keynote Speakers</a></li>
 	    <li><a href="program">Program</a></li>
+	    <li><a href="invited-sessions">Invited Sessions</a></li>
 	    <li><a href="committees">Committees</a></li>
 	    <li><a href="short-courses">Short Courses</a></li>
 	    <!-- <li><a href="registration">Registration</a></li> -->
@@ -62,17 +63,19 @@
 	  <h3>Sponsors</h3>
 
 	  <ul>
-	    <li><a href="http://stat.uconn.edu" target="_blank">Department of
-	    Statistics, UConn</li>
-	    <li><a href="http://www.ibm.com/us-en/" target="_blank">IBM</a></li>
+	      <li><a href="http://stat.uconn.edu" target="_blank">Department of
+		  Statistics, UConn</a></li>
+	      <li><a href="https://www.research.ibm.com/labs/watson/" target="_blank">IBM Watson Lab</a></li>
+	      <li><a href="http://clas.uconn.edu/" target="_blank">UConn CLAS</a></li>
 	  </ul>
 
 	</div> <!-- .column -->
 
 	<div class="two-thirds column">
 	  <div class="main box">
-	    <h3>Program</h3>
-	    <p>Further details TBA.</p>
+	    <h3>Registration</h3>
+	    <?php include("regform.php"); ?>
+<p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>
 

@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <title>$if(title-prefix)$$title-prefix$ : $endif$$pagetitle$</title>
+    <title>NESS 2017 : Review Registration</title>
     <style type="text/css">code{white-space: pre;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The 31st New England Statistics Symposium">
@@ -73,8 +73,8 @@
 
 	<div class="two-thirds column">
 	  <div class="main box">
-	    <h3>$title$</h3>
-	    $body$
+	    <h3>Review Registration</h3>
+	    <?php include("regreview.php"); ?>
 	  </div> <!-- .main -->
 	</div>
 
