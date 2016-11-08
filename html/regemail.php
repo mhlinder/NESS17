@@ -42,7 +42,26 @@ Symposium was received on $date.</h2>
 <p>NESS will be hosted on April 21&ndash;22, 2017,
 by the Department of Statistics at the University of Connecticut.</p>
 
-<p>$table</p>";
+<p>$table</p>
+
+<p>You may pay with a credit card <a
+href=\"http://bursar.uconn.edu/statistics-payment-store/\"
+target=\"_blank\">here</a>. Please use the invoice number listed
+above and in your confirmation email, and enter the description \"NESS\".</p>
+
+<p>For payment with check, please send a check made out to \"NESS\" with your invoice
+number to</p>
+
+<p>
+NESS c/o Megan Petsa<br />
+Department of Statistics<br />
+Room 323, Philip E. Austin Building<br />
+University of Connecticut<br />
+215 Glenbrook Rd. U-4120<br />
+Storrs, CT 06269-4120
+</p>
+
+";
 
 // Send email confirmation
 
@@ -65,9 +84,6 @@ if (!$fpcheck) {
     echo $msg;
     mail($email, $subject, $msg, $headers);
     echo "<p class=\"red\">A confirmation will be sent to $email.</span></p>";
-    if ($charge > 0) {
-        echo "";
-    }
 }
 
 ?>
