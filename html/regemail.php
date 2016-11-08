@@ -15,10 +15,10 @@ $charge = $_POST['charge'];
 $comments = $_POST['comments'];
 
 $hash = substr(md5(uniqid(rand(), true)), 16, 6);
-$conf = "NESS$hash";
+$conf = strtoupper("NESS$hash");
 
 $table =  "<table>
-    <tr><td><b>Invoice #</b></td>$conf<td></tr>
+    <tr><td><b>Invoice #</b></td><td>$conf</td></tr>
     <tr><td><b>Short Course</b></td><td>$shortcourse</td></tr>
     <tr><td><b>Short course only</b></td><td>$sconly</td></tr>
     <tr><td><b>Registration</b></td><td>$registration</td></tr>
