@@ -15,7 +15,7 @@ $charge = $_POST['charge'];
 $comments = $_POST['comments'];
 
 $hash = substr(md5(uniqid(rand(), true)), 16, 6);
-$conf = strtoupper("NESS$hash");
+$conf = strtoupper("NESS-$hash");
 
 $table =  "<table>
     <tr><td><b>Invoice #</b></td><td>$conf</td></tr>
