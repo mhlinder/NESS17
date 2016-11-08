@@ -14,8 +14,11 @@ $donation = $_POST['donation'];
 $charge = $_POST['charge'];
 $comments = $_POST['comments'];
 
+$hash = substr(md5(uniqid(rand(), true)), 16, 6);
+$conf = "NESS$hash";
 
 $table =  "<table>
+    <tr><td><b>Invoice #</b></td>$conf<td></tr>
     <tr><td><b>Short Course</b></td><td>$shortcourse</td></tr>
     <tr><td><b>Short course only</b></td><td>$sconly</td></tr>
     <tr><td><b>Registration</b></td><td>$registration</td></tr>
@@ -50,7 +53,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: NESS 2017<m.henry.linder@uconn.edu>' . "\r\n";
 
 $fp = fopen('reg.csv', 'a');
-$fpcheck = fputcsv($fp, array($name, $email, $shortcourse, $sconly,
+$fpcheck = fputcsv($fp, array($conf,$name, $email, $shortcourse, $sconly,
 			      $registration, $reception, $dinner,
 			      $donation, $comments, $charge)); 
 fclose($fp);
@@ -62,9 +65,10 @@ if (!$fpcheck) {
     echo $msg;
     mail($email, $subject, $msg, $headers);
     echo "<p class=\"red\">A confirmation will be sent to $email.</span></p>";
+    if ($charge > 0) {
+        echo "";
+    }
 }
-
-
 
 ?>
 
