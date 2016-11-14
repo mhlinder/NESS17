@@ -12,13 +12,20 @@
 	</select>
       </td>
     </tr>
+
     <tr>
-      <td>Registration type:</td>
+      <td></td>
+      <td>Click <a href="http://ness.stat.uconn.edu/short-courses">here</a> for a full description of each short course.</tr>
+
+    <tr>
+      <td>Short course registration type:</td><br />
+        <small>(Required to be non-"None" if a short course is selected.)</small></td>
+
       <td>
         <select name="scpay">
           <option value="0" selected="select">None</option>
           <option value="250">Non-student ($250)</option>
-          <option value="150">Non-student CT employees ($150)</option>
+          <option value="150">Non-student CT employee ($150)</option>
           <option value="50">Student ($50)</option>
         </select>
       </td>
