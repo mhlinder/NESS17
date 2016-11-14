@@ -49,7 +49,7 @@ href=\"http://bursar.uconn.edu/statistics-payment-store/\"
 target=\"_blank\">here</a>. Please use the invoice number listed
 above and in your confirmation email, and enter the description \"NESS\".</p>
 
-<p>For payment with check, please send a check made out to \"NESS\" with your invoice
+<p>For payment with check, please send a check made payable to \"Department of Statistics, University of Connecticut\" with your invoice
 number to</p>
 
 <p>
