@@ -69,7 +69,7 @@
 
     <tr>
       <td>Reception<br />
-        <small>(Held Saturday evening; included with registration; more details TBD)</small></td>
+        <small>(Saturday evening. Included with registration. More details TBD)</small></td>
       <td>
 	<input type="radio" name="reception" value="No" checked> No
 	<input type="radio" name="reception" value="Yes"> Yes
