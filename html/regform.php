@@ -16,7 +16,8 @@
       <td>Registration type:</td>
       <td>
         <select name="scpay">
-          <option value="250" selected="selected">Non-student ($250)</option>
+          <option value="0" selected="select">None</option>
+          <option value="250">Non-student ($250)</option>
           <option value="150">Non-student CT employees ($150)</option>
           <option value="50">Student ($50)</option>
         </select>
