@@ -7,6 +7,5 @@ done
 
 for fn in `\ls html | \grep 'reg.*.html'` ; do
     b=${fn%.*}
-    echo $b
     mv html/$b.html html/$b.php
 done

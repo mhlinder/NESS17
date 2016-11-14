@@ -1,3 +1,20 @@
+<?php
+
+$handle = fopen("reg.csv", "r");
+
+$n = 0;
+while ( ($data = fgetcsv($handle)) !== FALSE ) {
+
+    // The first row is the CSV column names
+    if (strcmp($data[0], "invoice") !== 0) {
+        if (strcmp($data[7], "Yes") == 0) {
+            $n = $n + 1;
+        }
+    }
+}
+echo $n;
+
+?>
 
 <form id="registration" name="registration" method="post" enctype="multipart/form-data" action="regsend">
   <table>
@@ -84,13 +101,22 @@
       </td>
     </tr>
 
-    <tr>
-      <td>Dinner</td>
-      <td>
-	<input type="radio" name="dinner" value="No" checked> No
-	<input type="radio" name="dinner" value="Yes"> Yes
-      </td>
-    </tr>
+    <?php // Only this number of people may register for dinner
+    if ($n < 40) { ?>
+
+      <tr>
+        <td>Dinner</td>
+        <td>
+	  <input type="radio" name="dinner" value="No" checked> No
+	  <input type="radio" name="dinner" value="Yes"> Yes
+        </td>
+      </tr>
+
+    <?php } else { ?>
+
+      <input type="hidden" name="dinner" value="No">
+
+    <?php }; ?>
 
     <tr>
       <td>Donation to NESS fund</td>
