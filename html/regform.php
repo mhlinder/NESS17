@@ -18,7 +18,7 @@
       <td>Click <a href="http://ness.stat.uconn.edu/short-courses">here</a> for a full description of each short course.</tr>
 
     <tr>
-      <td>Short course registration type:</td><br />
+      <td>Short course registration type:<br />
         <small>(Required to be non-"None" if a short course is selected.)</small></td>
 
       <td>
