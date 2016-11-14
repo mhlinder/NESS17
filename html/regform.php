@@ -2,7 +2,11 @@
 <form id="registration" name="registration" method="post" enctype="multipart/form-data" action="regsend">
   <table>
     <tr>
-      <td>Short Course:</td>
+      <td>
+        Short Course:<br />
+        <small>Click <a href="http://ness.stat.uconn.edu/short-courses">here</a>
+          for a full description of each short course.</small>
+      </td>
       <td>
 	<select name="shortcourse">
 	  <option value="None" selected="selected">No short course</option>
@@ -10,9 +14,6 @@
 	  <option value="2">Short Course 2</option>
 	  <option value="3">Short Course 3</option>
 	</select>
-        <br />
-        <small>Click <a href="http://ness.stat.uconn.edu/short-courses">here</a>
-          for a full description of each short course.</small>
       </td>
     </tr>
 
