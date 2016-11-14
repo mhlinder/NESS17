@@ -11,8 +11,8 @@
 	  <option value="3">Short Course 3</option>
 	</select>
         <br />
-        Click <a href="http://ness.stat.uconn.edu/short-courses">here</a>
-        for a full description of each short course.
+        <small>Click <a href="http://ness.stat.uconn.edu/short-courses">here</a>
+          for a full description of each short course.</small>
       </td>
     </tr>
 
