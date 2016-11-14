@@ -14,7 +14,7 @@ $donation = $_POST['donation'];
 $charge = $_POST['charge'];
 $comments = $_POST['comments'];
 
-$hash = substr(md5(uniqid(rand(), true)), 16, 6);
+$hash = substr(uniqid(rand(), true), 16, 6);
 $conf = strtoupper("NESS17-$hash");
 
 $table =  "<table>
