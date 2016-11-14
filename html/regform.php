@@ -10,12 +10,11 @@
 	  <option value="2">Short Course 2</option>
 	  <option value="3">Short Course 3</option>
 	</select>
+        <br />
+        Click <a href="http://ness.stat.uconn.edu/short-courses">here</a>
+        for a full description of each short course.
       </td>
     </tr>
-
-    <tr>
-      <td></td>
-      <td>Click <a href="http://ness.stat.uconn.edu/short-courses">here</a> for a full description of each short course.</tr>
 
     <tr>
       <td>Short course registration type:<br />
