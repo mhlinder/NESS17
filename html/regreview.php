@@ -2,6 +2,7 @@
 <?php
 
 $shortcourse = $_POST['shortcourse'];
+$scpay = $_POST['scpay'];
 $sconly = $_POST['sconly'];
 $registration = $_POST['registration'];
 $fname = $_POST['fname'];
@@ -49,6 +50,15 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
     <p><input name="Back" type="button" class="text" value="Back"
 	      onClick="javascript:history.back()" /></p>
 
+<?php } elseif ((strcmp($shortcourse, "None") == 0 && strcmp($scpay, "0") !== 0) || (strcmp($shortcourse, "None") !== 0 && strcmp($scpay, "0") == 0)) { ?>
+
+    <h2>Registration unsuccessful!</h2>
+    <p><span class="red">To register for a short course, you must both
+    select a short course, and a short course registration
+    type.</span></p> 
+    <p><input name="Back" type="button" class="text" value="Back"
+	      onClick="javascript:history.back()" /></p>
+
 <?php } elseif (strcmp($sconly, "Yes") == 0 && strcmp($shortcourse, "None") == 0) { ?>
 
     <h2>Registration unsuccessful!</h2>
@@ -65,19 +75,27 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
 	$charge += 20;
     }
 
-    if (strcmp($shortcourse, "None") != 0) {
-	$charge += 250;
-    }
-
     $charge += (int)$donation;
 
     $name = $fname . " " . $lname;
+
+    if ($scpay == "0") {
+        $sclabel = "None";
+    } elseif ($scpay == "250") {
+        $sclabel = "Non-student ($250)";
+    } elseif ($scpay == "150") {
+        $sclabel = "Non-student CT employee ($150)";
+    } else {
+        $sclabel = "Student ($50)";
+    }
+    $charge += (int)$scpay;
 
 ?>
 
     <table>
 	<tr><td><b>Short Course</b></td><td><?php echo $shortcourse; ?></td></tr>
-	<tr><td><b>Short course only</b></td><td><?php echo $sconly; ?></td></tr>
+	<tr><td><b>Short Course Registration Type</b></td><td><?php echo $sclabel; ?></td></tr>
+	<tr><td><b>Short Course Only</b></td><td><?php echo $sconly; ?></td></tr>
 	<tr><td><b>Registration</b></td><td><?php echo $registration; ?></td></tr>
 	<tr><td><b>Name</b></td><td><?php echo $name; ?></td></tr>
 	<tr><td><b>Email</b></td><td><?php echo $email; ?></td></tr>
@@ -94,6 +112,7 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
     <p>
 	<form id="data" name="data" method="post" enctype="multipart/form-data" action="regconf">
 	    <input type="hidden" name="shortcourse" value="<?php echo $shortcourse; ?>">
+	    <input type="hidden" name="sclabel" value="<?php echo $sclabel; ?>">
 	    <input type="hidden" name="sconly" value="<?php echo $sconly; ?>">
 	    <input type="hidden" name="registration" value="<?php echo $registration; ?>">
 	    <input type="hidden" name="name" value="<?php echo $name; ?>">

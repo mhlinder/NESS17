@@ -12,7 +12,6 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
         }
     }
 }
-echo $n;
 
 ?>
 

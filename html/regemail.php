@@ -2,6 +2,7 @@
 <?php
 
 $shortcourse = $_POST['shortcourse'];
+$sclabel = $_POST['sclabel'];
 $sconly = $_POST['sconly'];
 $registration = $_POST['registration'];
 $name = $_POST['name'];
@@ -20,7 +21,8 @@ $conf = strtoupper("NESS17-$hash");
 $table =  "<table>
     <tr><td><b>Invoice #</b></td><td>$conf</td></tr>
     <tr><td><b>Short Course</b></td><td>$shortcourse</td></tr>
-    <tr><td><b>Short course only</b></td><td>$sconly</td></tr>
+    <tr><td><b>Short Course Registration Type</b></td><td>$sclabel</td></tr>
+    <tr><td><b>Short Course Only</b></td><td>$sconly</td></tr>
     <tr><td><b>Registration</b></td><td>$registration</td></tr>
     <tr><td><b>Name</b></td><td>$name</td></tr>
     <tr><td><b>Email</b></td><td>$email</td></tr>

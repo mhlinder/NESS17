@@ -9,8 +9,8 @@ Three full-day short courses will be held on Friday, April 21, 2017,
     * **Douglas Bates**, University of Wisconsin.
 2. "Statistical Learning and Applications"
     * **Robert Aseltine**, University of Connecticut Health Center
-    * **Kun Chen**, University of Connecticut
+    * **Kun Chen**, University of Connecticut.
 3. "Subgroup Analysis and Treatment Scoring with Application in
    Precision Medicine"
-    * **Menggan Yu**, Unviersity of Wisconsin
+    * **Menggan Yu**, Unviersity of Wisconsin.
 
