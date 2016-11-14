@@ -1,3 +1,4 @@
 <?php
-echo 'hi';
+echo "hi";
+fgetcsv("reg.csv");
 ?>
