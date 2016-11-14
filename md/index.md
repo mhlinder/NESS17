@@ -8,13 +8,15 @@ title: Home
 University of Connecticut
 
 ## Celebrating 30 years of NESS
-The 31st New England Statistics Symposium (NESS) will be hosted by the
-Department of Statistics, University of Connecticut, on April
-21--22, 2017. We will be celebrating the 30th anniversary since the
-NESS was started at UConn in 1987! The mission of NESS is to bring
-together statisticians from all over New England and beyond to a
-central location to share research, discuss emerging issues in the
-field, and network with colleagues.
+
+The Department of Statistics of the University of Connecticut is proud
+to host the 31th New England Statistics Symposium on Saturday, April
+22, 2017 (http://ness.stat.uconn.edu/). The purpose, as usual, is to
+bring together statisticians from all over New England to a central
+location to share research, discuss emerging issues in the field, and
+network with colleagues. The Symposium local hosts and organizers from
+the University of Connecticut are Jun Yan (Chair), Haim Bar, and
+Yuping Zhang.
 
 The symposium will feature three [short courses](short-courses), two
 invited [plenary talks](keynote-speakers), invited paper sessions, and
