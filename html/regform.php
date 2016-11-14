@@ -12,6 +12,17 @@
 	</select>
       </td>
     </tr>
+    <tr>
+      <td>Registration type:</td>
+      <td>
+        <select name="scpay">
+          <option value="250" selected="selected">Non-student</option>
+          <option value="140">Non-student CT employees</option>
+          <option value="50">Student</option>
+        </select>
+      </td>
+    </tr>
+
 
     <tr>
 	<td>Short course only<span class="red">*</span></td>
@@ -35,29 +46,29 @@
       <td>First name<span class="red">*</span></td>
       <td><input type="text" name="fname" /></td>
     </tr>
-    
+
     <tr>
       <td>Last name<span class="red">*</span></td>
       <td><input type="text" name="lname" /></td>
     </tr>
-    
+
     <tr>
       <td>Email<span class="red">*</span></td>
       <td><input type="text" name="email" /></td>
     </tr>
-    
+
     <tr>
       <td>Organization / Institution<span class="red">*</span></td>
       <td><input type="text" name="org" /></td>
     </tr>
-    
+
     <tr>
       <td>Departmental affiliation</td>
       <td><input type="text" name="dept" /></td>
     </tr>
 
     <tr>
-      <td>Reception</td>
+      <td>Reception, Saturday evening (included with registration; more details TBD)</td>
       <td>
 	<input type="radio" name="reception" value="No" checked> No
 	<input type="radio" name="reception" value="Yes"> Yes
@@ -90,7 +101,7 @@
       </td>
       <td></td>
     </tr>
-    
+
   </table>
 
   <span class="red">Items marked with * are required.</span>
