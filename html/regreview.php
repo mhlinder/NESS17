@@ -22,13 +22,15 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
 
     <h2>Registration unsuccessful!</h2>
     <p><span class="red">Please fill in all required fields.</span></p>
-    Missing fields: 
-    <ul>
-      <?php if (empty($fname)) { echo("<li>First name</li>"); } ?>
-      <?php if (empty($lname)) { echo("<li>Last name</li>"); } ?>
-      <?php if (empty($email)) { echo("<li>Email</li>"); } ?>
-      <?php if (empty($org)) { echo("<li>Organization</li>"); } ?>
-    </ul>
+    <p>
+      <b>Missing fields: </b>
+      <ul>
+        <?php if (empty($fname)) { echo("<li>First name</li>"); } ?>
+        <?php if (empty($lname)) { echo("<li>Last name</li>"); } ?>
+        <?php if (empty($email)) { echo("<li>Email</li>"); } ?>
+        <?php if (empty($org)) { echo("<li>Organization</li>"); } ?>
+      </ul>
+    </p>
     <p><input name="Back" type="button" class="text" value="Back"
 	      onClick="javascript:history.back()" /></p>
 
