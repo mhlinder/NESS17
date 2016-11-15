@@ -104,7 +104,7 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
     if ($n < 40) { ?>
 
       <tr>
-        <td>Dinner</td>
+        <td>Dinner<br /><small>Saturday evening, cost $40.</small></td>
         <td>
 	  <input type="radio" name="dinner" value="No" checked> No
 	  <input type="radio" name="dinner" value="Yes"> Yes

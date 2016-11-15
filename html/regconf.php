@@ -75,7 +75,6 @@
 	  <div class="main box">
 	    <h3>Registration Confirmation</h3>
 	    <?php include("regemail.php"); ?>
-
 <p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>
