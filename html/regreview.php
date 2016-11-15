@@ -96,7 +96,7 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
     $charge += (int)$scpay;
 
     if ($dinner == "Yes") {
-        $charge += (int)$scpay;
+        $charge += 40;
     }
 
 ?>
