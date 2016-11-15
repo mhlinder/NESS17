@@ -93,7 +93,7 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
 
     <tr>
       <td>Reception<br />
-        <small>(Saturday evening. Included with registration.)</small></td>
+        <small>Saturday evening. Included with registration.</small></td>
       <td>
 	<input type="radio" name="reception" value="No" checked> No
 	<input type="radio" name="reception" value="Yes"> Yes
