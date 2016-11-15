@@ -35,7 +35,7 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
 
     <tr>
       <td>Short course registration type:<br />
-        <small>(Required to be non-"None" if a short course is selected.)</small></td>
+        <small>Must be non-"None" if a short course is selected.</small></td>
 
       <td>
         <select name="scpay">
