@@ -14,14 +14,15 @@ possible.
 
 ## IBM Student Paper Competition
 
-Students are encouraged to submit posters for consideration of 3
+Students are encouraged to submit papers for consideration of 3
 student paper awards sponsored by the IBM Watson Research Center.
 Manuscript needs to be received no later than Monday, March 20, 2017.
+Students in all disciplines may submit a paper.
 
 ## Student Poster Competition
 
-Students are encouraged to submit posters for consideration of 3-5
+Students are encouraged to submit posters for consideration for 3-5
 student poster awards sponsored by one of our industrial partners. The
-abstract needs to be received no later than Monday, April 3, 2017.
-
+abstract must be received no later than Monday, April 3, 2017.
+Students in all disciplines may submit a poster.
 
