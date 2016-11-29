@@ -4,8 +4,12 @@ Colors: https://coolors.co/086788-07a0c3-f0c808-fff1d0-dd1c1a
 
 */
 
-a { color: black; }
-a:hover { color: #07A0C3; }
+a {
+    color: black;
+}
+a:hover {
+    color: #07A0C3;
+}
 a.head {
     color: #DD1C1A;
     text-decoration: none;
@@ -25,7 +29,9 @@ input[type="text"], td > * {
     margin-bottom: 0;
 }
 
-table { margin-bottom: 0; }
+table {
+    margin-bottom: 0;
+}
 
 td, th {
     border: none;
@@ -40,7 +46,14 @@ td, th {
     color: black;
 }
 
-.container { margin-bottom: 3%; }
+.container {
+    margin-bottom: 3%;
+}
+
+.imgfloat {
+    float: right;
+    padding-left: 15px;
+}
 
 .red { color: #DD1C1A; }
 
