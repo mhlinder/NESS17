@@ -14,9 +14,9 @@ Three full-day short courses will be held on Friday, April 21, 2017,
    Precision Medicine"
     * **Menggan Yu**, Unviersity of Wisconsin.
     
-## Subgroup Analysis and Treatment Scoring with Application in Precision Medicine
+### Subgroup Analysis and Treatment Scoring with Application in Precision Medicine
 
-### Instructor
+#### Instructor
 
 **Menggang Yu**, Professor of Biostatistics, University of
 Wisconsin-Madison  
