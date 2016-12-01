@@ -52,14 +52,14 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
 
 
 <table>
-  <tr>
+  <tr style="border-bottom: 1px solid black;">
     <td>Total registrants</td>
     <td><?php echo $n_total; ?></td>
   </tr>
 
   <tr>
-    <td>Short course 1</td>
-    <td><?php echo $n_sc1; ?></td>
+    <td style="padding-top: 12px;">Short course 1</td>
+    <td style="padding-top: 12px;"><?php echo $n_sc1; ?></td>
   </tr>
   <tr>
     <td>Short course 2</td>
@@ -70,24 +70,24 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
     <td><?php echo $n_sc3; ?></td>
   </tr>
 
-  <tr>
+  <tr style="border-bottom: 1px solid black;">
     <td>Number of short course-only</td>
     <td><?php echo $n_sc_only; ?></td>
   </tr>
 
   <tr>
-    <td>Reception attendees</td>
-    <td><?php echo $n_reception; ?></td>
+    <td style="padding-top: 12px;">Reception attendees</td>
+    <td style="padding-top: 12px;"><?php echo $n_reception; ?></td>
   </tr>
 
-  <tr>
+  <tr style="border-bottom: 1px solid black;">
     <td>Dinner attendees</td>
     <td><?php echo $n_dinner; ?></td>
   </tr>
 
   <tr>
-    <td>Total donated</td>
-    <td>$<?php echo $total_donated; ?></td>
+    <td style="padding-top: 12px;">Total donated</td>
+    <td style="padding-top: 12px;">$<?php echo $total_donated; ?></td>
   </tr>
 </table>
 
