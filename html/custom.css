@@ -32,7 +32,6 @@ input[type="text"], td > * {
 /* http://stackoverflow.com/questions/10428720/how-to-keep-indent-for-second-line-in-ordered-lists-via-css */
 ol {
     counter-reset: foo;
-    border-spacing: 0 1em;
     display: table;
 }
 ol > li {
