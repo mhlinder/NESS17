@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <title>NESS 2017 : Review Registration</title>
+    <title>NESS 2017 : Registration Confirmation</title>
     <style type="text/css">code{white-space: pre;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The 31st New England Statistics Symposium">
@@ -50,7 +50,7 @@
 	    <li><a href="invited-sessions">Invited Sessions</a></li>
 	    <li><a href="committees">Committees</a></li>
 	    <li><a href="short-courses">Short Courses</a></li>
-	    <!-- <li><a href="registration">Registration</a></li> -->
+	    <li><a href="registration">Registration</a></li>
 	    <li><a href="call-for-participation">Call for Participation</a></li>
 	    <li><a href="abstracts">Abstract Submission</a></li>
 	    <li><a href="travel-accommodations">Travel and Accommodations</a></li>
@@ -73,8 +73,9 @@
 
 	<div class="two-thirds column">
 	  <div class="main box">
-	    <h3>Review Registration</h3>
-	    <?php include("regreview.php"); ?>
+	    <h3>Registration Confirmation</h3>
+	    <?php include("regsend0.php"); ?>
+<p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>
 

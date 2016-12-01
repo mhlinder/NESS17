@@ -7,6 +7,7 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
 
     // The first row is the CSV column names
     if (strcmp($data[0], "invoice") !== 0) {
+        // Number of dinner attendees
         if (strcmp($data[7], "Yes") == 0) {
             $n = $n + 1;
         }
@@ -15,7 +16,7 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
 
 ?>
 
-<form id="registration" name="registration" method="post" enctype="multipart/form-data" action="regsend">
+<form id="registration" name="registration" method="post" enctype="multipart/form-data" action="regconf">
   <table>
     <tr>
       <td>

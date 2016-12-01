@@ -1,6 +1,9 @@
 ---
-title: Review Registration
+title: Registration Confirmation
 ---
 
-<?php include("regreview.php"); ?>
+<?php include("regsend0.php"); ?>
+
+If you are experiencing technical difficulties, contact our
+[webmaster](m.henry.linder@uconn.edu).
 

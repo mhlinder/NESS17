@@ -50,7 +50,7 @@
 	    <li><a href="invited-sessions">Invited Sessions</a></li>
 	    <li><a href="committees">Committees</a></li>
 	    <li><a href="short-courses">Short Courses</a></li>
-	    <!-- <li><a href="registration">Registration</a></li> -->
+	    <li><a href="registration">Registration</a></li>
 	    <li><a href="call-for-participation">Call for Participation</a></li>
 	    <li><a href="abstracts">Abstract Submission</a></li>
 	    <li><a href="travel-accommodations">Travel and Accommodations</a></li>
@@ -74,7 +74,7 @@
 	<div class="two-thirds column">
 	  <div class="main box">
 	    <h3>Registration</h3>
-	    <?php include("regform.php"); ?>
+	    <?php include("registration0.php"); ?>
 <p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>

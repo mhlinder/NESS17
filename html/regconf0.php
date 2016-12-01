@@ -119,7 +119,7 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
     </table>
 
     <p>
-	<form id="data" name="data" method="post" enctype="multipart/form-data" action="regconf">
+	<form id="data" name="data" method="post" enctype="multipart/form-data" action="regsend">
 	    <input type="hidden" name="shortcourse" value="<?php echo $shortcourse; ?>">
 	    <input type="hidden" name="sclabel" value="<?php echo $sclabel; ?>">
 	    <input type="hidden" name="sconly" value="<?php echo $sconly; ?>">
