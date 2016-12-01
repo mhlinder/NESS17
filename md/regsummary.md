@@ -1,9 +1,6 @@
 ---
-title: Registration Confirmation
+title: Registration Summary
 ---
 
-<?php include("regsummary1.php"); ?>
-
-If you are experiencing technical difficulties, contact our
-[webmaster](m.henry.linder@uconn.edu).
+<?php include("regsummary0.php"); ?>
 

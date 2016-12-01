@@ -18,22 +18,28 @@ $comments = $_POST['comments'];
 $hash = rand(0, 10000);
 $conf = strtoupper("NESS17-$hash");
 
+if (strcmp($dinner, "Yes")) {
+    $dinner_string = "Yes (\$40)";
+} else {
+    $dinner_string = "No";
+}
+
 $table =  "<table>
-    <tr><td><b>Invoice #</b></td><td>$conf</td></tr>
-    <tr><td><b>Short Course</b></td><td>$shortcourse</td></tr>
+    <tr><td><b class=\"red\">Invoice #</b></td><td class=\"red\">$conf</td></tr>
+    <tr style=\"border-bottom: 1px solid black;\">
+	<td class=\"red\"><b>Total charge</b></td>
+	<td class=\"red\">$$charge</td>
+    </tr>
+    <tr><td style=\"padding-top: 12px;\"><b>Short Course</b></td><td style=\"padding-top: 12px;\">$shortcourse</td></tr>
     <tr><td><b>Short Course Registration Type</b></td><td>$sclabel</td></tr>
     <tr><td><b>Short Course Only</b></td><td>$sconly</td></tr>
     <tr><td><b>Registration</b></td><td>$registration</td></tr>
     <tr><td><b>Name</b></td><td>$name</td></tr>
     <tr><td><b>Email</b></td><td>$email</td></tr>
     <tr><td><b>Reception</b></td><td>$reception</td></tr>
-    <tr><td><b>Dinner</b></td><td>$dinner</td></tr>
+    <tr><td><b>Dinner</b></td><td>$dinner_string</td></tr>
     <tr><td><b>Donation</b></td><td>$$donation</td></tr>
     <tr><td><b>Comments</b></td><td>$comments</td></tr>
-    <tr style=\"border-top: 1px solid black;\">
-	<td style=\"padding-top: 12px;\"><b>Total charge</b></td>
-	<td style=\"padding-top: 12px;\">$$charge</td>
-    </tr>
 </table>";
 
 $date = date("F j, Y");
@@ -46,9 +52,9 @@ by the Department of Statistics at the University of Connecticut.</p>
 
 <p>$table</p>
 
-<p>You may pay with a credit card <a
+<p><span class=\"red\">You may pay with a credit card <a
 href=\"http://bursar.uconn.edu/statistics-payment-store/\"
-target=\"_blank\">here</a>. Please use the invoice number listed
+target=\"_blank\" class=\"red\">here</a>.</span> Please use the invoice number listed
 above and in your confirmation email, and enter the description \"NESS\".</p>
 
 <p>For payment with check, please send a check made payable to \"Department of Statistics, University of Connecticut\" with your invoice
@@ -66,12 +72,20 @@ Storrs, CT 06269-4120
 ";
 
 // Send email confirmation
+$cc = "matthew.linder@uconn.edu";
+$cc .= ",jun.yan@uconn.edu";
+$cc .= ",haim.bar@uconn.edu";
+$cc .= ",yuping.zhang@uconn.edu";
+$cc .= ",ming-hui.chen@uconn.edu";
+$cc .= ",tracy.burke@uconn.edu";
+$cc .= ",megan.petsa@uconn.edu";
 
 $subject = "NESS 2017: Confirmation";
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: NESS 2017<m.henry.linder@uconn.edu>' . "\r\n";
+$headers .= "Cc: $cc" . "\r\n";
 
 $fp = fopen('reg.csv', 'a');
 $fpcheck = fputcsv($fp, array($conf,$name, $email, $shortcourse, $sconly,
@@ -84,7 +98,7 @@ if (!$fpcheck) {
     echo $fpcheck;
 } else {
     echo $msg;
-    mail($email, $subject, $msg, $headers);
+    $success = mail($emails, $subject, $msg, $headers);
     echo "<p class=\"red\">A confirmation will be sent to $email.</span></p>";
 }
 
