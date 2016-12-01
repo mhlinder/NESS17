@@ -18,7 +18,7 @@ $comments = $_POST['comments'];
 $hash = rand(0, 10000);
 $conf = strtoupper("NESS17-$hash");
 
-if (strcmp($dinner, "Yes")) {
+if (strcmp($dinner, "Yes") == 0) {
     $dinner_string = "Yes (\$40)";
 } else {
     $dinner_string = "No";
