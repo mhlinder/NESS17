@@ -2,7 +2,7 @@
 
 for fn in `\ls md` ; do
     b=${fn%.*}
-    if [ "$b" == "abstract_form" ]; then
+    if [ "$b" == "abstractform" ]; then
         pandoc --template template.html -T "NESS 2017" --smart \
                -f markdown+link_attributes+header_attributes \
                -H html/abstractdata/header.php \
@@ -19,5 +19,7 @@ for fn in `\ls html | \grep 'reg.*.html'` ; do
     mv html/$b.html html/$b.php
 done
 
-mv html/abstract_form.html html/abstract_form.php
+mv html/abstractform.html html/abstractform.php
+mv html/abstractconf.html html/abstractconf.php
+mv html/abstractsend.html html/abstractsend.php
 

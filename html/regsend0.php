@@ -90,12 +90,11 @@ $headers .= "Cc: $cc" . "\r\n";
 $fp = fopen('reg.csv', 'a');
 $fpcheck = fputcsv($fp, array($conf,$name, $email, $shortcourse, $sconly,
 			      $registration, $reception, $dinner,
-			      $donation, $comments, $charge)); 
+			      $donation, $comments, $charge));
 fclose($fp);
 
 if (!$fpcheck) {
     echo "<p class=\"red\">There was an error and your registration was not saved!</p>";
-    echo $fpcheck;
 } else {
     echo $msg;
     $success = mail($emails, $subject, $msg, $headers);

@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <title>NESS 2017 : Abstract Submission</title>
+    <title>NESS 2017 : Review Abstract</title>
     <style type="text/css">code{white-space: pre;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The 31st New England Statistics Symposium">
@@ -11,15 +11,6 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="skeleton.css">
     <link rel="stylesheet" href="custom.css">
-        
-    <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-        crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="abstractdata/abstracts.css">
       </head>
   <body>
     <div class="container">
@@ -81,8 +72,8 @@
 
 	<div class="two-thirds column">
 	  <div class="main box">
-	    <h3>Abstract Submission</h3>
-	    <?php include('abstractdata/index0.php'); ?>
+	    <h3>Review Abstract</h3>
+	    <?php include("abstractdata/abstractconf0.php"); ?>
 	  </div> <!-- .main -->
 	</div>
 

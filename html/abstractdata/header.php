@@ -8,5 +8,3 @@
 
 <link rel="stylesheet" href="abstractdata/abstracts.css">
 
-</script>
-

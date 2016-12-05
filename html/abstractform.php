@@ -82,7 +82,8 @@
 	<div class="two-thirds column">
 	  <div class="main box">
 	    <h3>Abstract Submission</h3>
-	    <?php include('abstractdata/index0.php'); ?>
+	    <?php include('abstractdata/abstractform0.php'); ?>
+<p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>
 

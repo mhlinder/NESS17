@@ -11,15 +11,6 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="skeleton.css">
     <link rel="stylesheet" href="custom.css">
-        
-    <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-        crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="abstractdata/abstracts.css">
       </head>
   <body>
     <div class="container">
@@ -82,7 +73,8 @@
 	<div class="two-thirds column">
 	  <div class="main box">
 	    <h3>Abstract Submission</h3>
-	    <?php include('abstractdata/index0.php'); ?>
+	    <?php include('abstractdata/abstractsend0.php'); ?>
+<p>If you are experiencing technical difficulties, contact our <a href="m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>
 
