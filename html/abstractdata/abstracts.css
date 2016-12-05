@@ -1,0 +1,13 @@
+
+.ui-helper-hidden-accessible { display: none; }
+
+.ui-menu {
+    font-size: small;
+    width: 400px;
+}
+
+.ui-autocomplete li:hover {
+    color: #DD1C1A;
+    font-weight: bold;
+}
+

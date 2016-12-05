@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <title>NESS 2017 : Home</title>
+    <title>NESS 2017 : Abstract Submission</title>
     <style type="text/css">code{white-space: pre;}</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The 31st New England Statistics Symposium">
@@ -11,6 +11,17 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="skeleton.css">
     <link rel="stylesheet" href="custom.css">
+        
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="abstractdata/abstracts.css">
+    
+    </script>
       </head>
   <body>
     <div class="container">
@@ -72,16 +83,8 @@
 
 	<div class="two-thirds column">
 	  <div class="main box">
-	    <h3>Home</h3>
-	    <p><strong>Conference Dates:</strong> Friday, April 21–Saturday, April 22, 2017<br /> <strong>Location:</strong> University of Connecticut, Storrs, CT<br /> <strong>Conference Committee:</strong> Haim Bar, Jun Yan (chair), and Yuping Zhang, University of Connecticut</p>
-<h2 id="celebrating-30-years-of-ness">Celebrating 30 years of NESS</h2>
-<p>The Department of Statistics of the University of Connecticut is proud to host the 31th New England Statistics Symposium on Saturday, April 22, 2017 (http://ness.stat.uconn.edu/). The purpose, as usual, is to bring together statisticians from all over New England to a central location to share research, discuss emerging issues in the field, and network with colleagues. The Symposium local hosts and organizers from the University of Connecticut are Jun Yan (Chair), Haim Bar, and Yuping Zhang.</p>
-<p>The symposium will feature three <a href="short-courses">short courses</a>, two invited <a href="keynote-speakers">plenary talks</a>, invited paper sessions, and posters. There will a student paper competition and a student poster competition sponsored by our industrial partners.</p>
-<h2 id="timeline">Timeline</h2>
-<ul>
-<li>Registration opens December 1, 2016</li>
-<li>Abstracts, posters, and student papers must be submitted by March 2 (more details to follow)</li>
-</ul>
+	    <h3>Abstract Submission</h3>
+	    <?php include('abstractdata/index0.php'); ?>
 	  </div> <!-- .main -->
 	</div>
 

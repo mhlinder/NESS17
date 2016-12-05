@@ -11,24 +11,30 @@
 
     <script>
       var institution_list = ["<?php
-                               $lines = file('CCIHE2015.txt', FILE_IGNORE_NEW_LINES);
+                               $lines = file('schools.txt', FILE_IGNORE_NEW_LINES);
                                echo(implode($lines, '", "'));
                                ?>"];
-
      $( function() {
          $("#affiliation").autocomplete({
-             source: institution_list
-         });
+             source: institution_list,
+             messages: {
+                 noResults: '',
+                 results: function() {}
+             }
+         })
      });
     </script>
 
-    <script src="abstracts.js">
+    <link rel="stylesheet" href="abstracts.css">
+
     </script>
 
   </head>
 
   <body>
         <input id="affiliation">
+        <div id="completion"><ul></ul></div>
+        Text below
   </body>
 
 </html>
