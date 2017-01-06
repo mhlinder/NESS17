@@ -51,6 +51,7 @@
    </tr>
 
   </table>
+  <emph class="red">LaTeX formatting is permitted for all text entry fields.</emph>
 </form>
 
 <script>
