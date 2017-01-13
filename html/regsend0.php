@@ -75,7 +75,6 @@ Storrs, CT 06269-4120
 $cc = "matthew.linder@uconn.edu";
 $cc .= ",jun.yan@uconn.edu";
 $cc .= ",haim.bar@uconn.edu";
-$cc .= ",yuping.zhang@uconn.edu";
 $cc .= ",ming-hui.chen@uconn.edu";
 $cc .= ",tracy.burke@uconn.edu";
 $cc .= ",megan.petsa@uconn.edu";

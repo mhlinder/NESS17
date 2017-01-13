@@ -14,7 +14,7 @@ for fn in `\ls md` ; do
     fi
 done
 
-for fn in `\ls html | \grep 'reg.*.html'` ; do
+for fn in `\ls html | \grep 'reg.*\.html'` ; do
     b=${fn%.*}
     mv html/$b.html html/$b.php
 done
