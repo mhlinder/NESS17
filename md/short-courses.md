@@ -9,14 +9,14 @@ Three full-day short courses will be held on
 
 The short courses are:
 
-1. *[Fitting mixed-effects models using the Julia language](#bates)*  
+1. *[Fitting mixed-effects models using the Julia language](#bates)*
    **Douglas Bates**, University of Wisconsin
 
-2. *[Practical Integrative Statistical Learning: Recent Developments and Case Studies](#aseltine)*  
-   **Robert Aseltine**, University of Connecticut Health Center  
+2. *[Practical Integrative Statistical Learning: Recent Developments and Case Studies](#aseltine)*
+   **Robert Aseltine**, University of Connecticut Health Center
    **Kun Chen**, University of Connecticut
 
-3. *[Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*  
+3. *[Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*
    **Menggang Yu**, Unviersity of Wisconsin
 
 ---
@@ -25,6 +25,8 @@ The short courses are:
 
 #### Instructor
 
+<!-- 230 x 245 -->
+![Douglas Bates](bates.jpg){.imgfloat width=150px height=159px}
 **Douglas Bates**, University of Wisconsin - Madison
 
 Douglas Bates is Emeritus Professor of Statistics at the University of
@@ -74,7 +76,8 @@ analogy to R.
 
 #### Instructors
 
-![Robert Aseltine](aseltine.jpg){.imgfloat}
+<!-- 2122 x 2493-->
+![Robert Aseltine](aseltine.jpg){.imgfloat width=150 height=176}
 **Robert Aseltine**, University of Connecticut Health Center
 
 Dr. Robert Aseltine is Professor and Chair in the Division of
@@ -91,6 +94,7 @@ Defense. He currently serves on the Advisory Board of the Connecticut
 All-Payer Claims Database and is Vice Chair of the New England
 Comparative Effectiveness Public Advisory Council (CEPAC).
 
+<!-- 150 x 150 -->
 ![Kun Chen](chen.jpg){.imgfloat}
 **Kun Chen**, University of Connecticut
 
@@ -148,7 +152,8 @@ the instructor.
 
 #### Instructor
 
-![Menggang Yu](yu.png){.imgfloat}
+<!-- 195 x 235 -->
+![Menggang Yu](yu.png){.imgfloat width=150px height=181}
 **Menggang Yu**, Professor of Biostatistics, University of Wisconsin-Madison
 
 As a professor in the Department of Biostatistics and Medical
