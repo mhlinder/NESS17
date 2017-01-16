@@ -17,7 +17,7 @@ The short courses are:
    **Kun Chen**, University of Connecticut
 
 3. *[Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*  
-   **Menggan Yu**, Unviersity of Wisconsin
+   **Menggang Yu**, Unviersity of Wisconsin
 
 ---
 
