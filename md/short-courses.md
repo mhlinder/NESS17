@@ -9,15 +9,15 @@ Three full-day short courses will be held on
 
 The short courses are:
 
-1. *[Course 1: Fitting mixed-effects models using the Julia language](#bates)*  
-   **Douglas Bates**, University of Wisconsin
+1. *[Course 1: Fitting mixed-effects models using the Julia language](#bates)*
+   **Douglas Bates**, University of Wisconsin--Madison
 
-2. *[Course 2: Practical Integrative Statistical Learning: Recent Developments and Case Studies](#aseltine)*  
-   **Robert Aseltine**, University of Connecticut Health Center  
+2. *[Course 2: Practical Integrative Statistical Learning: Recent Developments and Case Studies](#aseltine)*
+   **Robert Aseltine**, University of Connecticut Health Center
    **Kun Chen**, University of Connecticut
 
-3. *[Course 3: Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*  
-   **Menggang Yu**, Unviersity of Wisconsin
+3. *[Course 3: Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*
+   **Menggang Yu**, University of Wisconsin--Madison
 
 ---
 
@@ -111,7 +111,7 @@ Comparative Effectiveness Public Advisory Council (CEPAC).
 Drs. Chen and Aseltine are closely
 collaborating on data-driven suicide prevention studies through integrating
 big data from disparate sources including health care providers, insurance
-companies, and government. 
+companies, and government.
 
 #### Outline
 
@@ -164,7 +164,7 @@ Wisconsin--Madison. Dr. Yu has extensive expertise in
 clinical biostatistics, risk prediction, causal inference, and treatment
 selection. He developed strong interests in comparative effectiveness research
 when working with the General Practice Research Database (GPRD) and The Health
-Improvement Network (THIN) databases to replicate clinical trial results. 
+Improvement Network (THIN) databases to replicate clinical trial results.
 He is the Principal Investigator of a Patient Centered
 Outcome Research Institute (PCORI) methodology grant examining
 innovative methods to match medically complex patients to treatments and
