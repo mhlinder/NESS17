@@ -9,19 +9,19 @@ Three full-day short courses will be held on
 
 The short courses are:
 
-1. *[Fitting mixed-effects models using the Julia language](#bates)*
+1. *[Course 1: Fitting mixed-effects models using the Julia language](#bates)*  
    **Douglas Bates**, University of Wisconsin
 
-2. *[Practical Integrative Statistical Learning: Recent Developments and Case Studies](#aseltine)*
-   **Robert Aseltine**, University of Connecticut Health Center
+2. *[Course 2: Practical Integrative Statistical Learning: Recent Developments and Case Studies](#aseltine)*  
+   **Robert Aseltine**, University of Connecticut Health Center  
    **Kun Chen**, University of Connecticut
 
-3. *[Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*
+3. *[Course 3: Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*  
    **Menggang Yu**, Unviersity of Wisconsin
 
 ---
 
-###  Fitting mixed-effects models using the Julia language {#bates}
+###  Course 1: Fitting mixed-effects models using the Julia language {#bates}
 
 #### Instructor
 
@@ -29,7 +29,7 @@ The short courses are:
 ![Douglas Bates](bates.jpg){.imgfloat width=150px height=159px}
 **Douglas Bates**, University of Wisconsin - Madison
 
-Douglas Bates is Emeritus Professor of Statistics at the University of
+Dr. Douglas Bates is Emeritus Professor of Statistics at the University of
 Wisconsin - Madison.  His research interests are in the theory and
 practice of mixed-effects modeling, including the development of
 software to fit such models.  A member of the R Core Development Team
@@ -46,10 +46,7 @@ mixed-effects models.  Julia is a relatively young language, similar
 in structure to R and Matlab/Octave, but more flexible and capable of
 much greater
 performance. [This blog posting](http://www.oceanographerschoice.com/2016/03/the-julia-language-is-the-way-of-the-future/) describes
-some of these advantages.  For more details see the first lecture from
-Steven
-Johnson's
-[MIT course on Julia](https://github.com/stevengj/18S096-iap17/blob/master/lecture1/Boxes-and-registers.ipynb).
+some of these advantages.
 
 Mixed-effects models include linear mixed-effects models (LMMs),
 generalized linear mixed-effects models (GLMMs) and nonlinear
@@ -72,9 +69,26 @@ analogy to R.
 
 ---
 
-### Practical Integrative Statistical Learning: Recent Developments and Case Studies {#aseltine}
+### Course 2: Practical Integrative Statistical Learning: Recent Developments and Case Studies {#aseltine}
 
 #### Instructors
+
+<!-- 150 x 150 -->
+![Kun Chen](chen.jpg){.imgfloat}
+**Kun Chen**, University of Connecticut
+
+Dr. Kun Chen is an Assistant Professor in the Department of
+Statistics, University of Connecticut. Dr. Chen’s research focuses on
+multivariate statistical learning, high-dimensional statistics, and
+health informatics with large-scale heterogeneous data. Recently his
+project on integrative multivariate analysis with multi-view data is
+funded by the National Science Foundation. He has extensive
+interdisciplinary research experience in a variety of fields including
+insurance, ecology, biology, agriculture, medical imaging, and public
+health. Dr. Chen and Dr. Robert Aseltine are closely collaborating on
+data-driven suicide prevention studies through integrating big data
+from disparate sources including health care providers, insurance and
+government.
 
 <!-- 2122 x 2493-->
 ![Robert Aseltine](aseltine.jpg){.imgfloat width=150 height=176}
@@ -94,22 +108,10 @@ Defense. He currently serves on the Advisory Board of the Connecticut
 All-Payer Claims Database and is Vice Chair of the New England
 Comparative Effectiveness Public Advisory Council (CEPAC).
 
-<!-- 150 x 150 -->
-![Kun Chen](chen.jpg){.imgfloat}
-**Kun Chen**, University of Connecticut
-
-Dr. Kun Chen is an Assistant Professor in the Department of
-Statistics, University of Connecticut. Dr. Chen’s research focuses on
-multivariate statistical learning, high-dimensional statistics, and
-health informatics with large-scale heterogeneous data. Recently his
-project on integrative multivariate analysis with multi-view data is
-funded by the National Science Foundation. He has extensive
-interdisciplinary research experience in a variety of fields including
-insurance, ecology, biology, agriculture, medical imaging, and public
-health. Dr. Chen and Dr. Robert Aseltine are closely collaborating on
-data-driven suicide prevention studies through integrating big data
-from disparate sources including health care providers, insurance and
-government.
+Drs. Chen and Aseltine are closely
+collaborating on data-driven suicide prevention studies through integrating
+big data from disparate sources including health care providers, insurance
+companies, and government. 
 
 #### Outline
 
@@ -156,18 +158,17 @@ the instructor.
 ![Menggang Yu](yu.png){.imgfloat width=150px height=181}
 **Menggang Yu**, Professor of Biostatistics, University of Wisconsin-Madison
 
-As a professor in the Department of Biostatistics and Medical
-Informatics and Director of the Biostatistics Shared Resources of the
-Carbone Cancer Center at the University of Wisconsin-Madison, Dr. Yu
-has extensive expertise in clinical biostatistics, risk prediction,
-causal inference, and treatment selection. He developed strong
-interests in comparative effectiveness research when working with the
-General Practice Research Database and The Health Improvement Network
-databases to replicate clinical trial results. Following this
-work, he is currently the Principal Investigator of a Patient Centered
-Outcome Research Institute (PCORI)-funded methodology grant examining
-innovative new methods to match medically complex patients to
-treatments and interventions.
+Dr. Menggang Yu is Professor of Biostatistics and the Director of the
+Biostatistics Shared Resources of the Carbone Cancer Center at University of
+Wisconsin--Madison. Dr. Yu has extensive expertise in
+clinical biostatistics, risk prediction, causal inference, and treatment
+selection. He developed strong interests in comparative effectiveness research
+when working with the General Practice Research Database (GPRD) and The Health
+Improvement Network (THIN) databases to replicate clinical trial results. 
+He is the Principal Investigator of a Patient Centered
+Outcome Research Institute (PCORI) methodology grant examining
+innovative methods to match medically complex patients to treatments and
+interventions
 
 #### Outline
 

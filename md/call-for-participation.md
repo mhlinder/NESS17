@@ -19,10 +19,10 @@ student paper awards sponsored by the IBM Watson Research Center.
 Manuscript needs to be received no later than Monday, March 20, 2017.
 Students in all disciplines may submit a paper.
 
-## Student Poster Competition
+## Liberty Mutual Student Poster Competition
 
 Students are encouraged to submit posters for consideration for 3-5
-student poster awards sponsored by one of our industrial partners. The
+student poster awards sponsored by Liberty Mutual. The
 abstract must be received no later than Monday, April 3, 2017.
 Students in all disciplines may submit a poster.
 

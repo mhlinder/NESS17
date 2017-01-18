@@ -66,6 +66,7 @@
 	      <li><a href="http://stat.uconn.edu" target="_blank">Department of
 		  Statistics, UConn</a></li>
 	      <li><a href="https://www.research.ibm.com/labs/watson/" target="_blank">IBM Watson Lab</a></li>
+	      <li><a href="https://www.libertymutual.com/" target="_blank">Liberty Mutual</a></li>
 	      <li><a href="http://clas.uconn.edu/" target="_blank">UConn CLAS</a></li>
 	  </ul>
 
