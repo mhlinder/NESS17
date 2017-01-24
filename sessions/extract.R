@@ -8,7 +8,7 @@ print <- function(s) {
     cat(sprintf("%s\n", s))
 }
 
-infile <- "20170118.csv"
+infile <- "20170123.csv"
 
 indata <- read_csv(infile, skip = 1)
 
@@ -21,8 +21,8 @@ for (i in ix) {
     if (is.na(session$`Chair Name`)) {
         print(sprintf("*Organizer and Chair:* **%s**, %s", session$Name, session$`Organizer Institute`))
     } else {
-        print(sprintf("*Organizer:* **%s**, %s", session$Name, session$`Organizer Institute`))
-        print(sprintf("*Chair:** **%s**, %s", session$`Chair Name`, session$`Chair Institute`))
+        print(sprintf("*Organizer:* **%s**, %s  ", session$Name, session$`Organizer Institute`))
+        print(sprintf("*Chair:* **%s**, %s", session$`Chair Name`, session$`Chair Institute`))
     }
     print("")
 

@@ -9,14 +9,14 @@ Three full-day short courses will be held on
 
 The short courses are:
 
-1. *[Course 1: Fitting mixed-effects models using the Julia language](#bates)*
+1. *[Course 1: Fitting mixed-effects models using the Julia language](#bates)*  
    **Douglas Bates**, University of Wisconsin--Madison
 
-2. *[Course 2: Practical Integrative Statistical Learning: Recent Developments and Case Studies](#aseltine)*
-   **Robert Aseltine**, University of Connecticut Health Center
-   **Kun Chen**, University of Connecticut
+2. *[Course 2: Practical Integrative Statistical Learning: Recent Developments and Case Studies](#aseltine)*  
+   **Kun Chen**, University of Connecticut  
+   **Robert Aseltine**, University of Connecticut Health Center  
 
-3. *[Course 3: Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*
+3. *[Course 3: Subgroup Analysis and Treatment Scoring with Application in Precision Medicine](#yu)*  
    **Menggang Yu**, University of Wisconsin--Madison
 
 ---
