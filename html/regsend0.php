@@ -12,6 +12,8 @@ $dept = $_POST['dept'];
 $reception = $_POST['reception'];
 $dinner = $_POST['dinner'];
 $donation = $_POST['donation'];
+$diet = $_POST['diet'];
+$special = $_POST['special'];
 $charge = $_POST['charge'];
 $comments = $_POST['comments'];
 
@@ -39,6 +41,8 @@ $table =  "<table>
     <tr><td><b>Reception</b></td><td>$reception</td></tr>
     <tr><td><b>Dinner</b></td><td>$dinner_string</td></tr>
     <tr><td><b>Donation</b></td><td>$$donation</td></tr>
+    <tr><td><b>Dietary restrictions</b></td><td>$diet</td></tr>
+    <tr><td><b>Special accommodations</b></td><td>$special</td></tr>
     <tr><td><b>Comments</b></td><td>$comments</td></tr>
 </table>";
 
@@ -73,11 +77,11 @@ Storrs, CT 06269-4120
 
 // Send email confirmation
 $cc = "matthew.linder@uconn.edu";
-$cc .= ",jun.yan@uconn.edu";
-$cc .= ",haim.bar@uconn.edu";
-$cc .= ",ming-hui.chen@uconn.edu";
-$cc .= ",tracy.burke@uconn.edu";
-$cc .= ",megan.petsa@uconn.edu";
+//$cc .= ",jun.yan@uconn.edu";
+//$cc .= ",haim.bar@uconn.edu";
+//$cc .= ",ming-hui.chen@uconn.edu";
+//$cc .= ",tracy.burke@uconn.edu";
+//$cc .= ",megan.petsa@uconn.edu";
 
 $subject = "NESS 2017: Confirmation";
 
@@ -89,7 +93,7 @@ $headers .= "Cc: $cc" . "\r\n";
 $fp = fopen('reg.csv', 'a');
 $fpcheck = fputcsv($fp, array($conf,$name, $email, $shortcourse, $sconly,
 			      $registration, $reception, $dinner,
-			      $donation, $comments, $charge));
+			      $donation, $comments, $charge, $diet, $special));
 fclose($fp);
 
 if (!$fpcheck) {

@@ -13,6 +13,8 @@ $dept = $_POST['dept'];
 $reception = $_POST['reception'];
 $dinner = $_POST['dinner'];
 $donation = $_POST['donation'];
+$diet = $_POST['diet'];
+$special = $_POST['special'];
 $comments = $_POST['comments'];
 
 $email = strtolower($email);
@@ -60,7 +62,7 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
     <h2>Registration unsuccessful!</h2>
     <p><span class="red">To register for a short course, you must both
     select a short course, and a short course registration
-    type.</span></p> 
+    type.</span></p>
     <p><input name="Back" type="button" class="text" value="Back"
 	      onClick="javascript:history.back()" /></p>
 
@@ -116,6 +118,8 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
                                       }
                                       ?></td></tr>
 	<tr><td><b>Donation</b></td><td>$<?php echo $donation; ?></td></tr>
+	<tr><td><b>Dietary restrictions</b></td><td><?php echo $diet; ?></td></tr>
+	<tr><td><b>Special accommodations</b></td><td><?php echo $special; ?></td></tr>
 	<tr><td><b>Comments</b></td><td><?php echo $comments; ?></td></tr>
 	<tr class="total">
 	    <td class="total"><b>Total charge</b></td>
@@ -136,6 +140,8 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
 	    <input type="hidden" name="reception" value="<?php echo $reception; ?>">
 	    <input type="hidden" name="dinner" value="<?php echo $dinner; ?>">
 	    <input type="hidden" name="donation" value="<?php echo $donation; ?>">
+	    <input type="hidden" name="diet" value="<?php echo $diet; ?>">
+	    <input type="hidden" name="special" value="<?php echo $special; ?>">
 	    <input type="hidden" name="comments" value="<?php echo $comments; ?>">
 	    <input type="hidden" name="charge" value="<?php echo $charge; ?>">
 
@@ -145,7 +151,5 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
 	</form>
     </p>
 
-<?php }
-
-?>
+<?php } ?>
 

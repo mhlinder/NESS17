@@ -124,6 +124,16 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
     </tr>
 
     <tr>
+      <td>Dietary restrictions (leave blank if none)</td>
+      <td><input type="text" name="diet" /></td>
+    </tr>
+
+    <tr>
+      <td>Special accommodations</td>
+      <td><input type="text" name="special" /></td>
+    </tr>
+
+    <tr>
       <td>Comments</td>
       <td>
 	<textarea name="comments" rows="2" cols="25"></textarea>

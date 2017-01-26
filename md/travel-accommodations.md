@@ -25,11 +25,8 @@ found
 [here](http://summer.studentactivities.uconn.edu/things-to-do-outside-u/).
 
 
-Nathan Hale Inn is the conference hotel on campus.
-A block of room have been reserved for the conference on a
-first-come-first-serve basis.
-A block of dorm rooms have also been reserved.
-Please make your reservations at your earliest convenience.
+Nathan Hale Inn is the conference hotel on campus. Please make your
+reservations at your earliest convenience.
 
 
 Two social events have been planned.
