@@ -77,11 +77,11 @@ Storrs, CT 06269-4120
 
 // Send email confirmation
 $cc = "matthew.linder@uconn.edu";
-//$cc .= ",jun.yan@uconn.edu";
-//$cc .= ",haim.bar@uconn.edu";
-//$cc .= ",ming-hui.chen@uconn.edu";
-//$cc .= ",tracy.burke@uconn.edu";
-//$cc .= ",megan.petsa@uconn.edu";
+$cc .= ",jun.yan@uconn.edu";
+$cc .= ",haim.bar@uconn.edu";
+$cc .= ",ming-hui.chen@uconn.edu";
+$cc .= ",tracy.burke@uconn.edu";
+$cc .= ",megan.petsa@uconn.edu";
 
 $subject = "NESS 2017: Confirmation";
 
@@ -100,7 +100,7 @@ if (!$fpcheck) {
     echo "<p class=\"red\">There was an error and your registration was not saved!</p>";
 } else {
     echo $msg;
-    $success = mail($emails, $subject, $msg, $headers);
+    $success = mail($email, $subject, $msg, $headers);
     echo "<p class=\"red\">A confirmation will be sent to $email.</span></p>";
 }
 

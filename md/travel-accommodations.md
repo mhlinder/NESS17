@@ -28,10 +28,10 @@ found
 Nathan Hale Inn is the conference hotel on campus. Please make your
 reservations at your earliest convenience.
 
+A mixer will be held concurrently with the poster session on Saturday,
+April 22, from 5:15pm--6:00pm. The conference dinner will follow at
+6:30pm at a location nearby.
 
-Two social events have been planned.
-A mixer will be held concurrently with the poster session
-during 5:30pm--8:30pm on Thursday, May 25, 2017.
-The conference banquet is scheduled for 6:30pm--9:30pm
-on Friday, May 26, 2017.
+Lunch and the closing reception are included in registration. The
+dinner has limited space. Please register early and indicate you will attend.
 
