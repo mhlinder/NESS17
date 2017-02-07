@@ -11,21 +11,21 @@
       <td>Session</td>
       <td>
         <select name="session" style="width: 100%;">
-          <option value="Complex Data / Network Modeling (Huang)">Complex Data / Network Modeling (Huang)</option>
-          <option value="Big Data (Bar)">Big Data (Bar)</option>
-          <option value="Bayesian Applications in High-dimensional and Multivariate Modeling (Song)">Bayesian Applications in High-dimensional and Multivariate Modeling (Song)</option>
-          <option value="New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions (Xie)"> New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions (Xie)</option>
-          <option value="Spatial Analysis of Public Health Data (Ziniti)">Spatial Analysis of Public Health Data (Ziniti)</option>
-          <option value="Network Data Analysis (Airoldi)">Network Data Analysis (Airoldi)</option>
-          <option value="New Vistas in Statistics with Applications (Polunchenko)">New Vistas in Statistics with Applications (Polunchenko)</option>
-          <option value="Machine Learning and Big Data Analytics (Bi)">Machine Learning and Big Data Analytics (Bi)</option>
-          <option value="Panel Discusson on Career in Statistics (Ting)">Panel Discusson on Career in Statistics (Ting)</option>
-          <option value="Analysis and Modeling of Temporally Dependent Data (Zhang)">Analysis and Modeling of Temporally Dependent Data (Zhang)</option>
-          <option value="Survival Analysis (Chiou)">Survival Analysis (Chiou)</option>
-          <option value="Statistical Approaches to Data Modeling and Analysis (Conlon)">Statistical Approaches to Data Modeling and Analysis (Conlon)</option>
-          <option value="Social Networks and Causal Inference (Sussman)">Social Networks and Causal Inference (Sussman)</option>
-          <option value="Extremes (Wan)">Extremes (Wan)</option>
-          <option value="Statistical Innovations in Genomics (Ouyang)">Statistical Innovations in Genomics (Ouyang)</option>
+          <option value="Huang, Complex Data / Network Modeling">1: Huang, "Complex Data / Network Modeling"</option>
+          <option value="Bar, Big Data">2: Bar, "Big Data"</option>
+          <option value="Song, Bayesian Applications in High-dimensional and Multivariate Modeling">3: Song, "Bayesian Applications in High-dimensional and Multivariate Modeling"</option>
+          <option value="Xie, New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions">4: Xie, " New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions"</option>
+          <option value="Ziniti, Spatial Analysis of Public Health Data">5: Ziniti, "Spatial Analysis of Public Health Data"</option>
+          <option value="Airoldi, Network Data Analysis">6: Airoldi, "Network Data Analysis"</option>
+          <option value="Polunchenko, New Vistas in Statistics with Applications">7: Polunchenko, "New Vistas in Statistics with Applications"</option>
+          <option value="Bi, Machine Learning and Big Data Analytics">8: Bi, "Machine Learning and Big Data Analytics"</option>
+          <option value="Ting, Panel Discusson on Career in Statistics">9: Ting, "Panel Discusson on Career in Statistics"</option>
+          <option value="Zhang, Analysis and Modeling of Temporally Dependent Data">9: Zhang, "Analysis and Modeling of Temporally Dependent Data"</option>
+          <option value="Chiou, Survival Analysis">10: Chiou, "Survival Analysis"</option>
+          <option value="Conlon, Statistical Approaches to Data Modeling and Analysis">11: Conlon, "Statistical Approaches to Data Modeling and Analysis"</option>
+          <option value="Sussman, Social Networks and Causal Inference">12: Sussman, "Social Networks and Causal Inference"</option>
+          <option value="Wan, Extremes">13: Wan, "Extremes"</option>
+          <option value="Ouyang, Statistical Innovations in Genomics">14: Ouyang, "Statistical Innovations in Genomics"</option>
         </select>
       </td>
     </tr>

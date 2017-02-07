@@ -43,9 +43,9 @@ Participation](call-for-participation) for more details.
   "Bayesian Multivariate Gamma-Frailty Cox Model for Clustered Current Status Data"
 * **Xia Wang**, University of Cincinnati<br />
   "Scalable Massive Multivariate Data Modeling"
-* **Gyuhyeong Goh**, University of Cincinnati<br />
+* **Gyuhyeong Goh**, Kansas State University<br />
   "Bayesian Variable Selection using Marginal Posterior Consistency"
-* **Jian Zou**, University of Cincinnati<br />
+* **Jian Zou**, Worcester Polytechnic Institute<br />
   "High Dimensional Dynamic Modeling for Massive Spatio-Temporal Data"
 
 -----

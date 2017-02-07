@@ -58,8 +58,8 @@ by the Department of Statistics at the University of Connecticut.</p>
 
 <p><span class=\"red\">You may pay with a credit card <a
 href=\"http://bursar.uconn.edu/statistics-payment-store/\"
-target=\"_blank\" class=\"red\">here</a>.</span> Please use the invoice number listed
-above and in your confirmation email, and enter the description \"NESS\".</p>
+target=\"_blank\" class=\"red\">here</a>.</span> Please use the payment method for \"New England Statistics Symposium 2017\". You will need the invoice number listed
+above and in your confirmation email, and please enter the description \"NESS\".</p>
 
 <p>For payment with check, please send a check made payable to \"Department of Statistics, University of Connecticut\" with your invoice
 number to</p>

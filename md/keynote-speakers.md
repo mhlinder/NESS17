@@ -43,6 +43,7 @@ title: Keynote Speakers
 
     -----
 
+    ![David Madigan](madigan.jpg){.imgfloat width=150px height=200px}
     David Madigan is the Executive Vice-President for Arts & Sciences,
     Dean of the Faculty, and Professor of Statistics at Columbia
     University in the City of New York. He previously served as Chair of the
@@ -50,7 +51,7 @@ title: Keynote Speakers
     Dean, Physical and Mathematical Sciences, Rutgers University (2005-2007),
     Director, Institute of Biostatistics, Rutgers University (2003-2004), and
     Professor, Department of Statistics, Rutgers University (2001-2007).
-    He received his bachelor's degree in Mathematical Sciences 
+    He received his bachelor's degree in Mathematical Sciences
     (1984, First Class Honours, Gold Medal) and a
     Ph.D. in Statistics (1990), both from Trinity College Dublin.
 
