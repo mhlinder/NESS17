@@ -51,7 +51,7 @@
 	    <li><a href="short-courses">Short Courses</a></li>
 	    <li><a href="registration">Registration</a></li>
 	    <li><a href="call-for-participation">Call for Participation</a></li>
-	    <li><a href="abstracts">Abstract Submission</a></li>
+	    <li><a href="abstractform">Abstract Submission</a></li>
 	    <li><a href="travel-accommodations">Travel and Accommodations</a></li>
 	    <li><a href="http://stat.uconn.edu/ness/">NESS History</a></li>
 	    <li><a href="contact">Contact</a></li>
@@ -62,6 +62,7 @@
 	  <h3>Sponsors</h3>
 
 	  <ul>
+            <li><a href="http://ww2.amstat.org/chapters/Connecticut/" target="_blank">ASA CT Chapter</a></li>
 	      <li><a href="http://stat.uconn.edu" target="_blank">Department of
 		  Statistics, UConn</a></li>
 	      <li><a href="https://www.research.ibm.com/labs/watson/" target="_blank">IBM Watson Lab</a></li>

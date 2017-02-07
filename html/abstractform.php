@@ -60,7 +60,7 @@
 	    <li><a href="short-courses">Short Courses</a></li>
 	    <li><a href="registration">Registration</a></li>
 	    <li><a href="call-for-participation">Call for Participation</a></li>
-	    <li><a href="abstracts">Abstract Submission</a></li>
+	    <li><a href="abstractform">Abstract Submission</a></li>
 	    <li><a href="travel-accommodations">Travel and Accommodations</a></li>
 	    <li><a href="http://stat.uconn.edu/ness/">NESS History</a></li>
 	    <li><a href="contact">Contact</a></li>
@@ -71,6 +71,7 @@
 	  <h3>Sponsors</h3>
 
 	  <ul>
+            <li><a href="http://ww2.amstat.org/chapters/Connecticut/" target="_blank">ASA CT Chapter</a></li>
 	      <li><a href="http://stat.uconn.edu" target="_blank">Department of
 		  Statistics, UConn</a></li>
 	      <li><a href="https://www.research.ibm.com/labs/watson/" target="_blank">IBM Watson Lab</a></li>
@@ -83,7 +84,8 @@
 	<div class="two-thirds column">
 	  <div class="main box">
 	    <h3>Abstract Submission</h3>
-	    <?php include('abstractdata/abstractform0.php'); ?>
+	    <p><strong>NOTE: You must <a href="registration">register</a> for the conference before submitting an abstract. Please supply your registration invoice number below.</strong></p>
+<?php include('abstractdata/abstractform0.php'); ?>
 <p>If you are experiencing technical difficulties, contact our <a href="mailto:m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
 	</div>

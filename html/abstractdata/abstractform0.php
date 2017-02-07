@@ -3,11 +3,29 @@
   <table>
 
     <tr>
+      <td>Registration confirmation number</td>
+      <td><input type="text" name="regnum" placeholder="NESS17-1234" size="30" /></td>
+    </tr>
+
+    <tr>
       <td>Session</td>
       <td>
-        <select name="session">
-          <option value="1">Session 1</option>
-          <option value="2">Session 2</option>
+        <select name="session" style="width: 100%;">
+          <option value="Complex Data / Network Modeling (Huang)">Complex Data / Network Modeling (Huang)</option>
+          <option value="Big Data (Bar)">Big Data (Bar)</option>
+          <option value="Bayesian Applications in High-dimensional and Multivariate Modeling (Song)">Bayesian Applications in High-dimensional and Multivariate Modeling (Song)</option>
+          <option value="New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions (Xie)"> New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions (Xie)</option>
+          <option value="Spatial Analysis of Public Health Data (Ziniti)">Spatial Analysis of Public Health Data (Ziniti)</option>
+          <option value="Network Data Analysis (Airoldi)">Network Data Analysis (Airoldi)</option>
+          <option value="New Vistas in Statistics with Applications (Polunchenko)">New Vistas in Statistics with Applications (Polunchenko)</option>
+          <option value="Machine Learning and Big Data Analytics (Bi)">Machine Learning and Big Data Analytics (Bi)</option>
+          <option value="Panel Discusson on Career in Statistics (Ting)">Panel Discusson on Career in Statistics (Ting)</option>
+          <option value="Analysis and Modeling of Temporally Dependent Data (Zhang)">Analysis and Modeling of Temporally Dependent Data (Zhang)</option>
+          <option value="Survival Analysis (Chiou)">Survival Analysis (Chiou)</option>
+          <option value="Statistical Approaches to Data Modeling and Analysis (Conlon)">Statistical Approaches to Data Modeling and Analysis (Conlon)</option>
+          <option value="Social Networks and Causal Inference (Sussman)">Social Networks and Causal Inference (Sussman)</option>
+          <option value="Extremes (Wan)">Extremes (Wan)</option>
+          <option value="Statistical Innovations in Genomics (Ouyang)">Statistical Innovations in Genomics (Ouyang)</option>
         </select>
       </td>
     </tr>

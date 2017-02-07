@@ -1,6 +1,7 @@
 
 <?php
 
+$regnum      = $_POST['regnum'];
 $session     = $_POST['session'];
 $presenter   = $_POST['presenter'];
 $email       = $_POST['email'];
@@ -17,13 +18,14 @@ $title = filter_var($title, FILTER_SANITIZE_STRING);
 $authors = filter_var($authors, FILTER_SANITIZE_STRING);
 $abstract = filter_var($abstract, FILTER_SANITIZE_STRING);
 
-if (empty($presenter) || empty($email) || empty($affiliation) || empty($title) || empty($authors) || empty($abstract)) { ?>
+if (empty($regnum) || empty($presenter) || empty($email) || empty($affiliation) || empty($title) || empty($authors) || empty($abstract)) { ?>
 
     <h2>Registration unsuccessful!</h2>
     <p><span class="red">Please fill in all required fields.</span></p>
     <p>
       <b>Missing fields: </b>
       <ul>
+        <?php if (empty($regnum)) { echo("<li>Registration invoice number</li>"); } ?>
         <?php if (empty($presenter)) { echo("<li>Presenting author</li>"); } ?>
         <?php if (empty($email)) { echo("<li>Presenter email</li>"); } ?>
         <?php if (empty($affiliation)) { echo("<li>Presenter affiliation</li>"); } ?>
@@ -50,6 +52,7 @@ if (empty($presenter) || empty($email) || empty($affiliation) || empty($title) |
 
     <p>
       <table>
+        <tr><td><strong>Registration invoice number</strong></td><td><?php echo $regnum; ?></td></tr>
         <tr><td><strong>Session</strong></td><td><?php echo $session; ?></td></tr>
         <tr><td><strong>Presenting author</strong></td><td><?php echo $presenter; ?></td></tr>
         <tr><td><strong>Presenter email</strong></td><td><?php echo $email; ?></td></tr>
@@ -62,6 +65,7 @@ if (empty($presenter) || empty($email) || empty($affiliation) || empty($title) |
 
     <p>
       <form id="data" name="data" method="post" enctype="multipart/form-data" action="abstractsend">
+        <input type="hidden" name="regnum" value="<?php echo $regnum; ?>">
         <input type="hidden" name="session" value="<?php echo $session; ?>">
         <input type="hidden" name="presenter" value="<?php echo $presenter; ?>">
         <input type="hidden" name="email" value="<?php echo $email; ?>">

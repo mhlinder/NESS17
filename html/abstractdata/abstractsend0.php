@@ -1,6 +1,7 @@
 
 <?php
 
+$regnum      = $_POST['regnum'];
 $session     = $_POST['session'];
 $presenter   = $_POST['presenter'];
 $email       = $_POST['email'];
@@ -14,7 +15,8 @@ $conf = strtoupper("ABSTRACT-$hash");
 
 $fp = fopen('abstractdata/abstracts.csv', 'a');
 $fpcheck1 = fputcsv($fp, array($session, $presenter, $email,
-                               $affiliation, $title, $authors, $conf));
+                               $affiliation, $title, $authors, $conf,
+                               $regnum));
 fclose($fp);
 
 $fp = fopen('abstractdata/save/' . $conf . '.txt', 'w');
