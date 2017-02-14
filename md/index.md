@@ -26,6 +26,6 @@ competition sponsored by our industrial partners.
 ## Timeline
 
 * Registration opens December 1, 2016
-* Abstracts, posters, and student papers must be submitted by March 2
+* Abstracts, posters, and student papers must be submitted by March 20
   (more details to follow)
 
