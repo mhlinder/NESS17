@@ -23,9 +23,10 @@ invited [plenary talks](keynote-speakers), invited paper sessions, and
 posters. There will a student paper competition and a student poster
 competition sponsored by our industrial partners.
 
-## Timeline
+## Timeline / Important Dates
 
 * Registration opens December 1, 2016
 * Abstracts, posters, and student papers must be submitted by March 20
   (more details to follow)
+* Registration closes April 7, 2017
 
