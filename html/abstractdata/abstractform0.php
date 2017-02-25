@@ -36,24 +36,6 @@
 <option value="21. Ting, Pharmaceutical Statistics">21. Ting, "Pharmaceutical Statistics"</option>
 <option value="22. Ting">22. Ting</option>
 <option value="23. Zhang, Graphical Models, Networks, Regulatome and Multivariate Analysis">23. Zhang, "Graphical Models, Networks, Regulatome and Multivariate Analysis"</option>
-<!--
-          <option value="Poster session">0. Poster session</option>
-          <option value="Huang, Complex Data / Network Modeling">1: Huang, "Complex Data / Network Modeling"</option>
-          <option value="Bar, Big Data">2: Bar, "Big Data"</option>
-          <option value="Song, Bayesian Applications in High-dimensional and Multivariate Modeling">3: Song, "Bayesian Applications in High-dimensional and Multivariate Modeling"</option>
-          <option value="Xie, New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions">4: Xie, " New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions"</option>
-          <option value="Ziniti, Spatial Analysis of Public Health Data">5: Ziniti, "Spatial Analysis of Public Health Data"</option>
-          <option value="Airoldi, Network Data Analysis">6: Airoldi, "Network Data Analysis"</option>
-          <option value="Polunchenko, New Vistas in Statistics with Applications">7: Polunchenko, "New Vistas in Statistics with Applications"</option>
-          <option value="Bi, Machine Learning and Big Data Analytics">8: Bi, "Machine Learning and Big Data Analytics"</option>
-          <option value="Ting, Panel Discusson on Career in Statistics">9: Ting, "Panel Discusson on Career in Statistics"</option>
-          <option value="Zhang, Analysis and Modeling of Temporally Dependent Data">9: Zhang, "Analysis and Modeling of Temporally Dependent Data"</option>
-          <option value="Chiou, Survival Analysis">10: Chiou, "Survival Analysis"</option>
-          <option value="Conlon, Statistical Approaches to Data Modeling and Analysis">11: Conlon, "Statistical Approaches to Data Modeling and Analysis"</option>
-          <option value="Sussman, Social Networks and Causal Inference">12: Sussman, "Social Networks and Causal Inference"</option>
-          <option value="Wan, Extremes">13: Wan, "Extremes"</option>
-          <option value="Ouyang, Statistical Innovations in Genomics">14: Ouyang, "Statistical Innovations in Genomics"</option>
-  -->
         </select>
       </td>
     </tr>
