@@ -2,5 +2,5 @@
 title: Abstract Submission
 ---
 
-Further details TBA.
+We'll be back shortly.
 

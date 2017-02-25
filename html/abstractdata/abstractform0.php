@@ -11,6 +11,8 @@
       <td>Session</td>
       <td>
         <select name="session" style="width: 100%;">
+          <option disabled selected value></option>
+          <option value="Poster session">0. Poster session</option>
           <option value="Huang, Complex Data / Network Modeling">1: Huang, "Complex Data / Network Modeling"</option>
           <option value="Bar, Big Data">2: Bar, "Big Data"</option>
           <option value="Song, Bayesian Applications in High-dimensional and Multivariate Modeling">3: Song, "Bayesian Applications in High-dimensional and Multivariate Modeling"</option>

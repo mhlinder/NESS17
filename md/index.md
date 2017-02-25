@@ -26,7 +26,12 @@ competition sponsored by our industrial partners.
 ## Timeline / Important Dates
 
 * Registration opens **December 1, 2016**
-* Student papers must be submitted by **March 20, 2017**
+* Student papers must be submitted by **March 31, 2017**
 * Abstracts and posters must be submitted by **April 3, 2017**
 * Registration closes **April 7, 2017**
+
+## Flyers
+
+* [NESS 2017](ness2017flyer.pdf)
+* [Short courses](ness2017ShortCourses.pdf)
 
