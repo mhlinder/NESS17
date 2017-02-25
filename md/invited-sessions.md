@@ -11,7 +11,7 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Yuan Huang**, Department of Biostatistics, Yale University
 
-* **Yize Zhao**, Weil Cornell Medical College, Cornell<br />
+* **Yize Zhao**, Weill Cornell Medical College, Cornell<br />
   "Genome-Wide Heritability Analysis with Ultra High-Dimensional Neuroimaging Phenotypes"
 * **Heather Shappell**, Biostatistics, Boston University<br />
   "Accounting for Uncertainty in Stochastic Actor Oriented Models for Dynamic Networks"
@@ -25,13 +25,13 @@ Participation](call-for-participation) for more details.
 
 ## Big Data
 
-*Organizer and Chair:* **Haim Bar**, Department of Statistics, UConn
+*Organizer and Chair:* **Haim Bar**, University of Connecticut
 
 * **Jacob Bien**, Cornell University
 * **Li Ma**, Duke University
 * **Pengsheng Ji**, University of Georgia<br />
   "Flexible Spectral Methods for Community Detection"
-* **Chihwa Kao**, UConn
+* **Chihwa Kao**, University of Connecticut
 
 -----
 
@@ -99,13 +99,13 @@ Participation](call-for-participation) for more details.
 
 ## Machine Learning and Big Data Analytics
 
-*Organizer and Chair:* **Jinbo Bi**, UConn
+*Organizer and Chair:* **Jinbo Bi**, University of Connecticut
 
 * **Michael Kane**, Yale University
 
 -----
 
-## Panel Discusson on Career in Statistics
+## Panel Discusson on Careers in Statistics
 
 *Organizer and Chair:* **Naitee Ting**, Boehringer Ingelheim Pharmaceuticals, Inc.
 
@@ -113,14 +113,14 @@ Participation](call-for-participation) for more details.
 
 ## Analysis and Modeling of Temporally Dependent Data
 
-*Organizer:* **Ting Zhang**, Boston University<br />
-*Chair:* **Liliya Lavitas**, Boston University
+*Organizer and chair:* **Ting Zhang**, Boston University
 
-* **Mengyu Xu**, Mengyu.Xu@ucf.edu<br />
+* **Mengyu Xu**, University of Central Florida<br />
   "Pearson’s Chi-Squared Statistics: Approximation Theory and Beyond"
-* **Kun Chen**, UConn
-* **Ting Zhang**, Boston University<br />
-  "A Thresholding-Based Prewhitened Long-Run Variance Estimator and Its Dependence-Oracle Property"
+* **Kun Chen**, UConn<br />"
+  "Robust Dimension Reduction of Correlated Multivariate Data"
+* **Liliya Lavitas**, Boston University<br />
+  "Unsupervised Self-Normalized Change-Point Testing for Time Series"
 * **Buddika Peiris**, Worcester Polytechnic Institute<br />
   "Constrained Inference in Regression"
 
@@ -145,9 +145,10 @@ Participation](call-for-participation) for more details.
   "Feature-Weighted Ensembles for Probabilistic Time-Series Forecasts"
 * **Daeyoung Kim**, University of Massachusetts Amherst<br />
   "Assessment of the Adequacy of Asymptotic Theory in Statistical Inference"
-* **Patrick Flaherty**, University of Massachusetts Amherst
-* **Matthias Steinruecken**, University of Massachusetts Amherst
-* **Zheng Wei**, University of Massachusetts Amherst
+* **Matthias Steinruecken**, University of Massachusetts Amherst<br />
+  "Unraveling the Demographic History of Modern Humans using Full- Genome Sequencing Data"
+* **Zheng Wei**, University of Massachusetts Amherst<br />
+  "On Multivariate Asymmetric Dependence Using Multivariate Skew-Normal Copula-Based Regression"
 
 -----
 
@@ -155,19 +156,29 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Daniel Sussman**, Boston University
 
-* **Daniel Sussman**, Boston University
-* **Alex Volfovsky**, Duke University
+* **Daniel Sussman**, Boston University<br />
+  "Optimal Unbiased Estimation of Causal Effects under Network Interference"
+* **Alex Volfovsky**, Duke University<br />
+  "Causal Inference in the Presence of Networks: Randomization and Observation"
+* **Dean Eckles**, Massachusetts Institute of Technology<br />
+  "Estimating Peer Effects in Networks with Peer Encouragement Designs"
+* **Hyunseung Kang**, University of Wisconsin at Madison<br />
+  "Peer Encouragement Designs in Causal Inference with Partial Interference and Identification of Local Average Network Effects"
 
 -----
 
 ## Extremes
 
-*Organizer and Chair:* **Phyllis Wan**, Columbia University
+*Organizer and Chair:* **Richard Davis, Phyllis Wan**, Columbia University"
 
-* **John Nolan**, American University
-* **Jingjing Zou**, Columbia University
-* **Karthyek Murthy**, Columbia University
-* **Tiandong Wang**, Cornell University
+* **John Nolan**, American University<br />
+  "Mvevd: An R Package for Extreme Value Distributions"
+* **Jingjing Zou**, Columbia University<br />
+  "Extreme Value Analysis without the Largest Values: What can be Done?"
+* **Karthyek Murthy**, Columbia University<br />
+  "Distributionally Robust Extreme Value Analysis"
+* **Tiandong Wang**, Cornell University<br />
+  "Asymptotic Normality of Degree Counts in the Preferential Attachment Network"
 
 -----
 
@@ -179,6 +190,71 @@ Participation](call-for-participation) for more details.
 * **Pei Wang**, Mount Sinai School of Medicine<br />
   "Constructing Tumor-Specific Gene Regulatory Networks Based on Samples with Tumor Purity Heterogeneity"
 * **Yuping Zhang**, University of Connecticut
-* **Kai Wang**, Columbia University
+* **Kai Wang**, Columbia University<br />
   "Long Read Sequencing to Study Human Genome Variation"
+
+-----
+
+## Statistical Aapplications in Finance and Insurance
+
+*Organizer and Chair:* **Guojun Gan**, University of Connecticut
+
+------
+
+## Bridging Statistical Accuracy and Computational Efficiency
+
+*Organizer and Chair:* **Kun Chen**, University of Connecticut
+
+* **Ethan Fan**, Penn State<br />
+  "Max-Norm Optimization for Robust Matrix Recovery"
+* **Cheng Yong Tang**, Temple University<br />
+  "Sufficient Dimension Reduction with Missing Data"
+* **Sahand Nagahban**, Yale University<br />
+  "Restricted Strong Convexity Implies Weak Sub-Modularity"
+* **Ting Zhang**, Boston University<br />
+  "A Thresholding-Based Prewhitened Long-Run Variance Estimator and Its Dependence-Oracle Property"
+
+------
+
+## Application of Statistical/Predictive Modeling in Health Related Industry
+
+*Organizer and Chair:* **Nan Shao**, New York Life Insurance
+
+* **Mattia Ciollaro**, Spreemo
+* **Zhaonan Sun**, IBM T. J. Watson Research<br />
+  "Exploiting Convolutional Neural Network for Risk Prediction with Medical Feature Embedding"
+* **Victoria Gamerman**, Boehringer Ingelheim Pharmaceuticals, Inc.
+* **Nan Shao**, New York Life Insurance<br />
+  "Statistical Modeling in the Life Insurance Industry"
+
+------
+
+## Feinberg Memorial Session: Bayesian Statistics with Applications
+
+*Organizer and Chair:* **Dipak Dey**, University of Connecticut
+
+* **Edoardo Airoldi**, Harvard
+* **Bani**
+* **Sudipto Banerjee**, UCLA
+
+------
+
+## Pharmaceutical Statistics
+
+*Organizer and Chair:* **Naitee Ting**, Boehringer Ingelheim Pharmaceuticals, Inc.
+
+* **Emir Birol**, Pfizer
+
+------
+
+## Graphical Models, Networks, Regulatome and Multivariate Analysis
+
+*Organizer and Chair:* **Yuping Zhang**, University of Connecticut
+
+* **Forrest W. Crawford**, Yale<br />
+  "Causal Inference for Network Epidemics"
+* **Zhengqing Ouyang**, Jackson Labs
+* **Sijian Wang**, University of Wisconsin Madison
+* **Kuang-Yao Lee**, Yale<br />
+  "Learning Causal Networks via Additive Faithfulness"
 

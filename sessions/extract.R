@@ -8,7 +8,8 @@ print <- function(s) {
     cat(sprintf("%s\n", s))
 }
 
-infile <- "20170205.csv"
+## infile <- "20170205.csv"
+infile <- "20170225.csv"
 
 indata <- read_csv(infile, skip = 1)
 indata <-

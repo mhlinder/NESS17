@@ -13,18 +13,17 @@ $abstract    = $_POST['abstract'];
 $hash = rand(0, 10000);
 $conf = strtoupper("ABSTRACT-$hash");
 
-// $fp = fopen('abstractdata/abstracts.csv', 'a');
-// $fpcheck1 = fputcsv($fp, array($session, $presenter, $email,
-//                                $affiliation, $title, $authors, $conf,
-//                                $regnum));
-// fclose($fp);
+$fp = fopen('abstractdata/abstracts.csv', 'a');
+$fpcheck1 = fputcsv($fp, array($session, $presenter, $email,
+                               $affiliation, $title, $authors, $conf,
+                               $regnum));
+fclose($fp);
 
-// $fp = fopen('abstractdata/save/' . $conf . '.txt', 'w');
-// $fpcheck2 = fwrite($fp, $abstract);
-// fclose($fp);
-//
-// if (!$fpcheck1 || !$fpcheck2) {
-if (false) {
+$fp = fopen('abstractdata/save/' . $conf . '.txt', 'w');
+$fpcheck2 = fwrite($fp, $abstract);
+fclose($fp);
+
+if (!$fpcheck1 || !$fpcheck2) {
     echo("<p class=\"red\">There was an error and your abstract was was not saved! Please resubmit.</p>");
 } else { ?>
     <p class="red">Your registration was successful.</p>
@@ -60,7 +59,7 @@ echo $msg;
 $success = mail($email, $subject, $msg, $headers);
 }
 
-if (strcmp($session, "Poster session") == 0) { ?>
+if (strcmp($session, "00. Poster session") == 0) { ?>
 
   <p>
     You have registered to present at the poster session. If you
