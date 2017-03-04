@@ -2,7 +2,70 @@
 title: Keynote Speakers
 ---
 
-* [Xihong Lin](https://www.hsph.harvard.edu/xihong-lin/), Harvard University
+* <div>[Xihong Lin](https://www.hsph.harvard.edu/xihong-lin/), Harvard
+  University<br />
+  "Hypothesis Testing for Weak and Sparse Alternatives With Applications to Whole Genome Data"
+
+    Massive genetic and genomic data generated using array and
+    sequencing technology present many exciting opportunities as well
+    as challenges in data analysis and result interpretation, e.g.,
+    how to develop effective strategies for signal detection using
+    massive genetic and genomic data when signals are weak and
+    sparse. In this talk, I will discuss hypothesis testing for sparse
+    alternatives in analysis of high-dimensional data motivated by
+    gene, pathway/network based analysis in genome-wide association
+    studies using arrays and sequencing data. I will focus on signal
+    detection when signals are weak and sparse, which is the case in
+    genetic and genomic association studies. I will discuss hypothesis
+    testing for signal detection using variable selection based
+    penalized likelihood based methods, the Generalized Higher
+    Criticism (GHC) test, and the Generalized Berk-Jones test, and the
+    robust omnibus test. I will discuss the challenges in statistical
+    inference in the presence of both between-observation correlation
+    and signal sparsity. The results are illustrated using data from
+    genome-wide association studies and sequencing studies.
+
+    -----
+
+    ![Xihong Lin](lin.jpg){.imgfloat width=150px height=188px}
+    Xihong Lin is Chair and Henry Pickering Walcott Professor of
+    Biostatistics and Coordinating Director of Program in Quantitative
+    Genomics of Harvard T. H. Chan School of Public Health, and
+    Professor of Statistics of Harvard Faculty of Arts and Sciences
+    She was Assistant, Associate, and Full professor of Biostatistics
+    at the Universit of Michigan before she joined Harvard in 2005.
+    She Received her BS in Applied Mathematics from Tsinghua
+    University in 1989, MS in Statistics from University of Iowa in
+    1991, and PhD in Biostatistics in 1994.
+    
+    Dr. Lin is a world-reknowned statistician for her contributions to
+    mixed models, nonparametric and semiparametric regression, and
+    statistical genetics and genomics. Her current interests lie in
+    statistical genetics and genomics.  She is interested in
+    development and application of statistical and computational
+    methods for analysis of high-throughput genetic, genomic and
+    ‘omics data in epidemiological, environmental and clinical
+    sciences, especially genetic and epigenetic epidemiology, genes
+    and environment, and medical genomics. Her current research
+    projects include genome-wide array association studies, whole
+    genome sequencing association studies, gene-environment
+    interactions, and genome-wide DNA methylation studies, pathway and
+    network analysis, and integrative genetics and genomics.  Her
+    methodological work is currently supported by the MERIT award from
+    the National Cancer Institute on "Statistical Methods for
+    Correlated and High-Dimensional Biomedical Data,” and the PO1 from
+    the National Cancer Institute on “Statistical Informatics in
+    Cancer Research.” She is the contacting PI for the training grant
+    entitled Joint training in biostatistics and computational
+    biology.
+    
+    Dr. Lin received many distinguished honors, including the COPSS
+    Presidents' Award in 2006, the Spiegelman award of the outstanding
+    health statistician from the American Public Health Association in
+    2002, and the MERIT Award from the National Cancer Institute
+    (2007-2016).  She is a fellow of the American Statistical
+    Association and the Institute of Mathematical Statistics in 2007.
+    </div>
 
 * <div>**[Dr. David Madigan](http://www.stat.columbia.edu/~madigan/)**, Columbia
   University<br />

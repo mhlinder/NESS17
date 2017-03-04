@@ -257,4 +257,23 @@ Participation](call-for-participation) for more details.
 * **Sijian Wang**, University of Wisconsin Madison
 * **Kuang-Yao Lee**, Yale<br />
   "Learning Causal Networks via Additive Faithfulness"
+  
+-----
+  
+## Space-Time Statistical Solutions at IBM Research
+
+* *Organizer:* **Yasuo Amemiya**, IBM T. J. Watson Research Center
+* *Chair:* **Beatriz Etchegaray**, IBM T. J. Watson Research Center
+
+* **Julie Novak**, IBM T. J. Watson Research Center<br />
+  "Revenue Assessment in Large-Scale Businesses"
+* **Xiao Liu**, IBM T. J. Watson Research Center<br />
+  "A Spatio-Temporal Modeling Approach for Weather Radar Image Data"
+* **Rodrigue Ngueyep**, IBM T. J. Watson Research Center <br />
+  "Spatial Segmentation of Spatial-Temporal Lattice Models for
+  Agricultural Management Zoning"
+* **Yasuo Amemiya**, IBM T. J. Watson Research Center<br />
+  "Spatio-Temporal Analysis for System Management"
+
+Affiliation for all: IBM T. J. Watson Research Center
 
