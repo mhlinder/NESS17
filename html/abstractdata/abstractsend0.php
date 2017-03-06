@@ -55,32 +55,17 @@ $msg =  "
 
 echo $msg;
 
+if (strcmp($session, "00. Poster session") == 0) {
+    
+    echo "<p>You have registered to present at the poster session. <strong>If you would like to submit a paper, please click the link in your email.</strong></p>";
+    
+    $msg .= "<p>You have registered to present at the poster session. <strong>If you would like to submit a paper, please note your abstract number above, and click <a href=\"http://ness.stat.uconn.edu/paper-upload\">here</a>.</p>";
 
-$success = mail($email, $subject, $msg, $headers);
 }
 
-if (strcmp($session, "00. Poster session") == 0) { ?>
+$success = mail($email, $subject, $msg, $headers);
 
-  <p>
-    You have registered to present at the poster session. If you
-    would like to submit a paper, please click the button below:<br />
-    <form id="data" name="data" method="post" enctype="multipart/form-data" action="paper-upload">
-        <input type="hidden" name="regnum" value="<?php echo $regnum; ?>">
-        <input type="hidden" name="session" value="<?php echo $session; ?>">
-        <input type="hidden" name="presenter" value="<?php echo $presenter; ?>">
-        <input type="hidden" name="email" value="<?php echo $email; ?>">
-        <input type="hidden" name="affiliation" value="<?php echo $affiliation; ?>">
-        <input type="hidden" name="title" value="<?php echo $title; ?>">
-        <input type="hidden" name="authors" value="<?php echo $authors; ?>">
-        <input type="hidden" name="abstract" value="<?php echo $abstract; ?>">
-        <input type="hidden" name="conf" value="<?php echo $conf; ?>">
-        <input type="hidden" name="from" id="from" value="abstractsend0">
-
-	    <input type="submit" name="Submit" value="Submit paper" />
-	</form>
-    </p>
-
-<?php }
+}
 
 ?>
 

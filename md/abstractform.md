@@ -6,6 +6,9 @@ title: Abstract Submission
 submitting an abstract. Please supply your registration invoice
 number below.**
 
+Note: If you are submitting a poster, you will receive instruction to
+enter the paper competition at the end of the registration.
+
 <?php include('abstractdata/abstractform0.php'); ?>
 
 If you are experiencing technical difficulties, contact our

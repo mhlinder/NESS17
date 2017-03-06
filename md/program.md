@@ -6,7 +6,7 @@ A mixer will be held concurrently with the poster session on Saturday,
 April 22, from 5:15pm--6:00pm. The conference dinner will follow at
 6:30pm at a location nearby.
 
-Lunch and the closing reception are included in registration. The
+Lunch and the closing Travelers Reception are included in registration. The
 dinner has limited space. Please register early and indicate you will attend.
 
 ## Schedule (tentative)
@@ -27,7 +27,7 @@ dinner has limited space. Please register early and indicate you will attend.
 02:40pm---03:40pm : Keynote Presentation: Xihong Lin, Harvard University<br />
 03:40pm---03:50pm : Coffee Break<br />
 03:55pm---05:40pm : Parallel Invited Paper Sessions<br />
-05:40pm---06:15pm : Student Paper and Poster Awards, Closing Reception<br />
+05:40pm---06:15pm : Student Paper and Poster Awards, closing Travelers Reception<br />
 06:45pm---08:45pm : NESS Dinner (signing up required with limited space)
 
 Further details TBA.

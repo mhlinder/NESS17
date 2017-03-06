@@ -110,7 +110,7 @@ if (empty($fname) || empty($lname) || empty($email) || empty($org)) { ?>
 	<tr><td><b>Registration</b></td><td><?php echo $registration; ?></td></tr>
 	<tr><td><b>Name</b></td><td><?php echo $name; ?></td></tr>
 	<tr><td><b>Email</b></td><td><?php echo $email; ?></td></tr>
-	<tr><td><b>Reception</b></td><td><?php echo $reception; ?></td></tr>
+	<tr><td><b>Travelers Reception</b></td><td><?php echo $reception; ?></td></tr>
 	<tr><td><b>Dinner</b></td><td><?php
                                       echo $dinner;
                                       if (strcmp($dinner, "Yes") == 0) {

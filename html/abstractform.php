@@ -77,6 +77,7 @@
 		  Statistics, UConn</a></li>
 	      <li><a href="https://www.research.ibm.com/labs/watson/" target="_blank">IBM Watson Lab</a></li>
 	      <li><a href="https://www.libertymutual.com/" target="_blank">Liberty Mutual</a></li>
+              <li><a href="https://www.travelers.com/">Travelers Insurance</a></li>
 	      <li><a href="http://clas.uconn.edu/" target="_blank">UConn CLAS</a></li>
 	  </ul>
 
@@ -86,6 +87,7 @@
 	  <div class="main box">
 	    <h3>Abstract Submission</h3>
 	    <p><strong>NOTE: You must <a href="registration">register</a> for the conference before submitting an abstract. Please supply your registration invoice number below.</strong></p>
+<p>Note: If you are submitting a poster, you will receive instruction to enter the paper competition at the end of the registration.</p>
 <?php include('abstractdata/abstractform0.php'); ?>
 <p>If you are experiencing technical difficulties, contact our <a href="mailto:m.henry.linder@uconn.edu">webmaster</a>.</p>
 	  </div> <!-- .main -->
