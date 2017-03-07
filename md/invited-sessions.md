@@ -31,7 +31,8 @@ Participation](call-for-participation) for more details.
 * **Li Ma**, Duke University
 * **Pengsheng Ji**, University of Georgia<br />
   "Flexible Spectral Methods for Community Detection"
-* **Chihwa Kao**, University of Connecticut
+* **Chihwa Kao**, University of Connecticut<br />
+  "Large Dimensional Econometrics and Identification"
 
 -----
 
@@ -52,8 +53,7 @@ Participation](call-for-participation) for more details.
 
 ## New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions
 
-*Organizer:* **Minge Xie**, Rutgers University<br />
-*Chair:* **Min-ge Xie**, Rutgers University
+*Organizer and Chair:* **Min-ge Xie**, Rutgers University
 
 * **Dungang Liu**, University of Cincinnati<br />
   "Nonparametric Fusion Learning: Synthesize Inferences from Diverse Sources using Confidence Distribution, Data Depth and Bootstrap"
@@ -105,13 +105,13 @@ Participation](call-for-participation) for more details.
 
 -----
 
-## Panel Discusson on Careers in Statistics
+## Panel Discussion on Careers in Statistics
 
 *Organizer and Chair:* **Naitee Ting**, Boehringer Ingelheim Pharmaceuticals, Inc.
 
 -----
 
-## Analysis and Modeling of Temporally Dependent Data
+## Statistical Approaches in Modeling and Incorporating Dependence
 
 *Organizer and chair:* **Ting Zhang**, Boston University
 
@@ -144,7 +144,9 @@ Participation](call-for-participation) for more details.
 * **Evan Ray**, University of Massachusetts Amherst<br />
   "Feature-Weighted Ensembles for Probabilistic Time-Series Forecasts"
 * **Daeyoung Kim**, University of Massachusetts Amherst<br />
-  "Assessment of the Adequacy of Asymptotic Theory in Statistical Inference"
+  "Assessment of the Adequacy of Asymptotic Theory in Statistical
+  Inference"
+* **Patrick Flaherty**, University of Massachusetts
 * **Matthias Steinruecken**, University of Massachusetts Amherst<br />
   "Unraveling the Demographic History of Modern Humans using Full- Genome Sequencing Data"
 * **Zheng Wei**, University of Massachusetts Amherst<br />
@@ -199,9 +201,18 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Guojun Gan**, University of Connecticut
 
+* **Liang Peng**, Georgia State University<br />
+  "Inference for Predictive Regressions"
+* **Fangfang Wang**, University of Connecticut<br />
+  "A Common Factor Analysis of  Stock Market Trading Activity"
+* **Oleksii Mostovyi**, University of Connecticut<br />
+  "Sensitivity analysis of the expected utility maximization problem"
+* **Kun Chen**, University of Connecticut<br />
+  "Towards differential pricing in auto insurance via large-scale predictive modeling: a partnership between Travelers and UConn"
+
 ------
 
-## Bridging Statistical Accuracy and Computational Efficiency
+## Recent Developments on High-Dimensional Statistics and Regularized Estimation
 
 *Organizer and Chair:* **Kun Chen**, University of Connecticut
 
@@ -233,9 +244,23 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Dipak Dey**, University of Connecticut
 
-* **Edoardo Airoldi**, Harvard
-* **Bani**
-* **Sudipto Banerjee**, UCLA
+* **Edoardo Airoldi**, Harvard University<br />
+  "Bayesian Methods for Protein Quantification"
+* **Bani Mallick**, Texas A&M University<br />
+  Fast Sampling with Gaussian Scale-Mixture Priors in High Dimensional
+  Regression 
+* **Sudipto Banerjee**, UCLA<br />
+  "High-Dimensional Bayesian Geostatistics"
+
+------
+
+## Subgroup Analysis
+
+*Organizer and Chair:* **Xiaojing Wang**, University of Connecticut
+
+* **Yanxun Xu**, Johns Hopkins University
+* **Lynn Lnn**, Pennsylvania State University
+* **Jared Huling**, University of Wisconsin-Madison
 
 ------
 
@@ -262,18 +287,16 @@ Participation](call-for-participation) for more details.
   
 ## Space-Time Statistical Solutions at IBM Research
 
-* *Organizer:* **Yasuo Amemiya**, IBM T. J. Watson Research Center
-* *Chair:* **Beatriz Etchegaray**, IBM T. J. Watson Research Center
+*Organizer:* **Yasuo Amemiya**, IBM T. J. Watson Research Center<br />
+*Chair:* **Beatriz Etchegaray Garcia**, IBM T. J. Watson Research Center
 
 * **Julie Novak**, IBM T. J. Watson Research Center<br />
   "Revenue Assessment in Large-Scale Businesses"
 * **Xiao Liu**, IBM T. J. Watson Research Center<br />
   "A Spatio-Temporal Modeling Approach for Weather Radar Image Data"
-* **Rodrigue Ngueyep**, IBM T. J. Watson Research Center <br />
+* **Rodrigue Ngueyep Tzoumpe**, IBM T. J. Watson Research Center <br />
   "Spatial Segmentation of Spatial-Temporal Lattice Models for
   Agricultural Management Zoning"
 * **Yasuo Amemiya**, IBM T. J. Watson Research Center<br />
   "Spatio-Temporal Analysis for System Management"
-
-Affiliation for all: IBM T. J. Watson Research Center
 
