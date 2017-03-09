@@ -29,11 +29,11 @@
 <option value="14. Davis, Wan, Extremes">14. Davis, Wan,  "Extremes"</option>
 <option value="15. Ouyang, Statistical Innovations in Genomics">15. Ouyang, "Statistical Innovations in Genomics"</option>
 <option value="16. Gan, Statistical Applications in Finance and Insurance">16. Gan, "Statistical Applications in Finance and Insurance"</option>
-<option value="17. Chen, Bridging Statistical Accuracy and Computational Efficiency">17. Chen, "Bridging Statistical Accuracy and Computational Efficiency"</option>
+<option value="17. Chen, Recent Developments on High-Dimensional Statistics and Regularized Estimation">17. Chen, "Recent Developments on High-Dimensional Statistics and Regularized Estimation"</option>
 <option value="18. Shao, Application of Statistical / Predictive Modeling in Health Related Industry">18. Shao, "Application of Statistical / Predictive Modeling in Health Related Industry"</option>
 <option value="19. Dey, Feinberg Memorial Session: Bayesian Statistics with Applications">19. Dey, "Feinberg Memorial Session: Bayesian Statistics with Applications"</option>
 <option value="20. Wang, Subgroup Analysis">20. Wang, "Subgroup Analysis"</option>
-<option value="21. Ting, Pharmaceutical Statistics">21. Ting, "Pharmaceutical Statistics"</option>
+<option value="21. Teng, Pharmaceutical Statistics">21. Teng, "Pharmaceutical Statistics"</option>
 <option value="22. Ting">22. Ting</option>
 <option value="23. Zhang, Graphical Models, Networks, Regulatome and Multivariate Analysis">23. Zhang, "Graphical Models, Networks, Regulatome and Multivariate Analysis"</option>
 <option value="24. Amemiya, Space-Time Statistical Solutions at IBM Research">24. Amemiya, "Space-Time Statistical Solutions at IBM Research"</option>

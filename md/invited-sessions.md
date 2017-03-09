@@ -61,6 +61,8 @@ Participation](call-for-participation) for more details.
   "Bilinear Regression with Matrix Covariates in High Dimensions"
 * **Pierre Bellec**, Rutgers University<br />
   "Slope Meets Lasso in Sparse Linear Regression"
+* **Yiyuan She**, Floriday State University<br />
+  "Iterative proportional scaling for big data computation"
 
 -----
 
@@ -109,6 +111,13 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Naitee Ting**, Boehringer Ingelheim Pharmaceuticals, Inc.
 
+* **Birol Emir**, Pfizer
+* **Lane Coonrod**, The Hartford
+* **Christopher Park**, Travelers
+* **Chun Wang**, University of Connecticut
+* **Yasuo Amemiya**, IBM T. J. Watson Research Center
+* 
+
 -----
 
 ## Statistical Approaches in Modeling and Incorporating Dependence
@@ -117,7 +126,7 @@ Participation](call-for-participation) for more details.
 
 * **Mengyu Xu**, University of Central Florida<br />
   "Pearson’s Chi-Squared Statistics: Approximation Theory and Beyond"
-* **Kun Chen**, UConn<br />"
+* **Kun Chen**, UConn<br />
   "Robust Dimension Reduction of Correlated Multivariate Data"
 * **Liliya Lavitas**, Boston University<br />
   "Unsupervised Self-Normalized Change-Point Testing for Time Series"
@@ -146,7 +155,8 @@ Participation](call-for-participation) for more details.
 * **Daeyoung Kim**, University of Massachusetts Amherst<br />
   "Assessment of the Adequacy of Asymptotic Theory in Statistical
   Inference"
-* **Patrick Flaherty**, University of Massachusetts
+* **Patrick Flaherty**, University of Massachusetts<br />
+  "A Deterministic Global Optimization Method for Variational Inference"
 * **Matthias Steinruecken**, University of Massachusetts Amherst<br />
   "Unraveling the Demographic History of Modern Humans using Full- Genome Sequencing Data"
 * **Zheng Wei**, University of Massachusetts Amherst<br />
@@ -216,8 +226,9 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Kun Chen**, University of Connecticut
 
-* **Ethan Fan**, Penn State<br />
-  "Max-Norm Optimization for Robust Matrix Recovery"
+* **Ethan Fang**, Penn State<br />
+  "Blessing of Massive Scale: Spatial Graphical Model Estimation with
+  a Total Cardinality Constraint Approach"
 * **Cheng Yong Tang**, Temple University<br />
   "Sufficient Dimension Reduction with Missing Data"
 * **Sahand Nagahban**, Yale University<br />
@@ -231,7 +242,7 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Nan Shao**, New York Life Insurance
 
-* **Mattia Ciollaro**, Spreemo
+* **Xiaoyu Jia**, Icahn School of Medicine at Mount Sinai
 * **Zhaonan Sun**, IBM T. J. Watson Research<br />
   "Exploiting Convolutional Neural Network for Risk Prediction with Medical Feature Embedding"
 * **Victoria Gamerman**, Boehringer Ingelheim Pharmaceuticals, Inc.
@@ -248,7 +259,7 @@ Participation](call-for-participation) for more details.
   "Bayesian Methods for Protein Quantification"
 * **Bani Mallick**, Texas A&M University<br />
   Fast Sampling with Gaussian Scale-Mixture Priors in High Dimensional
-  Regression 
+  Regression
 * **Sudipto Banerjee**, UCLA<br />
   "High-Dimensional Bayesian Geostatistics"
 
@@ -259,16 +270,19 @@ Participation](call-for-participation) for more details.
 *Organizer and Chair:* **Xiaojing Wang**, University of Connecticut
 
 * **Yanxun Xu**, Johns Hopkins University
-* **Lynn Lnn**, Pennsylvania State University
+* **Lynn Lin**, Pennsylvania State University
 * **Jared Huling**, University of Wisconsin-Madison
 
 ------
 
 ## Pharmaceutical Statistics
 
-*Organizer and Chair:* **Naitee Ting**, Boehringer Ingelheim Pharmaceuticals, Inc.
+*Organizer and Chair:* **Chi-Hse Teng**, Novartis
 
-* **Emir Birol**, Pfizer
+* **Don Bennett**, Pfizer
+* **Jerry Lewis**, Biogen
+* **Ray Liu**, Takeda
+* **Chi-Hse Teng**, Novartis
 
 ------
 
@@ -282,9 +296,9 @@ Participation](call-for-participation) for more details.
 * **Sijian Wang**, University of Wisconsin Madison
 * **Kuang-Yao Lee**, Yale<br />
   "Learning Causal Networks via Additive Faithfulness"
-  
+
 -----
-  
+
 ## Space-Time Statistical Solutions at IBM Research
 
 *Organizer:* **Yasuo Amemiya**, IBM T. J. Watson Research Center<br />
