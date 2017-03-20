@@ -116,7 +116,6 @@ Participation](call-for-participation) for more details.
 * **Christopher Park**, Travelers
 * **Chun Wang**, University of Connecticut
 * **Yasuo Amemiya**, IBM T. J. Watson Research Center
-* 
 
 -----
 
@@ -275,7 +274,7 @@ Participation](call-for-participation) for more details.
 
 ------
 
-## Pharmaceutical Statistics
+##  Non-clinical in Pharmaceutical Industry
 
 *Organizer and Chair:* **Chi-Hse Teng**, Novartis
 
@@ -313,4 +312,16 @@ Participation](call-for-participation) for more details.
   Agricultural Management Zoning"
 * **Yasuo Amemiya**, IBM T. J. Watson Research Center<br />
   "Spatio-Temporal Analysis for System Management"
+
+-----
+
+## Biopharmaceutical session
+
+*Organizer and Chair:* **Adina Soaita**
+
+* **Abidemi Adeniji**
+* **Bushi Wang**
+* **Joseph C Cappelleri**
+* **Qiqi Deng**
+* **Birol Emir**
 

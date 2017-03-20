@@ -13,7 +13,7 @@ if (!isset($upload)) { ?>
   </p>
 
   <p>
-    Please only upload a PDF file. You must provied your abstract submission confirmation number.<?php echo $conf; ?>.
+    Please only upload a PDF file. You must provied your abstract submission confirmation number.
   </p>
 
   <p>

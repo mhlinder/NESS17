@@ -8,6 +8,7 @@ RewriteRule regsummary regsummary.php [NC,L]
 RewriteRule abstractform abstractform.php [NC,L]
 RewriteRule abstractconf abstractconf.php [NC,L]
 RewriteRule abstractsend abstractsend.php [NC,L]
+RewriteRule paper-upload2 paper-upload2.php [NC,L]
 RewriteRule paper-upload paper-upload.php [NC,L]
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 ErrorDocument 404 /404
