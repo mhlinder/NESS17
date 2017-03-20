@@ -24,5 +24,4 @@ mv html/abstractconf.html html/abstractconf.php
 mv html/abstractsend.html html/abstractsend.php
 
 mv html/paper-upload.html html/paper-upload.php
-mv html/paper-upload2.html html/paper-upload2.php
 

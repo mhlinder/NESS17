@@ -13,16 +13,33 @@ if (!isset($upload)) { ?>
   </p>
 
   <p>
-    Please only upload a PDF file. You must provied your abstract submission confirmation number.
+    Please submit two copies of your paper: one that is labelled with
+    your name and contact information, and one that is blinded (no
+    identifying information). Submissions must be in PDF format. You
+    must provied your abstract submission confirmation number.
   </p>
 
   <p>
     <form action="paper-upload.php" method="post" enctype="multipart/form-data">
-      <input type="file" name="paper" id="paper"><br />
+
+      <table style="border: none;">
+        <tr>
+          <td><strong>Paper</strong></td>
+          <td><input type="file" name="paper" id="paper"></td>
+        </tr>
+
+        <tr>
+          <td><strong>Blinded paper</strong></td>
+          <td><input type="file" name="blind" id="blind"></td>
+        </tr>
+
+        <tr>
+          <td><strong>Abstract number</strong></td>
+          <td><input type="text" name="conf" /></td>
+        </tr>
+      </table>
 
       <input type="hidden" name="uploadchk" id="uploadchk" value="true">
-
-      Abstract number <input type="text" name="conf" /><br/>
 
       <input type="submit" value="Upload Paper" name="submit">
     </form>
@@ -33,10 +50,11 @@ if (!isset($upload)) { ?>
     $savedir = "abstractdata/save/posters/";
 
     $fn = $savedir . $conf . "-" . basename($_FILES["paper"]["name"]);
-    // echo $_FILES["paper"]["tmp_name"];
-    // echo $fn;
+    $fn_blind = $savedir . $conf . "-BLIND-" . basename($_FILES["blind"]["name"]);
+    // echo $fn . "<br />" . $fn_blind;
 
-    if (move_uploaded_file($_FILES["paper"]["tmp_name"], $fn)) {
+    if (move_uploaded_file($_FILES["paper"]["tmp_name"], $fn) &&
+        move_uploaded_file($_FILES["blind"]["tmp_name"], $fn_blind)) {
         echo "Your file was uploaded successfully.";
     } else {
         echo "There was an error uploading your file. Please contact our webmaster.";
