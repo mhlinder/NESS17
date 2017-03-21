@@ -1,0 +1,32 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Hidden population size estimation from respondent-driven sampling: a network approach
+@@$$@@$$@@
+Jiacheng Wu
+Yale University
+jiacheng.wu@yale.edu
+
+Forrest Crawford
+Yale University
+forrest.crawford@yale.edu
+
+Mait Raag
+University of Tartu
+maitraag@ut.ee
+
+Robert Heimer
+Yale University
+robert.heimer@yale.edu
+
+Anneli Uusküla
+University of Tartu
+anneli.uuskula@ut.ee
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Estimating the size of hidden and hard-to-reach populations such as people who inject drugs, sex workers, or men who have sex with men is important for public health interventions and resource allocation. Multiplier and capture-recapture methods have become standard tools to estimate population size but the requisite assumption of random sampling is rarely satisfied. Respondent-driven sampling (RDS) is a network-based survey method in which subjects recruit their social acquaintances from within the hidden population, and it has become the most widely used sampling method for epidemiological studies of risk behavior in hidden populations. 
+
+Current methods for estimating hidden population size using RDS require an additional data source, rely on unrealistic assumptions, or ignore most of the information in the RDS sample. In this work, we derive a method for estimating the size of hidden population that uses all the data typically collected in an RDS study. The recruitment chain, recruitment times, and network degrees of subjects provide information about the number of people in the hidden population who are not yet in the RDS sample. The observed recruitment information imposes topological constraints on the structure of the induced sub-network of sampled individuals. A computationally efficient Bayesian method is used to integrate over induced sub-networks of sampled individuals and calculate the posterior distribution of hidden population size.  We apply the technique to estimate the number of people who inject drugs (PWID) in Kohtla-Järve, a collection of towns in northeastern Estonia. We estimate that the size of this population is 1082 people (95% posterior CI 1013 – 1165). We compare the results from multiplier method and successive sampling estimate (Gile et al 2015). The multiplier method estimate is 1350 (95% uncertainty region 876 – 2110). Successive sampling gives the estimate 959 (95% posterior CI 638 – 1597).  

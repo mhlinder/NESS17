@@ -1,0 +1,24 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Statistical Analysis of Gene-expression Networks
+@@$$@@$$@@
+Haim  Bar
+University of Connecticut 
+haim.bar@uconn.edu
+
+Seo-Jin Bang
+University of Connecticut
+seo-jin.bang@uconn.edu
+
+@@$$@@$$@@
+2
+@@$$@@$$@@
+Gene co-expression network is an undirected graph with nodes corresponding to genes and edges indicating co-expression significance between a pair of genes. The biological interactions between genes are encoded by the co-expression measures such as Pearson's correlation coefficient, Mutual Information, Spearman's rank correlation coefficient and Euclidean distance. Then the encoded networks are used to define clusters and intra-modular hub genes, to explore the relationships between co-expression clusters of highly correlated genes and external sample traits, and to compare the network topology of different biological networks. For example, the weighted correlation network analysis (WGCNA) constructs weighted gene co-expression networks where each weight represents the significance of the co-expression relationship between a pair of genes. The weighted network is specified by the adjacency matrix in which cell $(i,j)$ is a function of correlation coefficients $r_{ij}$ between genes $i$ and $j$.
+ 
+We raise a number of concerns about the aforementioned approach. First, the correlation coefficient $r_{ij}$ and the other similarity measures can only encodes direct relationships between pairs of genes, while indirect relationships are ignored. Second, the adjacency matrix is very large, and not sparse, although many pairs of genes have correlation values close to zero. This increases the computational complexity of the network analysis and may lead to spurious results. Third, existing methods identify \emph{eigengenes} or \emph{hub genes} within modules, and test whether these genes are differentially expressed in different treatment groups. It is not clear how one can test whether a treatment or condition is associated with the network structure
+ 
+We propose a novel approach which addresses these concerns. To define a similarity measure, we fit a mixture model to the normalized correlation coefficients. This leads to shrinkage estimation, and to borrowing strength across all pairs. It allows us to compute the posterior probability that the connection between genes $i$ and $j$ is significant. This enables the construction of a sparse adjacency matrix, $\textbf{A}$. Using this matrix we define a distance measure which takes into account both direct and indirect connections between a pair of genes. This measure, referred to as “commuting time” is a proper distance metric, and its computation is made much simpler since our mixture model induces sparsity in $\textbf{A}$. This distance represents how long it takes to hit gene $j$ and come back to gene $i$ in a random walk on the gene co-expression network. The adjacency matrix also allows us to define a Markov chain transition probability matrix to construct the random walk model. This modeling approach allows us to perform hypothesis tests regarding the network structure. For instance, one can test whether a treatment is associated with a change in connectivity between a pair of genes or centrality of a gene.
+ 
+We illustrate our approach using Broad TCGA GDAC breast invasive carcinoma and Glioma data. The structural difference of the two groups is explored using connectivity and centrality measures based on the commuting time.

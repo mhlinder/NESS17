@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+16
+@@$$@@$$@@
+On the sup-norm behavior of the Bernstein density estimator
+@@$$@@$$@@
+Lu Lu
+Colby College
+llu@colby.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+The well-known kernel density estimator has serious boundary bias when the underlying density has compact support (e.g., $[0,1]$). The estimator based on Bernstein polynomials is a promising alternative in this case. In this talk, we will consider its stochastic error under the sup norm. The results imply that the Bernstein density estimator does not attain optimal rate of convergence under the sup norm. This is part of the PhD thesis under the guidance of Prof. Evarist Gin\'{e}.

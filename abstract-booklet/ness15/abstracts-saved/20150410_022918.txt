@@ -1,0 +1,44 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+On The Efficacy of Using Informed Priors in Binomial Regression Models for Predictive Problems with an Application in Hurricane Damage Prediction
+@@$$@@$$@@
+Nathan Lally
+University of Connecticut
+nathan.lally@uconn.edu
+
+Brian Hartman
+University of Connecticut
+brian.hartman@uconn.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Eliciting appropriate prior information from experts for a statistical
+model is no easy task. Expressing this information in terms of
+parameters of prior probability distributions on abstract model
+parameters can be nearly impossible, especially after a data
+augmentation/transformation procedure. In previous work on logistic
+and binomial regression models, Hanson 2014 assert that
+``experts are confident only in their assessment of the population as
+a whole'' and propose a version of the $g$-prior which allows the
+statistician or practitioner to effectively place a standard beta
+distributed prior on the overall population probability of success. We
+explore the efficacy of using the informed $g$-prior in a real
+prediction problem involving electrical utility asset damages due to
+hurricanes in Connecticut. Prior information is elicited from a group
+of engineers at the electrical utility and several methods are used to
+select hyper-parameters for the $g$-prior. The out-of-sample
+predictive accuracy of these informed models is compared to the
+performance of models constructed under common reference priors
+(Jeffreys's, Gelman 2008, and a noninformative specification of the
+$g$-prior) using IS-LOO, root mean squared error (RMSE), and other
+statistics. We conclude that in this application with carefully
+selected hyper-parameters, binomial regression models using the
+informed $g$-prior match the predictive accuracy of common reference
+priors and offer no distinct advantage. Careless selection of
+hyper-parameters can however, lead to substantial reduction in
+predictive accuracy. Surprisingly, the noninformative specification of
+the $g$-prior performed marginally better than all other models tested
+in this paper; contradicting one of the findings in Hanson 2014. In addition, we show the predictive accuracy gained by modeling spatial correlation in the residuals and prove that such models substantially outperform a class of statistical learning models growing in popularity in this field.  

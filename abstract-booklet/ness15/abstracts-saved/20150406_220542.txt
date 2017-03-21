@@ -1,0 +1,26 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Estimation of Discrete Survival Function through the Modeling of Diagnostic Accuracy for Mismeasured Outcome Data
+@@$$@@$$@@
+Hee-Koung Joeng
+University of Connecticut
+hee-koung.joeng@uconn.edu
+
+Abidemi K. Adeniji
+Boehringer Ingelheim Pharmaceuticals, Inc
+abidemi.adeniji@boehringer-ingelheim.com
+
+Naitee Ting
+Boehringer Ingelheim Pharmaceuticals, Inc
+naitee.ting@boehringer-ingelheim.com
+
+Ming-Hui Chen
+University of Connecticut
+ming-hui.chen@uconn.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Standard survival methods are inappropriate for mismeasured outcomes. Previous research has shown that outcome misclassification can bias estimation of the survival function. We develop methods to accurately estimate the survival function when the diagnostic tool used to measure the outcome of disease is not perfectly sensitive and specific. Since the diagnostic tool used to measure disease outcome is not the gold standard, the true or error-free outcomes are latent, they cannot be observed. Our method uses the negative predictive value (NPV) and the positive predictive values (PPV) of the diagnostic tool to construct a bridge between the error-prone outcomes and the true outcomes. We formulate an exact relationship between the true (latent) survival function and the observed (error-prone) survival function as a formulation of time-varying NPV and PPV. We specify models for the NPV and PPV that depend only on parameters that can be easily estimated from a fraction of the observed data. Furthermore, we conduct an in depth study to accurately estimate the latent survival function based on the assumption that the biology that underlies the disease process follows a stochastic process. We further examine the performance of our method by applying it to the VIRAHEP-C data.

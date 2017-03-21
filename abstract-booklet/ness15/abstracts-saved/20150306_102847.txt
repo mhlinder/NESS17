@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+02
+@@$$@@$$@@
+A metamodeling approach to the valuation of large variable annuity portfolio under nested simulation
+@@$$@@$$@@
+Guojun Gan
+University of Connecticut
+guojun.gan@uconn.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+A variable annuity (VA) is equity-linked annuity product that has rapidly grown in popularity around the world in recent years. Research up to date on VA largely focuses on the valuation of guarantees embedded in a single VA contract. However, methods developed for individual VA contracts based on option pricing theory cannot be extended to large VA portfolios. Insurance companies currently use nested simulation to valuate guarantees for VA portfolios but efficient valuation under nested simulation for a large VA portfolio has been a real challenge. The computation in nested simulation is highly intensive and often prohibitive. In this talk, I will introduce a metamodeling approach that combines a clustering technique with a functional data analysis technique to address the issue.

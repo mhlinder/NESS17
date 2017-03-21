@@ -1,0 +1,22 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Sparse Kernel Machine Regression for Ordinal Outcomes
+@@$$@@$$@@
+Yuanyuan Shen
+Harvard University
+yshen@g.harvard.edu
+
+Katherine Liao
+Brigham and Women's Hospital
+
+
+Tianxi Cai
+Harvard University
+
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Ordinal outcomes arise frequently in clinical studies when each subject is assigned to a category and the categories have a natural order. Classification rules for ordinal outcomes may be developed with commonly used regression models such as the full continuation ratio (CR) model (fCR), which allows the covariate effects to differ across all continuation ratios, and the CR model with a proportional odds structure (pCR), which assumes the covariate effects to be constant across all continuation ratios. For settings where the covariate effects differ between some continuation ratios but not all, fitting either fCR or pCR may lead to suboptimal prediction performance. In addition, these standard models do not allow for non-linear covariate effects. In this paper, we propose a sparse CR kernel machine (KM) regression method for ordinal outcomes where we use the KM framework to incorporate non-linearity and impose sparsity on the overall differences between the covariate effects of continuation ratios to control for overfitting. In addition, we provide data driven rule to select an optimal kernel to maximize the prediction accuracy. Simulation results show that our proposed procedures perform well under both linear and non-linear settings, especially when the true underlying model is in-between fCR and pCR models. We apply our procedures to develop a prediction model for levels of anti-CCP among rheumatoid arthritis patients and demonstrate the advantage of our method over other commonly used methods.

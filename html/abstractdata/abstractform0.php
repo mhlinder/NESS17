@@ -37,6 +37,7 @@
 <option value="22. Ting">22. Ting</option>
 <option value="23. Zhang, Graphical Models, Networks, Regulatome and Multivariate Analysis">23. Zhang, "Graphical Models, Networks, Regulatome and Multivariate Analysis"</option>
 <option value="24. Amemiya, Space-Time Statistical Solutions at IBM Research">24. Amemiya, "Space-Time Statistical Solutions at IBM Research"</option>
+<option value="25. Soaita, Biopharmaceuticals">25. Soaita, "Biopharmaceuticals"</option>
         </select>
       </td>
     </tr>

@@ -1,0 +1,16 @@
+invited
+@@$$@@$$@@
+06
+@@$$@@$$@@
+Bayesian approaches to subgroup analysis and selection problems in drug development
+@@$$@@$$@@
+David Ohlssen
+Novartis
+david.ohlssen@novartis.com
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+In drug development setting the challenge of dealing with selection problems regularly arises. For example: the interpretation of pre-planned or post-hoc exploratory subgroup analyses; safety signal detection, which can involve a large number of outcomes related to different system organ classes; estimating a treatment effect when a trial stops early for success in a group sequential design and selecting the dose to take to phase III following a phase II dose-finding study. 
+From a statistical perspective these types of problems can be divided between the need to estimate an effect of interest accounting for a potential selection or random high bias and dealing with multiplicity when examining numerous potential signals or subgroups. When considering the former, the Bayesian framework provides the ability to incorporate priors with a degree of skepticism, a natural framework for forming models with exchangeability or shrinkage and the possibility to form realistically complex models allowing synthesis of information from a variety of sources. While in the case of the latter, Bayesian approaches to hypothesis testing and extensions of false discovery rate provide potential techniques to handle multiplicity.
+In this talk we shall provide an overview of selection and subgroup problems occurring in medical product development. We shall also briefly review some key techniques from the Bayesian framework that can help tackle such problems. The final part of the presentation will look more in depth at a series of examples 

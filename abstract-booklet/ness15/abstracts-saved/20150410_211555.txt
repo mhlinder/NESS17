@@ -1,0 +1,18 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Statistical modeling of high-throughput RNase footprinting for genome-wide RNA structure inference
+@@$$@@$$@@
+CHENCHEN ZOU
+The Jackson Lab
+chenchen.zou@jax.org
+
+ZHENGQING OUYANG
+The Jackson Lab
+zhengqing.ouyang@jax.org
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+High-throughput sequencing (HTS) technologies have emerged to dissect RNA structures at the genome scale. HTS profiles of RNase footprinting by structure-specific enzymes provide complementary information on structural features of thousands of RNAs simultaneously. Integrative analysis of sequencing read data from these assays remains challenging because of the issues of data sparsity, signal variability, and correlation as well as contradiction among the profiles. We present a novel statistical framework to integrate high-throughput footprinting profiles of the double-strand specific RNase V1 and single-strand specific nuclease S1. Our modeling approach utilizes the joint Poisson-Gamma mixtures (JPGM) coupled with the hidden Markov model (HMM), allowing genome-wide inference of RNA structure at single-nucleotide resolution. We test the JPGM+HMM on simulated datasets and genome-wide V1 and S1 footprinting data of yeast. By comparing to approaches analyzing the V1 or S1 profile separately or simply combining them, we demonstrate that our joint modeling approach probes nearly half times more nucleotides without compromising accuracy, and resolves the ambiguity of strandedness of 300,000 nucleotides with overlapping V1 and S1 peaks. Furthermore, using a shared latent variable for modeling accessibility, our model reveals the prevalent influence of three-dimensional (3D) conformation of RNA on RNase footprinting.

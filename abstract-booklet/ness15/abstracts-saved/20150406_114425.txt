@@ -1,0 +1,26 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Power evaluation of methods for detecting non-independent relationships
+@@$$@@$$@@
+Ruobin Gong
+Harvard University
+rgong@fas.harvard.edu
+
+Bo Jiang
+Harvard University
+bojiang83@gmail.com
+
+Jun Liu
+Harvard University
+jliu@stat.harvard.edu
+
+Edoardo Airoldi
+Harvard University
+airoldi@fas.harvard.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Automated or semi-automated dependence detection methods are widely employed in the exploratory analysis of large, high-dimensional datasets. They usually require little tuning from the user and aim to provide a one-stop solution. Without substantial care to design and modeling assumptions however, these methods may suffer from low statistical power, and blindly applying them may result in inefficient use of data. Seeing a direct correspondence between dependence detection and statistical hypothesis testing, we propose an assessment framework on the efficacy of large-scale inference methods of distinct rationales, utilizing Monte Carlo-based methods to numerically evaluate the statistical power. We present two simulation experiments to compare competing sets of methods designed for nonlinear functional relationship detection, including distance correlation (DCor), Maximal Information Coefficient (MIC), and Dynamic Slicing for sample variances (DSV). We observe that DCor is superior at detecting smooth and monotone relationships, and is DSV superior at spiking, periodic and oscillating relationships. MIC is dominated by either DCor or DSV in statistical power for all functional types tested, and is less robust to the corruption of heavy-tailed noise. From a practitioner\rq{}s standpoint, it is the best to incorporate subject-matter scientific knowledge when choosing a suitable metric and constructing decision rules. We hope to see a convincing statistical power analysis to accompany all dependence detection methods proposed in order to illustrate its strengths and weaknesses, facilitating better-informed decisions for scientific discoveries.

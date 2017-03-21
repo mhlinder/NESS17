@@ -1,0 +1,25 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Statistical power as a function of internal consistency of instrument questionnaire items
+@@$$@@$$@@
+Moonseong Heo
+Albert Einstein College of Medicine
+moonseong.heo@einstein.yu.edu
+
+Namhee Kim
+Albert Einstein College of Medicine
+namhee.kim@einstein.yu.edu
+
+Myles Faith
+University of North Carolina--Chapel Hill
+mfaith@email.unc.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Background: In countless number of clinical trials, measurements of outcomes rely on instrument questionnaire items which however often suffer measurement error problems which in turn affect statistical power of study designs. The Cronbach alpha or coefficient alpha, here denoted by $C_alpha$, is a measure of internal consistency of instrument items that are developed to measure a target outcome construct. Scale score for the target construct is often represented by the sum of the item responses. However, power functions based on $C_alpha$ have been lacking for various study designs.
+Methods: We formulate a statistical model to derive power functions as a function of $C_alpha$ under several study designs. To this end, we assume fixed construct variance assumption as opposed to usual fixed total variance assumption. That assumption is critical and practically relevant to show that smaller measurement errors are inversely associated with higher inter-item correlations, and thus that greater $C_alpha$ is associated with greater statistical power. We compare the derived theoretical statistical power with empirical power obtained through Monte Carlo simulations for the following comparisons: one-sample comparison of pre- and post-treatment mean differences, two-sample comparison of pre-post mean differences between groups, and two-sample comparison of mean differences between groups. 
+Results:  It is shown that $C_alpha$ is the same as a test-retest correlation of the scale scores, which enables testing significance of $C_alpha$. Closed-form power functions and samples size determination formulas are derived in terms of $C_alpha$, for all of the aforementioned comparisons. Power functions are shown to be an increasing function of $C_alpha$, regardless of comparison of interest. The derived power functions are well validated based on simulation studies that show that the magnitudes of theoretical power are virtually identical to those of the empirical power. 
+Conclusion: Regardless of research designs or settings, in order to increase statistical power, development and use of instruments with greater $C_alpha$, or equivalently with greater inter-item correlations, is crucial for trials that intend to use questionnaire items for measuring research outcomes.

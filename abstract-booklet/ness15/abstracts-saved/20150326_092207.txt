@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+06
+@@$$@@$$@@
+Subgroup Reporting using Nonparametric Bayesian Inference
+@@$$@@$$@@
+Peter Mueller
+University of Texas at Austin
+pmueller@math.utexas.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+We discuss Bayesian inference for subgroups in clinical trials. The key feature of the proposed approach is that we separate the decision problem of selecting subgroups for reporting and the probability model for prediction. For the latter we use a flexible nonparmetric Bayesian model, while the decision problem is based on a parsimonious description of the subgroups and a stylized utility function.

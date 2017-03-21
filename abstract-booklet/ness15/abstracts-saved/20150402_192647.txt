@@ -1,0 +1,26 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+A Unified Theory of Testing and Confidence Regions for High Dimensional Estimating Equations
+@@$$@@$$@@
+Matey Neykov
+Harvard University
+mneykov@gmail.com
+
+Yang Ning
+Princeton University
+
+
+Jun S. Liu
+Harvard University
+
+
+Han Liu
+Princeton University
+
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+We propose a new inferential framework of testing hypotheses and constructing confidence regions for high dimensional statistical models that can be fitted by solving a system of regularized estimating equations. Such an estimating equation based inferential framework is quite general and can be used for a wide variety of regularized estimators, including penalized M-estimators, constrained Z-estimators, and even greedy estimators. The key ingredient of this framework is a test statistic constructed by projecting the fitted estimating equations to a sparse direction obtained by solving a large-scale linear program. For hypothesis tests, we derive the limiting distribution of this proposed test statistic under both null and local alternative hypotheses. For confidence regions, we develop uniformly valid confidence intervals for low dimensional parameters of interest, and show their optimality under scenarios when the estimating equation is based on a log-likelihood function. To illustrate the usefulness of this framework, we further apply it to conduct inference for several constrained Z-estimators which have not been equipped with inferential power before, including the Dantzig selector for high dimensional regression, the LDP estimator for high dimensional discriminant analysis, the CLIME estimator for high dimensional graphical models, and a regularized transition matrix estimator for high dimensional vector autoregressive models. Compared with existing methods, our framework is the only one that is applicable for the latter three applications. We provide thorough numerical simulations and real data experiments to back up the developed theoretical results.

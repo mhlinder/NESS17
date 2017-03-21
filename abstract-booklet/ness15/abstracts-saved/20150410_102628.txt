@@ -1,0 +1,18 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Optimal shrinkage estimation in heteroscedastic hierarchical linear models
+@@$$@@$$@@
+Justin Yang
+Harvard University
+juchenjustinyang@fas.harvard.edu
+
+Samuel Kou
+Harvard University
+kou@fas.harvard.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Shrinkage estimators have profound impacts in statistics and in scientific and engineering applications. In this article, we consider shrinkage estimation in the presence of linear predictors. We formulate two heteroscedastic hierarchical regression models and study optimal shrinkage estimators in each model. A class of shrinkage estimators, both parametric and semiparametric, based on unbiased risk estimate (URE) is proposed and is shown to be (asymptotically) optimal under mean squared error loss in each model. Simulation study is conducted to compare the performance of the proposed methods with existing shrinkage estimators. We also apply the method to real data and obtain encouraging and interesting results.

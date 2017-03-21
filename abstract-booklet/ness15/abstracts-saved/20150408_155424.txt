@@ -1,0 +1,30 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Bayesian Forest Classifier: building tree structures on Naive Bayes
+@@$$@@$$@@
+Viktoriya Krakovna
+Harvard University
+vkrakovna@fas.harvard.edu
+
+Jiong Du
+
+
+
+TengJiao Wang
+National University of Defense Technology
+
+
+Yuan Yuan
+
+
+
+Jun Liu
+Harvard University
+jliu@stat.harvard.edu 
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+We focus on the high-dimensional classification and variable selection problem with categorical variables. Of particular interest are interactions among the variables that influence the outcome. We propose a novel Bayesian strategy to build a correlation structure on top of the naive Bayes classifier, resulting in an algorithm that provides both accurate classification and variable selection. We introduce a latent variable to partition all the covariates into two groups according to their relationships with the class variable, and conduct Bayesian variable selection and covariance structure modeling simultaneously. In order to achieve both model flexibility and parsimony, we use trees to approximate the dependency relationship among the covariates, and set a complexity-penalizing prior on the tree structure parameters. We use Gibbs sampling to explore the partition and tree structure space, and combine the predictions using Bayesian model averaging. Our method performs competitively with state-of-the-art classifiers, and provides insight into relevant variables and variable interactions. 

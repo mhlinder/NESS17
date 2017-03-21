@@ -1,0 +1,20 @@
+invited
+@@$$@@$$@@
+03
+@@$$@@$$@@
+Multisensor Quickest Detection
+@@$$@@$$@@
+Grigory Sokolov
+State University of New York at Binghamton
+gsokolov@binghamton.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Consider the multisensor quickest detection problem, in which the goal is to detect as soon as possible an abrupt change that occurs at some unknown time and modifies the observations of an unknown subset of sensors that monitor a system.
+
+In this talk I will show the second-order asymptotic optimality of two families of detection rules: the Generalized CUSUM and a mixture CUSUM.  Specifically, I will show that for each of these two schemes, the inflicted performance loss (relative to the optimal one that could be attained only if the identity of the affected subset was known) remains bounded as the rate of false alarms goes to 0 for any possible affected subset.
+
+In the special case that it is known in advance that the change will affect exactly one sensor, I will revisit the multichart CUSUM, according to which an alarm is raised the first time a local CUSUM  statistic exceeds a user-specified threshold. In this context, I will propose a family of thresholds that makes the multichart CUSUM uniformly second-order asymptotically optimal and, using insights from high-order asymptotic approximations, propose a specific selection of thresholds in this family that further robustifies this detection rule.
+
+This is joint work with Georgios Fellouris (Department of Statistics, University of Illinois at Urbana-Champaign).

@@ -1,0 +1,18 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+The application of sparse estimation of covariance matrix to quadratic discriminant analysis
+@@$$@@$$@@
+Jiehuan Sun
+Yale University
+jiehuan.sun@yale.edu
+
+Hongyu Zhao
+Yale University
+hongyu.zhao@yale.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Although Linear Discriminant Analysis (LDA) is commonly used for classification, it may not be directly applied in genomics studies due to the large $p$, small $n$ problem in these studies. Different versions of sparse LDA have been proposed to address this significant challenge. One implicit assumption of various LDA-based methods is that the covariance matrices are the same across different classes. However, rewiring of genetic networks (therefore different covariance matrices) across different diseases has been observed in many genomics studies, which suggests that LDA and its variations may be suboptimal for disease classifications. However, it is not clear whether considering differing genetic networks across diseases can improve classification in genomics studies. In this manuscript, we proposed a sparse version of Quadratic Discriminant Analysis (SQDA) to explicitly consider the differences of the genetic networks across diseases. Both simulation and real data analysis are performed to compare the performance of SQDA with six commonly used classification methods.  In our comparisons, SQDA provides more accurate classification results than other methods for both simulated and real data. Our method should prove useful for classification in genomics studies and other research settings, where covariances differ among classes.

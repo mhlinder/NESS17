@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+07
+@@$$@@$$@@
+Bayesian spatial hierarchical models for small estimation with complex survey designs
+@@$$@@$$@@
+Cici  Bauer
+Brown University
+cici_bauer@brown.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Spatial hierarchical models have shown to be beneficial for small area estimation. However, the sampling weights that are required to reflect complex surveys are rarely considered in these models. In this talk, I will describe a method for incorporating the sampling weights for binary data when estimating, for example, small area proportions or predicting small area counts. Spatial hierarchical random effects are shown to be beneficial, with computation carried out using the integrated nested Laplace approximation, which is fast. Simulation results will be presented to show that estimation of mean squared error can be reduced when compared with more standard approaches. Bias reduction occurs through the incorporation of sampling weights, with variance reduction being achieved through hierarchical smoothing. The application of our proposed method with data taken from the Washington 2006 Behavioral Risk Factor Surveillance System will also be presented

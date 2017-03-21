@@ -1,0 +1,22 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Student Growth Percentiles in the Presence of Measurement Error
+@@$$@@$$@@
+Eugene Quinn
+Stonehill College
+equinn1@stonehill.edu
+
+Jeanette Hogan
+Stonehill College
+jhogan1@students.stonehill.edu
+
+Colleen McLaughlin
+Stonehill College
+cmclaughlin@students.stonehill.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Since its acceptance by the U.S. Department of Education as a means of demonstrating student progress, the Student Growth Percentile (SGP) measure has been adopted by many states for this and other purposes including evaluation of teachers and schools.  We examine the behavior of the SGP in the presence of measurement error using the Item Response Theory model of the Massachusetts Comprehensive Assessment System mathematics test as the data generating process to simulate repeatedly administering the MCAS to each student in a grade-sized cohort (70,000 students).  Our results indicate that across replications for a specific student, the SGP measure is approximately uniformly distributed over its range.

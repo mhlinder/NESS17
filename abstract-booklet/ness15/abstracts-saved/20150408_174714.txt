@@ -1,0 +1,14 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Placebo Non-Response Measure in Sequential Parallel Comparison Design Studies
+@@$$@@$$@@
+Denis Rybin
+Boston University
+drybine@bu.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+The Sequential Parallel Comparison Design (SPCD) is one of the novel approaches addressing placebo response. The analysis of SPCD data typically classifies subjects as `placebo responders' or `placebo non-responders'. Most current methods employed for analysis of SPCD data utilize only a part of the data collected during the trial. A repeated measures model was proposed for analysis of continuous outcomes that permitted the inclusion of information from all subjects into the treatment effect estimation. We describe a new approach using a weighted repeated measures model that further improves the utilization of data collected during the trial, allowing the incorporation of information that is relevant to the placebo response, and dealing with the problem of possible misclassification of subjects. Our simulations show that when compared to the unweighted repeated measures model method, our approach performs as well or, under certain conditions, better, in preserving the type I error, achieving adequate power and minimizing the mean squared error.

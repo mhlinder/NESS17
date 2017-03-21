@@ -1,0 +1,18 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Group-Corrected Stochastic Blockmodels for Community Detection on Large-scale Networks
+@@$$@@$$@@
+Lijun Peng
+Boston University
+ljpeng@math.bu.edu
+
+Luis Carvalho
+Boston University
+lecarval@math.bu.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Community detection in networks is becoming increasingly important in many applications, especially in social sciences. Today's era of big data proposes a new challenge in this field---how to efficiently detect community structure on large-scale social networks. In this paper, we propose a novel stochastic blockmodel based on a logistic regression setup with group correction terms to better address this problem and conduct exact inference based on a maximum a posteriori (MAP) estimator. We demonstrate the novel proposed model and estimation on large real-world networks as well as simulated benchmark networks, and show that the proposed estimator performs better when compared to the MAP estimator from classical degree-corrected stochastic blockmodels as well as other commonly used estimators suitable for large-scale networks. 

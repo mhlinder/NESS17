@@ -1,0 +1,18 @@
+invited
+@@$$@@$$@@
+02
+@@$$@@$$@@
+Measuring online audiences using logs data
+@@$$@@$$@@
+Xiaojing Wang
+Google Inc
+xiaojingw@google.com
+
+Jim Koehler
+Google Inc
+jkoehler@google.com
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Advertisers would like to understand attributes of the audience their ads reach. TV marketers, in particular, are accustomed to metrics such as the reach and frequency for their TV ads, and would welcome digital counterparts. Existing digit reporting practices, however, measure cookies rather than people and thus present significant technical challenges: a cookie does not identify a person, and anyone who uses multiple accounts, devices, or browsers has multiple cookies; a cookie can expire or be deleted; the demographic information attached to some cookies may be of questionable quality. We introduce a method to correct these issues in aggregate and measure the reach and frequency of online ad campaigns by audience attributes. It reduces demographic biases and adjusts cookie counts to unique people counts by using data from probability-recruited online panels.

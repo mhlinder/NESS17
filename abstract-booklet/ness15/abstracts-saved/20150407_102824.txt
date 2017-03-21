@@ -1,0 +1,26 @@
+invited
+@@$$@@$$@@
+05
+@@$$@@$$@@
+A nonparametric approach to comparing diagnostic accuracies in a multi-reader, multi-test design
+@@$$@@$$@@
+Eunhee Kim
+Brown University
+ekim@stat.brown.edu
+
+Zheng Zhang
+Brown University
+
+
+Youdan Wang
+Brown University
+
+
+Donglin Zeng
+University of North Carolina at Chapel Hill
+
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Receiver operating characteristic (ROC) analysis is widely used to evaluate the performance of diagnostic tests with continuous or ordinal responses. A popular study design for assessing the accuracy of diagnostic tests involves multiple readers interpreting multiple diagnostic test results, called the multi-reader, multi-test design. I will introduce a novel power formula to compare the correlated areas under the ROC curves (AUC) in a multi-reader, multi-test design.  In particular, I will describe a nonparametric approach to estimate and compare the correlated AUCs by extending DeLong et al.’s (1988) approach. 

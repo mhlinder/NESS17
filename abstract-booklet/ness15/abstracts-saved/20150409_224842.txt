@@ -1,0 +1,34 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Second Order Correctness of Perturbation Bootstrap M Estimator of Multiple Linear Regression Parameter 
+@@$$@@$$@@
+Debraj Das
+North Carolina State University
+ddas3@ncsu.edu
+
+Soumendra  Lahiri
+North Carolina State University
+snlahiri@ncsu.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+
+This work introduces Perturbation Bootstrap in Multiple Linear Regression setup. Residual Bootstrap method can already be found in the literature of Regression. Lahiri S. N. [AOC (1992) 1548-1570] has shown that Residual Bootstrap M-Estimator in multiple linear regression is second order correct. Our motivation behind this work is to show that this new bootstrap procedure in Regression setup is second order correct and in some cases Perturbation Bootstrap is expected to give  better result than usual Residual Bootstrap in Regression setup.
+\begin{flushleft}
+Consider the Multiple Linear Regression model :
+\end{flushleft}
+\begin{equation*}
+y_{i} = x_{i}^{'}\beta + \epsilon_{i}, \; \;\;\;\;     i = 1,2,.....,n
+\end{equation*}
+where $\epsilon_1,.....,\epsilon_n$ are independent and identically distributed (iid) random variables, $x_1,.....,x_n$ are known non random design vectors and $\beta$ is the $p$ x $1$ vector of parameters where $p$ is fixed. Suppose $\bar{\beta}_n$ is the M-estimator corresponding to the score function $\psi$.
+\begin{flushleft}
+Let us introduce the perturbation random factors $G^*_i$'s where $G^*_i$'s are non-negative iid completely known random variables.  Define, Perturbation Bootstrap M-estimator $\beta^*_n$ of $\beta$ to be the solution of
+\end{flushleft} 
+\begin{equation*}
+\sum_{i=1}^{n}x_i\psi(y_i-x_i'\beta)G^*_i = 0
+\end{equation*}
+We have obtained two term Edgeworth expansion of standardized and studentized $\beta^*_n$ and using that we have shown second order optimality. Comparison between Perturbed and Residual Bootstrap to check the betterment of our new bootstrap method requires future investigation. 
+

@@ -1,0 +1,19 @@
+invited
+@@$$@@$$@@
+04
+@@$$@@$$@@
+On missing data mechanism in two-way incomplete contingency tables
+@@$$@@$$@@
+Daeyoung Kim
+University of Massachusetts
+daeyoung@math.umass.edu
+
+Seongyong  Kim
+Hoseo University, Republic of Korea
+yaba96@hoseo.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Contingency tables, displaying the frequency distribution of the categorical variables, are useful for analyzing the dependence between the variables. When some or all of the categorical variables have missing data, one needs to incorporate a missing data mechanism  into a statistical model for valid inference on the association of incompletely observed categorical variables. 
+In this talk we introduces a novel method of sensitivity analysis designed to aid in assessing the missing-at-random  assumption in the two-way  contingency table with one supplemental margin. The procedure involves a set of response odds and nonresponse odds computed from fully and partially observed counts.  We illustrate the proposed method with real datasets. 

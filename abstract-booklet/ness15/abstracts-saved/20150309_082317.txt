@@ -1,0 +1,29 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+In-stream Text Mining of Patient Narratives: Sweeping for Missed Endpoints
+@@$$@@$$@@
+Greg Cicconetti
+GlaxoSmithKline
+greg.2.cicconetti@gsk.com
+
+Shani Sampson
+GlaxoSmithKline
+
+
+David Wade
+
+
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+During the course of a large cardiovascular program roughly 35k patient narratives were collected. Among these are those describing events associated with the primary endpoint (a composite of myocardial infarction, stroke and cardiovascular death), non-cardiovascular deaths, limb amputations, and other secondary endpoints of interest. The task of bolstering study integrity in anticipation of regulatory submission motivated this exercise. We wish to sweep through the full corpus of narratives and identifying for query those which should have links elsewhere in the electronic case report forms (eCRF).  E.g., a narrative paragraph that describes a subject’s fatal myocardial infarction needs to have specific information captured elsewhere if statistical analysis is to include that event.
+Without loss of generality, assume narratives can be partitioned into two sets: Fatal and Non-fatal. The task at hand: Given a collection of narratives known (or presumed known) to be true examples of fatal and non-fatal narratives, deploy an algorithm that ranks narratives based on the likelihood of being ‘Fatal’. Narratives sorted on this metric are then passed to clinical colleagues for review, who then make decision whether or not to raise queries with participating sites to correct database as appropriate.
+Facets of this exercise to be described:
+• Challenges in pre-processing data
+• Algorithm considerations (deployed algorithm: support vector machine)
+• Reporting provided for clinical review
+• In-stream logistical considerations
+• Estimation of the number of missed queries due to curtailment of clinical review

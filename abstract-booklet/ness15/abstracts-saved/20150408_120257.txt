@@ -1,0 +1,18 @@
+invited
+@@$$@@$$@@
+09
+@@$$@@$$@@
+Statistical Inference for Perturbations of Multiscale Dynamical Systems
+@@$$@@$$@@
+Siragan Gailus
+Boston University
+siragan@math.bu.edu
+
+Konstantinos Spiliopoulos
+Boston University
+kspiliop@math.bu.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+ABSTRACT. In this paper, we study statistical inference for small-noise perturbations of multiscale dynamical systems. We prove the consistency and asymptotic normality of an appropriately constructed maximum likelihood estimator (MLE) for a parameter of interest, identifying precisely the limiting variance. We allow unbounded coefficients in the equation for the slow process and assume neither periodicity nor that the fast process is compact - ergodicity of the fast process is guaranteed by imposing a recurrence condition. The results provide a theoretical basis for calibration of small-noise perturbed multiscale dynamical systems and related diffusion processes. Data from numerical simulations are provided to supplement and illustrate the theory.

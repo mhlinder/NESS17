@@ -1,0 +1,14 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Information-Theoretic Characterization of Short-Memory and Long-Memory Gaussian Processes
+@@$$@@$$@@
+Gordon Chavez
+New York University
+gvc214@nyu.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+How much information is available about the future state of a stochastic process? We attempt to answer this question for short-memory and long-memory Gaussian processes. For the short-memory case, we derive an explicit upper bound on the expected value of the relative entropy between a prior and posterior conditional probability density function for a future state of the process, and show that as the lead time approaches infinity this expected relative entropy converges to a finite value. We apply our results to the AR(1) process and also derive an exact expression for this expected relative entropy. For the long-memory case, we use the autocovariance function found by Lieberman and Phillips (2008) to show a critical behavior or transition for the upper bound on the above relative entropy, dependent on the power in the power law autocorrelation function. When the power is greater than 1/2, the upper bound converges at infinite lead time, and when the power is less than or equal to 1/2, this upper bound diverges to infinity. We show that for a long-memory Gaussian process with a large innovation variance, the same transition occurs for a first order approximation of the expected relative entropy. During these studies, we derive several expressions characterizing the expected relative entropy that could be practically useful for uncertainty quantification in the prediction of Gaussian processes.

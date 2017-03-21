@@ -1,0 +1,22 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Methods of Adjusting for Misclassification in Respondent-Driven Sampling Data
+@@$$@@$$@@
+Isabelle Beaudry
+University of Massachusetts Amherst
+beaudry@math.umass.edu
+
+Krista J.  Gile
+University of Massachusetts Amherst
+gile@math.umass.edu
+
+Shruti H. Mehta
+Johns Hopkins University
+smehta@jhu.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Respondent-driven sampling (RDS) is a sampling method designed to study hard-to-reach populations. Beginning with a convenience sample, each participant receives a small number of coupons, which they distribute to their contacts who become eligible. RDS studies ask participants to report on the number of contacts they share with the studied population. Also, a set of characteristics is observed for each participant. The accuracy of these attributes is not considered in current prevalence estimators. However, ignoring misclassification may lead to biased estimates. The main contribution of this study is to propose an analytical correction method and to apply the Misclassification Simulation Extrapolation (SIMEX MC) procedure to correct for the bias introduced by misclassification. These two methods are assessed under varying levels of misclassification across simulated social networks of varying features. Also, an application from an RDS study is presented. Finally, we conclude with our propose extension of two bootstrap procedures to estimate the variability of the adjusted estimators.

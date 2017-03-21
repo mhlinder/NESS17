@@ -12,10 +12,10 @@ Participation](call-for-participation) for more details.
 *Organizer and Chair:* **Yuan Huang**, Department of Biostatistics, Yale University
 
 * **Yize Zhao**, Weill Cornell Medical College, Cornell<br />
-  "Genome-Wide Heritability Analysis with Ultra High-Dimensional Neuroimaging Phenotypes"
+  "Hierarchical Feature Selection of the Complex Biomedical Data"
 * **Heather Shappell**, Biostatistics, Boston University<br />
   "Accounting for Uncertainty in Stochastic Actor Oriented Models for Dynamic Networks"
-* **Krista Gile**, Math&Statistics, UMASS<br />
+* **Krista Gile**, Math and Statistics, UMASS
 * **Xizhen Cai**, Temple<br />
   "Variable Selection for Dynamic Networks"
 * **Xuan Bi**, Department of Biostatistics, Yale University<br />
@@ -27,7 +27,8 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Haim Bar**, University of Connecticut
 
-* **Jacob Bien**, Cornell University
+* **Jacob Bien**, Cornell University<br />
+  "Learning Local Dependence in Ordered Data"
 * **Li Ma**, Duke University
 * **Pengsheng Ji**, University of Georgia<br />
   "Flexible Spectral Methods for Community Detection"
@@ -103,6 +104,13 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Jinbo Bi**, University of Connecticut
 
+* **Sanguthevar Rajasekaran**, University of Connecticut<br />
+  "The closest pair problem: Algorithms and applications"
+* **Renato Polimanti**, Yale University<br />
+  "Resources to Investigate the Genetic Architecture of Complex
+  Traits: Large-Scale Datasets and Summary Association Data"
+* **Sheida Nabavi**, University of Connecticut<br />
+  "Statistical machine learning to identify candidate drivers of drug resistance in cancer"
 * **Michael Kane**, Yale University
 
 -----
@@ -257,8 +265,8 @@ Participation](call-for-participation) for more details.
 * **Edoardo Airoldi**, Harvard University<br />
   "Bayesian Methods for Protein Quantification"
 * **Bani Mallick**, Texas A&M University<br />
-  Fast Sampling with Gaussian Scale-Mixture Priors in High Dimensional
-  Regression
+  "Fast Sampling with Gaussian Scale-Mixture Priors in High Dimensional
+  Regression"
 * **Sudipto Banerjee**, UCLA<br />
   "High-Dimensional Bayesian Geostatistics"
 
@@ -268,9 +276,16 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Xiaojing Wang**, University of Connecticut
 
-* **Yanxun Xu**, Johns Hopkins University
-* **Lynn Lin**, Pennsylvania State University
-* **Jared Huling**, University of Wisconsin-Madison
+* **Yanxun Xu**, Johns Hopkins University<br />
+  "A Nonparametric Bayesian Basket Trial Design"
+* **Lynn Lin**, Pennsylvania State University<br />
+  "Clustering with Hidden Markov Model on Variable Blocks"
+* **Jared Huling**, University of Wisconsin-Madison<br />
+  "Heterogeneity of Intervention Effects and Subgroup Identification
+  based on Longitudinal Outcomes"
+* **Wai-Ki Yip**, Foundation Medicine, Inc.<br />
+  "STEPP Analysis for continuous, binary, and count outcomes and other
+  recent STEPP development"
 
 ------
 
@@ -321,7 +336,8 @@ Participation](call-for-participation) for more details.
 
 * **Abidemi Adeniji**
 * **Bushi Wang**
-* **Joseph C Cappelleri**
+* **Joseph C Cappelleri**, Pfizer<br />
+  "Meta-Analysis of Safety Data in Clinical Trials"
 * **Qiqi Deng**
 * **Birol Emir**
 

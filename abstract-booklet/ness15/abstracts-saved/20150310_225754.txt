@@ -1,0 +1,19 @@
+invited
+@@$$@@$$@@
+08
+@@$$@@$$@@
+Questionnaire on Network Meta-Analysis to Assess Its Relevance and Credibility
+@@$$@@$$@@
+Joseph Cappelleri
+Pfizer Inc
+joseph.c.cappelleri@pfizer.com
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Despite the great realized or potential value of network meta-analysis (indirect treatment comparisons) of randomized controlled trial evidence to inform health-care decision making, many decision makers might not be familiar with these techniques. A task force from the International Society for Pharmacoeconomics and Outcomes Research developed a consensus-based 26-item questionnaire to help decision makers assess the relevance and credibility of network meta-analysis to help inform health-care decision making (Jansen et al. Value in Health 2014; 17:157-173).
+
+The relevance domain of the questionnaire (4 questions) calls for assessments about the applicability of network meta-analysis results to the setting of interest to the decision maker. The remaining 22 questions belong to an overall credibility domain and pertain to assessments about whether the network meta-analysis results provide a valid answer to the question they are designed to answer by examining 1) the evidence base used, 2) analysis methods, 3) reporting quality and transparency, 4) interpretation of findings, and 5) conflicts of interest. 
+
+The questionnaire aims to help readers of network meta-analysis opine about their confidence in the credibility and applicability of the results of a network meta-analysis, and help make decision makers aware of the subtleties involved in the analysis of networks of randomized trial evidence. It is anticipated that user feedback will permit periodic evaluation and modification of the questionnaire. 
+

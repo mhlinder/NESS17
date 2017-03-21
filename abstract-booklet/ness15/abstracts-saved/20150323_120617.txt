@@ -1,0 +1,30 @@
+invited
+@@$$@@$$@@
+01
+@@$$@@$$@@
+Online Updating of Statistical Inference in the Big Data Setting
+@@$$@@$$@@
+Elizabeth Schifano
+University of Connecticut
+elizabeth.schifano@uconn.edu
+
+Jing Wu
+University of Connecticut
+jing.wu@uconn.edu
+
+Chun Wang
+University of Connecticut
+chun.wang@uconn.edu
+
+Jun Yan
+University of Connecticut
+jun.yan@uconn.edu
+
+Ming-Hui Chen
+University of Connecticut
+ming-hui.chen@uconn.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+We present statistical methods for big data arising from online analytical processing, where large amounts of data arrive in streams and require fast analysis without storage/access to the historical data. In particular, we develop iterative estimating algorithms and statistical inferences for linear models and estimating equations that update as new data arrive. The online updating framework introduces predictive residuals that can be used to test the goodness-of-fit of the hypothesized model. We also present a new online-updating estimator under the estimating equation setting. In simulation studies and real data applications, our estimator compares favorably with competing approaches.

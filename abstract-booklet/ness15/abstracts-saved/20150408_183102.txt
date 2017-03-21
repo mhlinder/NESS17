@@ -1,0 +1,26 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Multivariate Temporal Dynamics of Gastropod Abundance in a Puerto Rican Tropical Forest
+@@$$@@$$@@
+Volodymyr Serhiyenko
+University of Connecticut
+volodymyr.serhiyenko@gmail.com
+
+Nalini Ravishanker
+University of Connecticut
+nalini.ravishanker@uconn.edu 
+
+Michael Willig
+University of Connecticut
+michael.willig@uconn.edu 
+
+Brian Klingbeil
+University of Connecticut
+brian.klingbeil@uconn.edu 
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+In many application areas, there is the necessity for accurate statistical modeling of multivariate counts as a function of relevant covariates. This paper investigates the multivariate Poisson Lognormal (MVPLN) modeling of time series of counts for abundance of gastropod species in Puerto Rico. The proposed multivariate model can account for the overdispersion as well as positive and/or negative association between counts of different species. This provides correct estimates for parameters in predicting counts. The proposed dynamic framework can incorporate time dependence together with location and time specific covariates which help the ecologists to understand the evolution and variation of the species abundance. The data are collected on 40 sites from 1995 to 2014 and on additional 111 sites for 1995, 1996, and 1997. We investigate the predictive capabilities of the model using temporal as well as location specific hold-out observations. We also take advantage of Approximate Bayesian inference via the Integrated Nested Laplace Approximations (INLA) which significantly decreases computational time and makes it attractive for interdisciplinary research.

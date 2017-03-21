@@ -1,0 +1,22 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Negative-Binomial Cure Rate Models with Spatial Frailties for Interval-Censored Data
+@@$$@@$$@@
+Yiqi Bao
+Federal University of Sao Carlos / University of Connecticut 
+baoyiqi@gmail.com
+
+Vicente Cancho
+University of Sao Paulo
+garibay@icmc.usp.br
+
+Dipak Dey
+University of Connecticut
+dipak.dey@uconn.edu 
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+In this work, we extend a flexible cure rate model to allow for spatial correlations by including spatial frailties for the interval censored data setting. The parametric and semi-parametric cure rate models with the independent and dependent spatial frailties are proposed and compared. The proposed models encompass several known cure rate models as its particular cases. Moreover, since these cure models are obtained by considering the occurrence of an event of interest is caused by the present of any non-observed risks, we also studies the complementary cure model, that is, the cure models are obtained by assuming the occurrence of an event of interest is caused when all of non-observed risks are activated. The MCMC method is used in Bayesian inference approach and some Bayesian criterions are used for a comparison.  Furthermore, we also conduct the influence diagnostic through the diagnostic measures in order to detect possible influential or extreme observations that can cause distortions on the results of the analysis. Finally, the proposed models are applies to analysis a real data set.

@@ -1,0 +1,26 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+ISAP-MATLAB package for sensitivity analysis of
+high-dimensional stochastic chemical networks
+@@$$@@$$@@
+Weilong Hu
+University of Massachusetts Amherst
+weilong@math.umass.edu
+
+Yannis Pantazis
+University of Massachusetts Amherst
+pantazis@math.umass.edu
+
+Markos Katsoulakis
+University of Massachusetts Amherst
+markos@math.umass.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Stochastic simulation and modeling play an important role to elucidate the fundamental mechanisms in complex biochemical networks. The parametric sensitivity analysis of reaction networks becomes a powerful mathematical and computational tool, yielding information regarding the robustness and the identifiability of model parameters. However, due to overwhelming computational cost, parametric sensitivity analysis is a extremely challenging problem for stochastic models with a high-dimensional parameter space and for which existing approaches are very slow. Here we present an information-theoretic sensitivity analysis in path-space (ISAP) MATLAB package that simulates stochastic processes with various algorithms and most importantly implements a gradient-free approach to quantify the parameter sensitivities of stochastic chemical reaction network
+dynamics using the pathwise Fisher information matrix (PFIM). The sparse, block-diagonal structure of PFIM makes its computational complexity scale linearly with the number of model parameters. As a result of the
+gradient-free and the sparse nature of the PFIM, it is highly suitable for the sensitivity analysis of stochastic reaction networks with a very large number of model parameters, which are typical in the modeling and simulation of complex biochemical phenomena.
+Finally, the PFIM provides a fast sensitivity screening method which allows it to be combined with any existing sensitivity analysis software.

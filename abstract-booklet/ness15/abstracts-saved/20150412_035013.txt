@@ -1,0 +1,19 @@
+invited
+@@$$@@$$@@
+04
+@@$$@@$$@@
+Variable selection in single-index varying coefficient models
+@@$$@@$$@@
+Anna Liu
+University of Massachusetts, Amherst
+annalzh@gmail.com
+
+Peng Wang
+Google
+fzwaeustc@gmail.com 
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Single index varying coefficient model is an attractive statistical model with its ability to hand high dimensional data and its ease of interpretation. Motivated by a Geoscience project and a TV rating project from the advertisement industry, we study the problem of index variable selection in the single index varying coefficient model. We consider both regression and classification problems, and use LASSO type of penalty for the variable selection purpose. We propose a new and easy-to-implement algorithm for the optimization which consists of two steps
+alternating between estimating the coefficient functions, and selecting/estimating the single index. We illustrate our algorithm with the above mentioned applications and our R package.

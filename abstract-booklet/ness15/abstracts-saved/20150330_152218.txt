@@ -1,0 +1,16 @@
+invited
+@@$$@@$$@@
+03
+@@$$@@$$@@
+Recent Development of First crossing times of compound Poisson processes with two piecewise linear boundaries
+@@$$@@$$@@
+Yifan Xu
+Case Western Reserve University
+yxx218@case.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Compound Poisson processes (CPP) are important in queueing theory, insurance risk modeling and SPRT. In sequential probability ratio tests of distributions from exponential families, with Poissonized sampling procedure, the first crossing time of CPP is used to calculate the exact power function of the test. In queueing theory, the crossing times reveal time dependent behaviors of M/G/1 queues with workload (virtual waiting time in the first-come-first-served policy) restriction. To be more specific, the first upper crossing time is the first time that the workload of the queueing system exceeds a predetermined threshold; The lower crossing time is the busy period where the workload stays below the threshold.
+
+In this talk we consider CPPs with positive absolutely continuous jumps. I will demonstrate the setup of the boundary crossing problem, and derive exact distributions of first crossing times of such CPPs with both upper and lower piece-wise linear boundaries. I will also show a numerical approximation method to reduce the calculation complexity in the case of parallel boundaries.

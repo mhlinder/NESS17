@@ -1,0 +1,15 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Hierarchical Bayesian Models, Small Area Estimation and
+Dirichlet Processes
+@@$$@@$$@@
+Jiani Yin
+Worcester Polytechnic  Institute
+jianiyin@wpi.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+We propose nonparametric hierarchical Bayesian models for multi-stage finite population sampling. Bayesian predictive inference for small area estimation is studied by embedding a parametric model in a nonparametric model. Survey data tend to have gaps, ties and outliers. Therefore, it is sensible to robustify Bayesian predictive inference. We exemplify by considering in detail two-stage and three-stage hierarchical Bayesian models with Dirichlet processes at various stages. Moreover we conduct model comparison by computing log pseudo marginal likelihood and Bayes factors; this is problematic however. The computational difficulties of the predictive inference when the population size is much larger than the sample size can be overcome by using the stick-breaking algorithm. We use simulated data and body mass index data to compare the performance of our nonparametric Bayesian models to the Bayesian baseline parametric models.

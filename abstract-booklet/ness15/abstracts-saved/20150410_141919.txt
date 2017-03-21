@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+11
+@@$$@@$$@@
+Covariance Matrix Estimation in Big Data: Approaches Based on Algebraic Properties
+@@$$@@$$@@
+Xi Luo
+Brown University
+xi.rossi.luo@gmail.com
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+There is a growing need to understand the complex relationships among a humongous number of variables.  Classical approaches, such as penalized likelihood, have provided powerful tools in understanding lower dimensional structures in multivariate data, but are facing increasing challenges in computation and theory.  In this talk, I will present a framework for sparse inverse covariance estimation that exploits matrix algebraic properties.  These properties lead us to develop simple (convex) optimization criteria, which enjoy a few advantages.  The optimization problems are decomposable, and we develop efficient algorithms that can solve large-scale problems, even if the number of variables is in hundreds of thousands.  The optimization problems are also designed to achieve faster convergence rates than classical approaches.  I will illustrate the numerical merits of this framework using a few real data examples as well as simulations.

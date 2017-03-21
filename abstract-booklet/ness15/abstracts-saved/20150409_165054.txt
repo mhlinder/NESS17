@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+11
+@@$$@@$$@@
+High-Frequency Financial Risk Management and High Performance Computing
+@@$$@@$$@@
+Jian Zou
+Worcester Polytechnic Institute
+jzou@wpi.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Financial statistics covers a wide array of applications in the financial world, such as (high frequency) trading, risk management, pricing and valuation of securities and derivatives, and various business and economic analytics. In this article, we focus on the portfolio allocation problem using high-frequency financial data, and propose a hybrid parallelization solution to carry out efficient asset allocations in a large portfolio via intra-day high-frequency data. We exploit a variety of HPC techniques, including parallel R, Intel Math Kernel Library, and automatic offloading to Intel Xeon Phi coprocessor in particular to speed up the simulation and optimization procedures in our statistical investigations. Using a combination of software and hardware parallelism, we demonstrate a high level of performance on high-frequency financial statistics.

@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+01
+@@$$@@$$@@
+Further growth of the bigmemory family of packages
+@@$$@@$$@@
+John Emerson
+Yale University
+john.emerson@yale.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+This talk will outline work in progress to extend bigmemory's big.matrix objects for support of (1) massive vectors of character strings and (2) massive data.frame-like objects.  With an assist from Steve Weston's foreach and iterators packages, these new packages allow convenient new big.read.csv() functionality.  The term "massive" here includes "larger-than-RAM', and these objects are also available in shared memory for efficient parallel computing.

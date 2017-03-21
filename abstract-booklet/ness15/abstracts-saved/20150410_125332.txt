@@ -1,0 +1,22 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Bayesian Analysis of Joint Modeling of Response Times with Dynamic Latent Ability
+@@$$@@$$@@
+Abhisek Saha
+University of Connecticut
+abhisek.saha@uconn.edu
+
+Xiaojing Wang
+University of Connecticut
+xiaojing.wang@uconn.edu
+
+Dipak K Dey
+University of Connecticut
+dipak.dey@uconn.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+In measurement testing, inferences about latent ability of test takers have been mainly based on their responses to test items while the time taken to complete an item has been often ignored. With the advent of computerized testing, it becomes much easier to collect the response time of each item without additional cost. The separate analysis of response accuracy and response time in a test might be misleading. To better infer latent ability, a new class of state space models, conjointly modeling response time with time series of dichotomous responses, is put forward. The proposed models can entertain longitudinal observations at individually-varying and irregularly-spaced time points and can accommodate changes in ability and other complications, such as local dependence and randomized item diculty. The simulation of our models illustrates that by jointly modeling response time with item responses for a series of tests, the precision and reduction of bias for the estimates of individual latent ability can be largely improved. In applying the models to a large collection of reading test data from MetaMetrics company, we further investigated two competitive relationship in modeling response times with the distance of ability and item diculty (i.e., monotone or inverted U-shape relationship). The empirical results of model comparison support that inverted U-shape relationship is more suitable to exemplify student's behaviors and psychology in the exam.

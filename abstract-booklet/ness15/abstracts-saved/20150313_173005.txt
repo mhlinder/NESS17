@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+02
+@@$$@@$$@@
+The Optimal Mix of TV and Online Ads
+@@$$@@$$@@
+Georg Goerg
+Google, Inc.
+gmg@google.com
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Brand marketers often wonder how they should allocate budget between TV and online ads in order to maximize reach or maintain the same reach at a lower cost. We use probability models based on historical cross media panel data to suggest the optimal budget allocation between TV and online ads to maximize reach to the target demographics. We take a historical TV campaign and estimate the reach and GRPs of a hypothetical cross-media campaign if some budget was shifted from TV to online. The models are validated against simulations and historical cross-media campaigns. They are illustrated on one case study to show how an optimized cross-media campaign can obtain a higher reach at the same cost or maintain the same reach at a lower cost than the TV-only campaign.

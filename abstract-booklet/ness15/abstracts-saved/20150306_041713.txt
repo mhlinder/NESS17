@@ -1,0 +1,14 @@
+invited
+@@$$@@$$@@
+01
+@@$$@@$$@@
+Computational Tools for Bayesian Methods in Big Data and Data Science
+@@$$@@$$@@
+Erin Conlon
+University of Massachusetts
+conlon@math.umass.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Recently, new Bayesian statistical approaches have been developed for big data sets that are too large to analyze in their entirety, due to restrictions on either computer memory or storage capacity. These methods partition big data sets into subsets, and implement parallel Bayesian Markov chain Monte Carlo analyses independently on the subsets. The independent subset posterior samples are then combined to produce estimated posterior densities based on the complete data set. There are several approaches to combining the subset samples, including averaging, weighted averaging (the Consensus Monte Carlo approach) and kernel smoothing techniques. Here, we introduce computational tools to carry out these methods, and compare results of the different strategies using both simulated and real data examples.

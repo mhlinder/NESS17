@@ -1,0 +1,22 @@
+invited
+@@$$@@$$@@
+16
+@@$$@@$$@@
+Dependence Measures: A Perspective
+@@$$@@$$@@
+Ying Liu
+Google
+yliu@stat.columbia.edu
+
+Victor de la Pena
+Columbia University
+vp@stat.columbia.edu
+
+Tian Zheng
+Columbia University
+tz33@columbia.edu
+
+@@$$@@$$@@
+2
+@@$$@@$$@@
+In recent years there has been an increasing interest in the development of new measures of dependence. In this talk I will provide an overview of some of these results including work developed using copulas as well as the distance covariance. Finally, I will introduce a general framework that includes several of the known dependence measures.

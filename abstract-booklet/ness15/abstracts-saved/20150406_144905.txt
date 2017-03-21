@@ -1,0 +1,37 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Stable and optimal: Implicit stochastic gradient descent with averaging
+@@$$@@$$@@
+Dustin Tran
+Harvard University
+dtran@g.harvard.edu
+
+Panos Toulis
+Harvard University
+ptoulis@fas.harvard.edu
+
+Edoardo Airoldi
+Harvard University
+eairoldi@fas.harvard.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Stochastic gradient methods have increasingly become popular for large-scale
+optimization. However, they are often numerically unstable and statistically
+inefficient because of their sensitivity to the problem convexity and learning
+rate specification. We propose a new learning procedure, termed averaged
+implicit stochastic gradient descent (ai-SGD), which combines stability through
+proximal (implicit) updates and statistical efficiency through averaging of the
+iterates. In an asymptotic analysis we prove convergence of the procedure and
+show that it is statistically optimal, i.e., it achieves the Cramer-Rao lower
+variance bound. In a non-asymptotic analysis, we show that the apparent
+stability of ai-SGD is due to its robustness to misspecifications of the
+learning rate with respect to the convexity of the loss function. Our
+experiments demonstrate that ai-SGD performs on par with state-of-the-art
+learning methods. Furthermore, ai-SGD is more stable than averaging methods that
+do not utilize proximal updates, and it is simpler and computationally more
+efficient than methods that do employ proximal updates in an incremental
+fashion.

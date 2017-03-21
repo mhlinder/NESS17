@@ -1,0 +1,24 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Predictive Network Modeling of the 2014-2015 Ebola Epidemic in Sierra Leone
+@@$$@@$$@@
+Daven Amin
+University of Rhode Island
+amind@my.uri.edu
+
+Adrian Flowers
+University of Rhode Island
+baflowers@my.uri.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+The 2014-2015 Ebola outbreak in West Africa has affected an unprecedented number of lives. The high mortality rate (>35%) associated with Ebola virus disease (EVD) and the poor infrastructure of the countries most affected (Liberia, Guinea, and Sierra Leone) have stymied efforts to contain the epidemic. 
+
+For this project, we set out to create a network representation of the Sierra Leone population and model the spread of EVD as a network process. Citizens were represented as network nodes and we represented citizen-citizen interactions using network edges. As EVD is spread through contact with bodily fluids from infected individuals, we proposed to model the disease spread using a modified snowball sampling method on the network edges.
+
+Initially, we created a number of nodes proportional to the civilian population of Sierra Leone in fourteen geographic regions and attached vertex properties to each network node denoting the geographic region of the node. Network edges were then induced using a modified Social Stochastic Block Model (SSBM) based on geographic region and freely available demographic information. By modeling the disease process using a simple linear relationship between adjacent nodes, we were able to obtain the rapid non-linear spreading characteristic of an epidemic.
+
+Model validation was performed using aggregated EVD counts in Sierra Leone collected by Caitlin Rivers, a PhD candidate at Virginia Polytechnic Institute. We compared the output of our disease model and a standard Susceptible-Infected-Recovered deterministic compartmental model with the actual spread of EVD through Sierra Leone. Our model shows a higher level of agreement with the empirical data. Creating the SSBM population network directly from relevant geographic and demographic data has allowed us to give a meaningful interpretation of the model predictions, especially in terms of high risk geographic regions.

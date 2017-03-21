@@ -1,0 +1,18 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Prediction of RiboSNitches
+@@$$@@$$@@
+jianan Lin
+University of Connecticut
+jianan.lin@uconn.edu
+
+Zhengqing Ouyang
+The Jackson Laboratory
+zhengqing.ouyang@jax.org
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+RiboSNitches are single-nucleotide polymorphisms (SNPs) that alter the secondary structure of regulatory regions of RNAs. These variations of structure are often linked to the effect on phenotypes such as diseases. RNA-folding algorithm-based methods make it possible to predict RiboSNitches but they suffer from limited accuracy when only considering the dissimilarity of the base-pairing probability matrix (BPPM). Therefore we present a method that uses not only the distance score of BPPM, but also the features of the regions where the SNPs happen. Based on genome-wide RNA structure mapping datasets (Wan et al., Nature, 2014) , we trained and tested our model on different subsets of RiboSNitches and found that the introduced region features improve the accuracy of RiboSNitch prediction, which also provide us deeper understanding of the biological condition that makes a SNP a RiboSNitch. 

@@ -1,0 +1,16 @@
+invited
+@@$$@@$$@@
+08
+@@$$@@$$@@
+An Introduction to Multiple Testing Procedures with an Example using a Graphical Approach
+@@$$@@$$@@
+Nate Bennett
+Boehringer Ingelheim
+nate.a.bennett@gmail.com
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+In pharmaceutical research, there are often many competing hypotheses to test.  To help ensure that a finding is real (and was not found by chance), we need to control for multiple comparisons.  There are many reasons for the multitude of tests, ranging from new genetic testing capabilities to looking at different population subgroups to look for different safety or efficacy results.
+
+When comparing multiple hypotheses, there are many different instruments to use.  In this talk we will recap many of the commonly taught methods from statistics courses.  We will expand the list with techniques developed in the last generation before coming to a very new approach which can be illustrated graphically.  

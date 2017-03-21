@@ -1,0 +1,22 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Selecting the Number of Largest Order Statistics in Extreme Value Analysis
+@@$$@@$$@@
+Brian Bader
+University of Connecticut
+brian.bader@uconn.edu
+
+Jun Yan
+University of Connecticut
+jun.yan@uconn.edu
+
+Xuebin Zhang
+Environment Canada
+
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+The $r$ largest order statistics approach is widely used in extreme value analysis because it may use more information from the data than just the block maxima. In practice, the choice of $r$ is critical. If $r$ is too large, bias can occur; if too small, the variance of the estimator can be high. The limiting distribution of the $r$ largest order statistics, denoted by GEV$_r$, extends that of the block maxima. Two specification tests are proposed to select $r$ sequentially. The first is a score test for the GEV$_r$ distribution, which is implemented via a fast weighted bootstrap or multiplier procedure. The second test uses the difference in estimated entropy between the GEV$_r$ and GEV$_{r-1}$ models, applied to the $r$ largest order statistics and the $r-1$ largest order statistics, respectively. The asymptotic distribution is derived with the central limit theorem. In a large scale simulation study, both tests held their size and had substantial power to detect various misspecification schemes. The utility of the tests is demonstrated with environmental and financial applications.

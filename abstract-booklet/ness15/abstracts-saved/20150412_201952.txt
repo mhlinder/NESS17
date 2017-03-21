@@ -1,0 +1,22 @@
+poster
+@@$$@@$$@@
+00
+@@$$@@$$@@
+Analysis and Comparison of Air pollutants in Wuhan, China
+@@$$@@$$@@
+zihao zhang
+Brown University
+zihao_zhang@brown.edu
+
+Cici Bauer Bauer
+Bronw University
+cici_Bauer@brown.edu
+
+zhijin wu
+Bronw University
+zhijin_wu@brown.edu
+
+@@$$@@$$@@
+1
+@@$$@@$$@@
+Air pollution is a major risk to public health worldwide. The situation is particularly dire in China where PM2.5 index in major cities is often four or five times higher than that in New York City. Recently, the Chinese government has increased monitoring and become more transparent about pollution data. We took advantage of this trend and applied a web crawler tool to automatically collect daily air pollution report from a government agency website. To analyze the trend and spread of air pollutants, we collected the air pollution data from Government Environment website of Wuhan, China. The data include Air Quality Index (AQI) of five major pollutants (PM2.5, SO2, NO2, CO and O3) in 11 stations from 2013-01-03 to 2015-01-22. We developed comprehensive data visualization that enhances the interpretation by the public. Our analysis confirms that all five pollutants have apparent seasonal trend and high daily variance. PM2.5, NO2, SO2 and CO remain at higher level and larger variance in the winter, while O3 has higher mean and larger variance in the summer. SO2, NO2 and CO remain significantly lower level in rural areas. As contrast, PM2.5 concentration did not appear to vary significantly between stations, which indicates that PM2.5 spreads easily in a wide geological field. To assist the visualization of the pollution trend over time and space, we also use animation to show the change of different pollutants at all stations in the map over time. Our immediate plan is to disseminate the tool for data visualization to the general public, in the form of dynamic website based on the web crawler, to further increase the awareness of the air pollution risk. Our long term goal is to investigate the relationship between the concentration of specific air pollutant with human behavior and health risks.
