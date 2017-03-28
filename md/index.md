@@ -31,8 +31,9 @@ competition sponsored by our industrial partners.
 * Registration closes **April 7, 2017**
 * Posters must be submitted by **<span style="color: red;">April 10</span>, 2017**
 
-## Flyers
+## Information / flyers
 
+* [Conference map](map.pdf)
 * [NESS 2017](ness2017flyer.pdf)
 * [Short courses](ness2017ShortCourses.pdf)
 
