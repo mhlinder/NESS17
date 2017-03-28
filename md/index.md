@@ -27,8 +27,9 @@ competition sponsored by our industrial partners.
 
 * Registration opens **December 1, 2016**
 * Student papers must be submitted by **March 31, 2017**
-* Abstracts and posters must be submitted by **April 3, 2017**
+* Abstracts must be submitted by **April 3, 2017**
 * Registration closes **April 7, 2017**
+* Posters must be submitted by **April 14, 2017**
 
 ## Flyers
 

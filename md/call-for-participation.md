@@ -16,7 +16,7 @@ proposals.**
 
 Students are encouraged to submit papers for consideration of 3
 student paper awards sponsored by the IBM Watson Research Center.
-Manuscript needs to be received no later than FridayMonday, March 31, 2017.
+Manuscript needs to be received no later than Monday, March 31, 2017.
 Students in all disciplines may submit a paper.
 
 For further details, see the conference [flyer](ness2017flyer.pdf).
@@ -29,7 +29,7 @@ session [abstract](abstractform). At the end of the submission, a
 
 Students are encouraged to submit posters for consideration for 3-5
 student poster awards sponsored by Liberty Mutual. The
-abstract must be received no later than Monday, April 3, 2017.
+abstract must be received no later than Friday, April 14, 2017.
 Students in all disciplines may submit a poster.
 
 For further details, see the conference [flyer](ness2017flyer.pdf).

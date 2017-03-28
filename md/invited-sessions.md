@@ -14,8 +14,9 @@ Participation](call-for-participation) for more details.
 * **Yize Zhao**, Weill Cornell Medical College, Cornell<br />
   "Hierarchical Feature Selection of the Complex Biomedical Data"
 * **Heather Shappell**, Biostatistics, Boston University<br />
-  "Accounting for Uncertainty in Stochastic Actor Oriented Models for Dynamic Networks"
-* **Krista Gile**, Math and Statistics, UMASS
+  "Methods for Longitudinal Complex Network Analysis in Neuroscience"
+* **Krista Gile**, Math and Statistics, UMASS<br />
+  "Inference from Link-Tracing Network Samples"
 * **Xizhen Cai**, Temple<br />
   "Variable Selection for Dynamic Networks"
 * **Xuan Bi**, Department of Biostatistics, Yale University<br />
@@ -29,7 +30,8 @@ Participation](call-for-participation) for more details.
 
 * **Jacob Bien**, Cornell University<br />
   "Learning Local Dependence in Ordered Data"
-* **Li Ma**, Duke University
+* **Li Ma**, Duke University<br />
+  "Fisher exact scanning for dependency"
 * **Pengsheng Ji**, University of Georgia<br />
   "Flexible Spectral Methods for Community Detection"
 * **Chihwa Kao**, University of Connecticut<br />
@@ -63,7 +65,7 @@ Participation](call-for-participation) for more details.
 * **Pierre Bellec**, Rutgers University<br />
   "Slope Meets Lasso in Sparse Linear Regression"
 * **Yiyuan She**, Floriday State University<br />
-  "Iterative proportional scaling for big data computation"
+  "On cross-validation for sparse reduced rank regression"
 
 -----
 
@@ -111,7 +113,8 @@ Participation](call-for-participation) for more details.
   Traits: Large-Scale Datasets and Summary Association Data"
 * **Sheida Nabavi**, University of Connecticut<br />
   "Statistical machine learning to identify candidate drivers of drug resistance in cancer"
-* **Michael Kane**, Yale University
+* **Michael Kane**, Yale University<br />
+  "A First Look at Using Human Mobility Data to Assess Community Resilience"
 
 -----
 
@@ -120,16 +123,15 @@ Participation](call-for-participation) for more details.
 *Organizer and Chair:* **Naitee Ting**, Boehringer Ingelheim Pharmaceuticals, Inc.
 
 * **Birol Emir**, Pfizer
-* **Lane Coonrod**, The Hartford
-* **Christopher Park**, Travelers
 * **Chun Wang**, University of Connecticut
 * **Yasuo Amemiya**, IBM T. J. Watson Research Center
+* **Minge Xie**
 
 -----
 
 ## Statistical Approaches in Modeling and Incorporating Dependence
 
-*Organizer and chair:* **Ting Zhang**, Boston University
+*Organizer and Chair:* **Ting Zhang**, Boston University
 
 * **Mengyu Xu**, University of Central Florida<br />
   "Pearson’s Chi-Squared Statistics: Approximation Theory and Beyond"
@@ -188,7 +190,7 @@ Participation](call-for-participation) for more details.
 
 ## Extremes
 
-*Organizer and Chair:* **Richard Davis, Phyllis Wan**, Columbia University"
+*Organizer and Chair:* **Richard Davis, Phyllis Wan**, Columbia University
 
 * **John Nolan**, American University<br />
   "Mvevd: An R Package for Extreme Value Distributions"
@@ -227,7 +229,7 @@ Participation](call-for-participation) for more details.
 * **Kun Chen**, University of Connecticut<br />
   "Towards differential pricing in auto insurance via large-scale predictive modeling: a partnership between Travelers and UConn"
 
-------
+-----
 
 ## Recent Developments on High-Dimensional Statistics and Regularized Estimation
 
@@ -243,7 +245,7 @@ Participation](call-for-participation) for more details.
 * **Ting Zhang**, Boston University<br />
   "A Thresholding-Based Prewhitened Long-Run Variance Estimator and Its Dependence-Oracle Property"
 
-------
+-----
 
 ## Application of Statistical/Predictive Modeling in Health Related Industry
 
@@ -256,7 +258,7 @@ Participation](call-for-participation) for more details.
 * **Nan Shao**, New York Life Insurance<br />
   "Statistical Modeling in the Life Insurance Industry"
 
-------
+-----
 
 ## Feinberg Memorial Session: Bayesian Statistics with Applications
 
@@ -270,7 +272,7 @@ Participation](call-for-participation) for more details.
 * **Sudipto Banerjee**, UCLA<br />
   "High-Dimensional Bayesian Geostatistics"
 
-------
+-----
 
 ## Subgroup Analysis
 
@@ -287,7 +289,7 @@ Participation](call-for-participation) for more details.
   "STEPP Analysis for continuous, binary, and count outcomes and other
   recent STEPP development"
 
-------
+-----
 
 ##  Non-clinical in Pharmaceutical Industry
 
@@ -298,7 +300,7 @@ Participation](call-for-participation) for more details.
 * **Ray Liu**, Takeda
 * **Chi-Hse Teng**, Novartis
 
-------
+-----
 
 ## Graphical Models, Networks, Regulatome and Multivariate Analysis
 
@@ -338,6 +340,6 @@ Participation](call-for-participation) for more details.
 * **Bushi Wang**
 * **Joseph C Cappelleri**, Pfizer<br />
   "Meta-Analysis of Safety Data in Clinical Trials"
-* **Qiqi Deng**
-* **Birol Emir**
+* **Qiqi Deng**, Boehringer Ingelheim
+* **Birol Emir**, Pfizer
 
