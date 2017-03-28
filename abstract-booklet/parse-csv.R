@@ -8,7 +8,7 @@ library(stringr)
 ## Load CSV of abstract submissions
 
 indata <-
-    read_csv("abstracts.csv")
+    read_csv("abstracts-2017-03-28.csv")
 
 ## Filter out abstracts
 df <-
@@ -97,11 +97,14 @@ for (i in 1:N) {
 
     orgchair <- s[regex_match[,"orgchair"]]
 
-    papers <- list()
     papers_ix <- which(regex_match[,"other"])
     if (length(papers_ix) > 0) {
         n_papers <- length(papers_ix)
-        print(n_papers)
+        papers <- vector("list", n_papers)
+        for (j in 1:n_papers) {
+            ix <- papers_ix[j]
+            papers[j] <- s[ix]
+        }
     }
 }
 
