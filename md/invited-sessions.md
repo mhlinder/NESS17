@@ -2,11 +2,6 @@
 title: Invited Sessions
 ---
 
-If you are interested in participating in NESS, please see the [Call for
-Participation](call-for-participation) for more details.
-
------
-
 ## Complex Data/Network Modeling
 
 *Organizer and Chair:* **Yuan Huang**, Department of Biostatistics, Yale University
@@ -336,7 +331,7 @@ Participation](call-for-participation) for more details.
 
 *Organizer and Chair:* **Adina Soaita**
 
-* **Abidemi Adeniji**
+* **Abidemi Adeniji**, EMD Serono
 * **Bushi Wang**
 * **Joseph C Cappelleri**, Pfizer<br />
   "Meta-Analysis of Safety Data in Clinical Trials"

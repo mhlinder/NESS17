@@ -3,6 +3,12 @@ title: Travel and Accommodations
 output: html_document
 ---
 
+Registration and most activities will occur in the Rome Ballroom, on
+the bottom in the center-right in the map below. It is closerst to the
+South Garage (directions are below).
+
+* [Conference map at UConn](map.pdf)
+
 ## Accommodations
 
 We have reserved a block of rooms at
@@ -76,6 +82,8 @@ it may recognize 505 Jim Calhoun Way, Storrs, CT 06269.
 ## Interactive UConn Storrs Campus Map
 
 An interactive map is available [here](http://maps.uconn.edu/).
+
+The conference map is available [here](map.pdf).
 
 ## Transportation to/from UConn Storrs Campus
 
