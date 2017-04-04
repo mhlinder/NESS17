@@ -8,7 +8,7 @@ library(stringr)
 ## Load CSV of abstract submissions
 
 indata <-
-    read_csv("abstracts-2017-03-28.csv")
+    read_csv("bak/abstracts.csv")
 
 ## Filter out abstracts
 df <-
@@ -43,6 +43,7 @@ for (i in 1:n) {
     ## Record regex index
     matches[[ix]] <- c(matches[[ix]], i)
 }
+names(matches) <- c("Paper", "Poster")
 
 ## Load invited sessions description
 mdfile <- "../md/invited-sessions.md"
@@ -60,11 +61,27 @@ md <-
 ## Parse session data
 N <- length(md)
 sessions <- vector("list", N)
-session_regexes <- c(title    = "^## ",
-                     orgchair = "^\\*[^ ]",
-                     speaker  = "^\\* ")
+session_regexes <- c(schedule = "^# ",
+                     title    = "^## ",
+                     orgchair = "^\\*[^* ]",
+                     speakers = "^\\* ",
+                     paper    = "^ *\"",
+                     location = "^\\*\\*")
 
+parse_raw_speaker <- function(s) {
+    out <-
+        s %>%
+        str_match_all("^\\* \\*\\*(.*)\\*\\*(, (.*))*$") %>%
+        unlist
+    out
+}
+
+schedule <- list() ## Locations and contents of h1 headers that signal
+                   ## the two scheduled times
+x <- 1
 for (i in 1:N) {
+    session <- list()
+
     ## Find session titles with linebreaks and reformat them
     s0 <- md[i]
     re <- "\"([^\"]*)\""
@@ -87,24 +104,45 @@ for (i in 1:N) {
                          ## Didn't match any
                          other = apply(regex_match, 1, . %>% any %>% !.))
 
+    ## Record location of assignment to time slot
+    if (any(regex_match[,"schedule"])) {
+        schedule[[x]] <- list(ix = i, matches = s[regex_match[,"schedule"]])
+        x <- x+1
+    }
+
     ## Get line
-    title <-
+    session$title <-
         regex_match[,"title"] %>%
         which %>%
         s[.] %>%
         gsub(session_regexes["title"], "", .)
     if (length(title) > 1) stop("More than one title!")
 
-    orgchair <- s[regex_match[,"orgchair"]]
+    session$orgchair <- s[regex_match[,"orgchair"]]
 
-    papers_ix <- which(regex_match[,"other"])
-    if (length(papers_ix) > 0) {
-        n_papers <- length(papers_ix)
-        papers <- vector("list", n_papers)
-        for (j in 1:n_papers) {
-            ix <- papers_ix[j]
-            papers[j] <- s[ix]
+    speakers_ix <- which(regex_match[,"speakers"])
+    n_speakers <- length(speakers_ix)
+    speakers <- list()
+    for (j in 1:n_speakers) {
+        ix <- speakers_ix[j]
+        speaker <- list()
+        speaker$raw <- s[ix]
+
+        tmp <- parse_raw_speaker(s[ix])
+        tmp <- tmp[-c(1,3)]
+        speaker$name <- tmp[1]
+        if (length(tmp) > 1) speaker$affiliation <- tmp[2]
+
+        if (regex_match[ix+1,"paper"]) {
+            speaker$paper <-
+                s[ix+1] %>%
+                gsub("^ +", "", .) %>%
+                gsub("\"", "", .)
         }
+        speakers[[j]] <- speaker
     }
+    session$speakers <- speakers
+
+    sessions[[i]] <- session
 }
 

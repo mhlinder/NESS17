@@ -1,5 +1,0 @@
-We present a new way to estimate multivariate extreme value distributions (MVEVD) from data using max projections.
-The approach works in any dimension, though computation time increases quickly as dimension increases.
-The procedure requires tools from computational geometry and multivariate integration techniques.
-An R package mevd is being developed to implement the method for several semi-parametric classes of MEVDs:
-discrete angular measure, generalized logistic, piecewise linear angular measures, and Dirichlet mixture models.

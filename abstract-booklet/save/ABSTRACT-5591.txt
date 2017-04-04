@@ -1,13 +1,0 @@
-Biomedical data analysis plays a key role in today's medicine. Multivariate current status data is
-a common type of Biomedical data which gives rise to two main challenges in data analysis. First,
-all event times are censored, making censoring times the only indicator of event occurrence. Second,
-an unobserved heterogeneity caused by clusters of units or individuals is probable. To address these
-issues, mixed Cox proportional hazard model with random block frailty has been used. Here, we
-consider a Bayesian multivariate Gamma-frailty Cox model and augment the likelihood with respect
-to random frailties and a set of Poisson latent variables. We also introduce a novel MCMC algorithm
-by employing two different cumulative baseline hazard function structures: a transformed mixture
-of incomplete Beta distributions and a linear combination of monotone integrated splines. Through
-several simulations, we show that our methodology achieves competitive results. We also compare
-the performance of the two baseline hazard functions using model selection criteria such as AIC and
-DIC. Finally, we apply the model to a bivariate current status cataract dataset and investigate the
-effect of various risk factors on the occurrence of cataracts.
