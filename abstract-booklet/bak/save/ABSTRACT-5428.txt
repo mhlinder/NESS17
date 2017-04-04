@@ -1,37 +1,12 @@
-\documentclass[11pt]{article}
-\usepackage{epsfig,graphicx,latexsym,amsfonts,amssymb,amsmath,verbatim}
-\usepackage{subfigure, booktabs, array, caption, natbib}
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{rotating}
-\usepackage{float}
-\usepackage{caption}
-\usepackage{color}
-\begin{document}
-\title{Tests and Diagnostics for Cox Proportional Hazards Model
- in the Online Updating Setting}
-\author{Yishu Xue, Elizabeth Schifano, Jun Yan}
-\maketitle
-\bigskip
-\begin{abstract}
-\end{abstract}
-\noindent%
 When large amounts of survival data arrive in streams, conventional estimation
-methods are difficult to implement due to the requirement of storing 
-all the risk sets up to each accumulation point. In this paper, we apply 
+methods are difficult to implement due to the requirement of storing
+all the risk sets up to each accumulation point. In this paper, we apply
 the cumulative estimating equation(CEE) and cumulatively updating estimating
-equation(CUEE) to estimate the parameters for the Cox proportional hazards 
+equation(CUEE) to estimate the parameters for the Cox proportional hazards
 model. Also, to ensure that the proportional hazards assumption holds over time
 so that all estimators are valid,  we propose an online-updating test statistic
- as well as its variations for the proportional hazards assumption. Their 
- reference distributions are also derived. In simulation studies and real 
- data applications, the test statistic effectively identifies the failure of 
- assumptions and is computationally 
+ as well as its variations for the proportional hazards assumption. Their
+ reference distributions are also derived. In simulation studies and real
+ data applications, the test statistic effectively identifies the failure of
+ assumptions and is computationally
  efficient.
-
-\noindent
-{\it Keywords:}
-Cox model; Estimating equations; Online-updated test statistic
-\vfill
-\hfill
-\end{document}

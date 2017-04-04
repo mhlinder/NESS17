@@ -1,6 +1,7 @@
 
 write_detailed_program <- FALSE
 write_abstracts <- TRUE
+write_posters <- TRUE
 
 outdir <- "tex/out"
 outprogram <- file.path(outdir, "detailed-program.tex")
@@ -307,6 +308,32 @@ for (timeslot in list(morning, afternoon)) {
 if (write_abstracts) {
     f <- file(outabstracts)
     writeLines(lines_abstract, f)
+    close(f)
+}
+
+## Posters
+df_posters <- df[matches$Poster,]
+n_posters <- nrow(df_posters)
+
+lines_poster <- "\\subsection*{Posters}"
+lines_poster <- c(lines_poster, "\\begin{itemize}")
+for (i in 1:n_posters) {
+    p <- df_posters[i,]
+
+    lines_poster <- c(lines_poster, sprintf("\\item \\textbf{%s}, %s \\\\", p$presenter, p$affiliation))
+    lines_poster <- c(lines_poster, sprintf("``%s'' \\\\", p$title))
+    lines_poster <- c(lines_poster, p$authors, "", "")
+
+    intxt <-
+        readLines(sprintf("bak/save/%s.txt", p$conf)) %>%
+        gsub("\v", " ", .)
+    lines_poster <- c(lines_poster, intxt, "")
+}
+lines_poster <- c(lines_poster, "\\end{itemize}", "")
+
+if (write_posters) {
+    f <- file(outposters)
+    writeLines(lines_poster, f)
     close(f)
 }
 
