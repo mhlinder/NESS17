@@ -1,4 +1,8 @@
 
+outdir <- "tex/out"
+outmorning <- file.path(outdir, "morning.tex")
+outafternoon <- file.path(outdir, "afternoon.tex")
+
 library(magrittr)
 library(dplyr)
 
@@ -148,25 +152,32 @@ for (i in 1:N) {
     sessions[[i]] <- session
 }
 
+n_sessions <- length(session)
 
 ## Match abstract to session
 
 session_titles <- sapply(sessions, . %>% use_series("title"))
 df_submitted_papers <- df[matches$Paper,]
 
-m <- matrix(NA, nrow(df_submitted_papers), length(session_titles))
+m <- matrix(NA, nrow(df_submitted_papers), n_sessions)
 
 for (i in 1:nrow(df_submitted_papers)) {
     p <- df_submitted_papers[i,]
     s <- p$session
-    for (j in 1:length(session_titles)) {
+    for (j in 1:n_sessions) {
         m[i, j] <- stringdist(s, session_titles[j])
     }
 }
 
+## Maps the corresponding entry in `df_submitted_papers` to the index
+## for its session in `sessions`
 ix_closest <- apply(m, 1, which.min)
-for (i in 1:nrow(df_submitted_papers)) {
-    p <- df_submitted_papers[i,]
-    cat(sprintf("%90s\n%90s\n\n", p$session, session_titles[ix_closest[i]]))
-}
+
+
+## Output latex
+
+ix_morning <- schedule[[1]]$ix
+ix_afternoon <- schedule[[2]]$ix
+morning <- sessions[ix_morning:(ix_afternoon-1)]
+afternoon <- sessions[ix_afternoon:n_sessions]
 
