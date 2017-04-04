@@ -1,6 +1,11 @@
 
+write_detailed_program <- FALSE
+write_abstracts <- TRUE
+
 outdir <- "tex/out"
 outprogram <- file.path(outdir, "detailed-program.tex")
+outabstracts <- file.path(outdir, "abstracts.tex")
+outposters <- file.path(outdir, "posters.tex")
 
 library(magrittr)
 library(dplyr)
@@ -9,6 +14,7 @@ library(readr)
 library(stringr)
 
 library(stringdist)
+library(tools)
 
 ## Load CSV of abstract submissions
 
@@ -98,7 +104,7 @@ parse_orgchair <- function(s) {
 }
 
 schedule <- list() ## Locations and contents of h1 headers that signal
-                   ## the two scheduled times
+## the two scheduled times
 x <- 1
 for (i in 1:N) {
     session <- list()
@@ -136,7 +142,10 @@ for (i in 1:N) {
         regex_match[,"title"] %>%
         which %>%
         s[.] %>%
-        gsub(session_regexes["title"], "", .)
+        tolower %>%
+        toTitleCase %>%
+        gsub(session_regexes["title"], "", .) %>%
+        gsub("\v", " ", .)
     if (length(title) > 1) stop("More than one title!")
 
     session$orgchair <- parse_orgchair(s[regex_match[,"orgchair"]])
@@ -150,7 +159,7 @@ for (i in 1:N) {
         speaker$raw <- s[ix]
 
         tmp <- parse_raw_speaker(s[ix])
-        speaker$name <- tmp[1]
+        speaker$name <- tmp[1] %>% tolower %>% toTitleCase
         if (length(tmp) > 1) {
             speaker$affiliation <- gsub("&", "\\\\&", tmp[2])
         }
@@ -166,6 +175,7 @@ for (i in 1:N) {
     session$speakers <- speakers
 
     session$location <- gsub("\\*", "", s[regex_match[,"location"]])
+    session$df_papers_ix <- c()
 
     sessions[[i]] <- session
 }
@@ -175,54 +185,68 @@ n_sessions <- length(sessions)
 ## Match abstract to session
 
 session_titles <- sapply(sessions, . %>% use_series("title"))
-df_submitted_papers <- df[matches$Paper,]
+df_papers <- df[matches$Paper,]
 
-m <- matrix(NA, nrow(df_submitted_papers), n_sessions)
+abstract_files <- list.files("bak/save", "*.txt", full.names = TRUE)
 
-for (i in 1:nrow(df_submitted_papers)) {
-    p <- df_submitted_papers[i,]
+m <- matrix(NA, nrow(df_papers), n_sessions)
+
+df_papers$path <- NA
+for (i in 1:nrow(df_papers)) {
+    p <- df_papers[i,]
     s <- p$session
     for (j in 1:n_sessions) {
         m[i, j] <- stringdist(s, session_titles[j])
     }
+    df_papers$path[i] <- abstract_files[which(grepl(p$conf, abstract_files))]
 }
 
-## Maps the corresponding entry in `df_submitted_papers` to the index
+## Maps the corresponding entry in `df_papers` to the index
 ## for its session in `sessions`
-ix_closest <- apply(m, 1, which.min)
+df_papers$match <- apply(m, 1, which.min)
+n_papers <- nrow(df_papers)
+
+for (i in 1:n_papers) {
+    p <- df_papers[i,]
+
+    sessions[[p$match]]$df_papers_ix <-
+        c(sessions[[p$match]]$df_papers_ix,
+          i)
+}
 
 ## Output latex
 
+## Detailed program booklet with a listing of each
 ix_morning <- schedule[[1]]$ix
 ix_afternoon <- schedule[[2]]$ix
-morning <- list(df = sessions[ix_morning:(ix_afternoon-1)],
+morning <- list(l = sessions[ix_morning:(ix_afternoon-1)],
                 label = "Morning sessions")
-afternoon <- list(df = sessions[ix_afternoon:n_sessions],
+afternoon <- list(l = sessions[ix_afternoon:n_sessions],
                   label = "Afternoon sessions")
 
-lines <- ""
+lines_program <- ""
 for (timeslot in list(morning, afternoon)) {
-    df <- timeslot$df
-    lines <- c(lines, sprintf("\\subsection*{%s}", timeslot$label), "")
-    for (session in df) {
-        lines <- c(lines, sprintf("\\subsubsection*{%s}", session$title))
-        lines <- c(lines, "")
+    l <- timeslot$l
+    lines_program <- c(lines_program, sprintf("\\subsection*{%s}", timeslot$label), "")
+    for (session in l) {
+        lines_program <- c(lines_program, sprintf("\\subsubsection*{%s}", session$title))
+        lines_program <- c(lines_program, "")
 
         o <- session$orgchair
         if (length(o) == 3) {
-            lines <- c(lines, sprintf("\\emph{%s:} \\textbf{%s}, %s",
+            lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}, %s",
                                       o[1], o[2], o[3]))
         } else if (length(o) == 6) {
-            lines <- c(lines, sprintf("\\emph{%s:} \\textbf{%s}, %s \\\\",
+            lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}, %s \\\\",
                                       o[1], o[2], o[3]))
-            lines <- c(lines, sprintf("\\emph{%s:} \\textbf{%s}, %s",
-                          o[4], o[5], o[6]))
+            lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}, %s",
+                                      o[4], o[5], o[6]))
         } else {
-            lines <- c(lines, sprintf("\\emph{%s:} \\textbf{%s}", o[1], o[2]))
+            lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}", o[1], o[2]))
         }
-        lines <- c(lines, "")
+        lines_program <- c(lines_program, "")
 
-        lines <- c(lines, "\\begin{enumerate}")
+        lines_program <- c(lines_program, "\\begin{enumerate}")
         for (speaker in session$speakers) {
 
             if (is.null(speaker$paper)) {
@@ -232,21 +256,57 @@ for (timeslot in list(morning, afternoon)) {
             }
 
             if (speaker$affiliation != "") {
-                lines <- c(lines, sprintf("\\item \\textbf{%s}, %s %s",
+                lines_program <- c(lines_program, sprintf("\\item \\textbf{%s}, %s %s",
                                           speaker$name, speaker$affiliation, lineend))
             } else {
-                lines <- c(lines, sprintf("\\item \\textbf{%s} %s", speaker$name, lineend))
+                lines_program <- c(lines_program, sprintf("\\item \\textbf{%s} %s", speaker$name, lineend))
             }
 
             if (!is.null(speaker$paper))
-                lines <- c(lines, sprintf("``%s''", speaker$paper))
+                lines_program <- c(lines_program, sprintf("``%s''", speaker$paper))
         }
-        lines <- c(lines, "\\end{enumerate}", "")
-        lines <- c(lines, sprintf("\\emph{%s} \\\\[.5em]", session$location), "")
+        lines_program <- c(lines_program, "\\end{enumerate}", "")
+        lines_program <- c(lines_program, sprintf("\\emph{%s} \\\\[.5em]", session$location), "")
     }
 }
 
-f <- file(outprogram)
-writeLines(lines, f)
-close(f)
+if (write_detailed_program) {
+    f <- file(outprogram)
+    writeLines(lines_program, f)
+    close(f)
+}
+
+## Write abstracts
+lines_abstract <- ""
+for (timeslot in list(morning, afternoon)) {
+    l <- timeslot$l
+    lines_abstract <- c(lines_abstract, sprintf("\\subsection*{%s}", timeslot$label), "")
+    for (session in l) {
+        n_papers <- length(session$df_papers_ix)
+        if (n_papers > 0) {
+            lines_abstract <- c(lines_abstract, sprintf("\\subsubsection*{%s}", session$title), "")
+            lines_abstract <- c(lines_abstract, "\\begin{itemize}")
+            for (i in 1:n_papers) {
+                ix <- session$df_papers_ix[i]
+                p <- df_papers[ix,]
+
+                lines_abstract <- c(lines_abstract, sprintf("\\item \\textbf{%s}, %s \\\\", p$presenter, p$affiliation))
+                lines_abstract <- c(lines_abstract, sprintf("``%s'' \\\\", p$title))
+                lines_abstract <- c(lines_abstract, p$authors, "", "")
+
+                intxt <-
+                    readLines(p$path) %>%
+                    gsub("\v", " ", .)
+                lines_abstract <- c(lines_abstract, intxt, "")
+            }
+            lines_abstract <- c(lines_abstract, "\\end{itemize}", "")
+        }
+    }
+}
+
+if (write_abstracts) {
+    f <- file(outabstracts)
+    writeLines(lines_abstract, f)
+    close(f)
+}
 
