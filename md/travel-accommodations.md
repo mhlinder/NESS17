@@ -4,7 +4,7 @@ output: html_document
 ---
 
 Registration and most activities will occur in the Rome Ballroom, on
-the bottom in the center-right in the map below. It is closerst to the
+the bottom in the center-right in the map below. It is closest to the
 South Garage (directions are below).
 
 * [Conference map at UConn](map.pdf)

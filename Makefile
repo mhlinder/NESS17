@@ -12,3 +12,6 @@ lab:
 push:
 	bash push.sh
 
+get_abstracts:
+	rsync -av --exclude=posters lab1:~/bak/ness/2017-04-04/ abstract-booklet/bak/
+

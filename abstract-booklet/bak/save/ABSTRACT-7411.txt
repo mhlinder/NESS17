@@ -1,0 +1,11 @@
+Crohn’s Disease is a life-long condition associated with recurrent relapses characterized by abdominal
+pain, weight loss, anemia, and persistent diarrhea. In the U.S., there are approximately 780,000 Crohn’s disease
+patients and 33,000 new cases are added each year. In this paper, we propose a new network meta-regression approach
+for modeling ordinal outcomes in order to assess the eﬃcacy of treatments for Crohn’s disease. Speciﬁcally, we develop
+regression models based on aggregate trial-level covariates for the underlying cut-oﬀ points of the ordinal outcomes
+as well as for the variances of the random eﬀects to capture heterogeneity across trials. Our proposed models are
+particularly useful for indirect comparisons of multiple treatments that have not been compared head-to-head within
+the network meta-analysis framework. Moreover, we introduce Pearson residuals to detect outlying trials and construct
+an invariant test statistic to evaluate goodness-of-ﬁt in the setting of ordinal outcome meta-data. A detailed case
+study demonstrating the usefulness of the proposed methodology is carried out using aggregate ordinal outcome data
+from 16 clinical trials for treating Crohn’s disease. 

@@ -29,7 +29,7 @@ available.
 
 Students are encouraged to submit posters for consideration for 3-5
 student poster awards sponsored by Liberty Mutual. The
-abstract must be received no later than Friday, April 10, 2017.
+abstract must be received no later than Monday, April 10, 2017.
 Students in all disciplines may submit a poster.
 
 For further details, see the conference [flyer](ness2017flyer.pdf).

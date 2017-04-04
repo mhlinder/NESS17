@@ -1,0 +1,12 @@
+ Detection and attribution (D\&A) analysis for climate extremes plays an
+  important role in understanding the human influence on the observed change
+  in climate extremes. Recent developed methodologies for D\&A analysis use
+  signal estimated from climate model simulation under external forcing as
+  covariate in the model of observed extremes and carry out statistical
+  analysis on the coefficient of the signal. The estimated signal contains
+  statistical error, however, which may yield bias in the following
+  analysis. In this study, we propose a method which combines the two stages
+  of signal estimation and D\&A analyis, and estimate the signal jointly
+  from both the simulated and the observed extremes. We show that this
+  method can reduce the bias effectively in the estimation compared to the
+  previous method using a simulation study. 

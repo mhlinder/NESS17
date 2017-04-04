@@ -1,0 +1,20 @@
+We consider the problem of statistical inference and prediction for
+processes defined on networks. We assume that the network is known and measures similarity, 
+and our goal is to learn about an attribute
+associated with its vertices. Classical regression methods are not immediately
+applicable to this setting, as we would like our model to incorporate
+information from both network structure and pertinent covariates. Our proposed
+model consists of a generalized linear model with vertex indexed predictors
+and a basis expansion of their coefficients, allowing the coefficients to vary
+over the network. We employ a regularization procedure, cast as a prior
+distribution on the regression coefficients under a Bayesian setup, so that
+the predicted responses vary smoothly according to the topology of the
+network. We first motivate the need for this model by examining occurrences of
+residential burglary in Boston, Massachusetts. Noting that crime rates are
+not spatially homogeneous, and that the rates appear to vary sharply across
+regions or hot zones in the city, we construct a hierarchical model that
+addresses these issues and gives insight into spatial patterns of crime
+occurrences. Furthermore, we examine an efficient expectation-maximization
+fitting algorithm and provide computationally-friendly methods for eliciting
+hyper-prior parameters. We demonstrate the performance of the proposed model
+in a simulation study and a case study in Boston.

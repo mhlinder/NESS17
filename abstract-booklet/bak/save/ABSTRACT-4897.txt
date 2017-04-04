@@ -1,0 +1,24 @@
+Stagewise estimation is a slow-brewing approach for 
+model building that has recently experienced a revival
+due to its computational efficiency, its flexibility in 
+handling complex data structure, and its intrinsic connections 
+with penalized estimation. Built upon generalized estimating 
+equations, we propose
+general stagewise estimation approaches for variable and 
+interaction selection in non-Gaussian/non-linear models with 
+clustered data. As it is often required
+that main effect terms be included when an interaction term is part of 
+a model, the key is to perform variable selection that maintains
+the variable hierarchy. We develop two techniques
+to address this challenge. The first is a hierarchical
+lasso stagewise estimating equations (hlSEE) approach,
+which is shown to directly correspond to the hierarchical lasso
+penalized regression. The second is an interaction stagewise
+estimating equations (iSEE) approach, which enforces the variable 
+hierarchy by conforming the selection to a properly growing active 
+set in each stagewise estimation step. Simulation studies are presented
+to show the efficacy and superior computational efficiency of the 
+proposed approaches. We apply the proposed approaches to study the 
+association between the suicide-related hospitalization rates of the
+15--19 age group and the characteristics of the school districts in 
+the State of Connecticut.

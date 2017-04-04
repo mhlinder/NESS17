@@ -1,0 +1,5 @@
+We establish a Chi-squared approximation theory for Pearson's Chi-squared statistics by using a high-
+dimensional central limit theorem for quadratic forms of random vectors. Our high-
+dimensional central limit theorem or invariance principle is proved under Lyapunov-
+type conditions that involve a delicate interplay between the dimension p, the sample
+size n and the moment condition. To obtain cutoff values of our tests, we introduce a plug-in Gaussian multiplier calibration method and normalized consistency, a new matrix convergence criterion. Based on our modified Chi-squared statistic, we propose the concept of adjusted degrees of freedom. We develop a Cramer-von Mises type test for testing distributions of high dimensional data and develop an approximation theory based on our invariance principle.

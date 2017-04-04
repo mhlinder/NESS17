@@ -1,0 +1,27 @@
+  In the era of big data, there has been an increasing need in using data
+  integrated from disparate sources to conduct statistical analysis. The
+  potential benefits from data integration, however, may be compromised by the
+  induced data uncertainty due to incomplete/imperfect linkage, causing
+  potential bias in statistical inference. It is thus pivotal to take into
+  account the uncertainty associated with data integration.  Motivated by a
+  suicide prevention study, we consider a survival analysis setup to handle
+  uncertainty event records arising from data integration.  Specifically, a
+  survival dataset constructed from hospital discharge fails to capture the
+  events of interest for all the subjects, and the missing events may be
+  recovered from a complete death record database that contains all the event
+  records of a much larger population.  Nonetheless, the original dataset can
+  only be linked to the database by matching basic characteristics of
+  subjects. As such, a censored subject from the original dataset could find
+  multiple possible event times in the second database, which may or may not
+  contain the true event time.  We propose an extended the Cox regression
+  approach, in which such uncertainty and mismeasurement of survival data are
+  modeled probabilistically. The estimation procedure is derived in the spirit
+  of expectation conditional maximization (ECM) algorithm and profile likelihood
+  function.  It takes regular the Cox model as a special case and reduces to the
+  Cox model when there is not uncertainty in the data.  The performance of the
+  proposed method is evaluated through simulation studies.  The proposed method
+  outperforms the naive approaches under slight and severe censoring when the
+  data matching leads to more true outcomes than noise. We show that the extend
+  Cox model is practically attractive by applying it to the 2005--2012 suicide
+  attempt data from the State of Connecticut, which suggests interesting and
+  insightful results.
