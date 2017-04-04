@@ -24,7 +24,7 @@ toc: true
 
 -----
 
-##  2. Non-clinical in Pharmaceutical Industry
+## 2. Non-clinical in Pharmaceutical Industry
 
 *Organizer and Chair:* **Chi-Hse Teng**, Novartis
 

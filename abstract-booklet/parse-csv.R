@@ -5,6 +5,8 @@ library(dplyr)
 library(readr)
 library(stringr)
 
+library(stringdist)
+
 ## Load CSV of abstract submissions
 
 indata <-
@@ -144,5 +146,27 @@ for (i in 1:N) {
     session$speakers <- speakers
 
     sessions[[i]] <- session
+}
+
+
+## Match abstract to session
+
+session_titles <- sapply(sessions, . %>% use_series("title"))
+df_submitted_papers <- df[matches$Paper,]
+
+m <- matrix(NA, nrow(df_submitted_papers), length(session_titles))
+
+for (i in 1:nrow(df_submitted_papers)) {
+    p <- df_submitted_papers[i,]
+    s <- p$session
+    for (j in 1:length(session_titles)) {
+        m[i, j] <- stringdist(s, session_titles[j])
+    }
+}
+
+ix_closest <- apply(m, 1, which.min)
+for (i in 1:nrow(df_submitted_papers)) {
+    p <- df_submitted_papers[i,]
+    cat(sprintf("%90s\n%90s\n\n", p$session, session_titles[ix_closest[i]]))
 }
 
