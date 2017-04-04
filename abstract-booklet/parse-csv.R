@@ -1,7 +1,6 @@
 
 outdir <- "tex/out"
-outmorning <- file.path(outdir, "morning.tex")
-outafternoon <- file.path(outdir, "afternoon.tex")
+outprogram <- file.path(outdir, "detailed-program.tex")
 
 library(magrittr)
 library(dplyr)
@@ -79,6 +78,22 @@ parse_raw_speaker <- function(s) {
         s %>%
         str_match_all("^\\* \\*\\*(.*)\\*\\*(, (.*))*$") %>%
         unlist
+    out <- out[-c(1,3)]
+    out
+}
+parse_orgchair <- function(s) {
+    out <-
+        s %>%
+        str_match_all("\\*(.*):\\* \\*\\*(.*)\\*\\*(, (.*))*") %>%
+        unlist
+    if (length(out) == 4) {
+        out <- out[-1]
+
+    } else if (length(out) == 5) {
+        out <- out[2:3]
+    } else {
+        out <- out[-c(1, 5)]
+    }
     out
 }
 
@@ -124,7 +139,7 @@ for (i in 1:N) {
         gsub(session_regexes["title"], "", .)
     if (length(title) > 1) stop("More than one title!")
 
-    session$orgchair <- s[regex_match[,"orgchair"]]
+    session$orgchair <- parse_orgchair(s[regex_match[,"orgchair"]])
 
     speakers_ix <- which(regex_match[,"speakers"])
     n_speakers <- length(speakers_ix)
@@ -135,9 +150,10 @@ for (i in 1:N) {
         speaker$raw <- s[ix]
 
         tmp <- parse_raw_speaker(s[ix])
-        tmp <- tmp[-c(1,3)]
         speaker$name <- tmp[1]
-        if (length(tmp) > 1) speaker$affiliation <- tmp[2]
+        if (length(tmp) > 1) {
+            speaker$affiliation <- gsub("&", "\\\\&", tmp[2])
+        }
 
         if (regex_match[ix+1,"paper"]) {
             speaker$paper <-
@@ -149,10 +165,12 @@ for (i in 1:N) {
     }
     session$speakers <- speakers
 
+    session$location <- gsub("\\*", "", s[regex_match[,"location"]])
+
     sessions[[i]] <- session
 }
 
-n_sessions <- length(session)
+n_sessions <- length(sessions)
 
 ## Match abstract to session
 
@@ -173,11 +191,62 @@ for (i in 1:nrow(df_submitted_papers)) {
 ## for its session in `sessions`
 ix_closest <- apply(m, 1, which.min)
 
-
 ## Output latex
 
 ix_morning <- schedule[[1]]$ix
 ix_afternoon <- schedule[[2]]$ix
-morning <- sessions[ix_morning:(ix_afternoon-1)]
-afternoon <- sessions[ix_afternoon:n_sessions]
+morning <- list(df = sessions[ix_morning:(ix_afternoon-1)],
+                label = "Morning sessions")
+afternoon <- list(df = sessions[ix_afternoon:n_sessions],
+                  label = "Afternoon sessions")
+
+lines <- ""
+for (timeslot in list(morning, afternoon)) {
+    df <- timeslot$df
+    lines <- c(lines, sprintf("\\subsection*{%s}", timeslot$label), "")
+    for (session in df) {
+        lines <- c(lines, sprintf("\\subsubsection*{%s}", session$title))
+        lines <- c(lines, "")
+
+        o <- session$orgchair
+        if (length(o) == 3) {
+            lines <- c(lines, sprintf("\\emph{%s:} \\textbf{%s}, %s",
+                                      o[1], o[2], o[3]))
+        } else if (length(o) == 6) {
+            lines <- c(lines, sprintf("\\emph{%s:} \\textbf{%s}, %s \\\\",
+                                      o[1], o[2], o[3]))
+            lines <- c(lines, sprintf("\\emph{%s:} \\textbf{%s}, %s",
+                          o[4], o[5], o[6]))
+        } else {
+            lines <- c(lines, sprintf("\\emph{%s:} \\textbf{%s}", o[1], o[2]))
+        }
+        lines <- c(lines, "")
+
+        lines <- c(lines, "\\begin{enumerate}")
+        for (speaker in session$speakers) {
+
+            if (is.null(speaker$paper)) {
+                lineend <- ""
+            } else {
+                lineend <- "\\\\"
+            }
+
+            if (speaker$affiliation != "") {
+                lines <- c(lines, sprintf("\\item \\textbf{%s}, %s %s",
+                                          speaker$name, speaker$affiliation, lineend))
+            } else {
+                lines <- c(lines, sprintf("\\item \\textbf{%s} %s", speaker$name, lineend))
+            }
+
+            if (!is.null(speaker$paper))
+                lines <- c(lines, sprintf("``%s''", speaker$paper))
+        }
+        lines <- c(lines, "\\end{enumerate}", "")
+        lines <- c(lines, sprintf("\\emph{%s} \\\\[.5em]", session$location), "")
+    }
+}
+
+f <- file(outprogram)
+writeLines(lines, f)
+close(f)
 
