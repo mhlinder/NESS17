@@ -252,7 +252,8 @@ toc: true
 
 ## 4. Biopharmaceutical session
 
-*Organizer and Chair:* **Adina Soaita**
+*Organizer:* **Abidemi Adeniji**, EMD Serono<br />
+*Chair:* **Adina Soaita**
 
 * **Abidemi Adeniji**, EMD Serono
 * **Bushi Wang**

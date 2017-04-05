@@ -1,5 +1,5 @@
 
-write_detailed_program <- FALSE
+write_detailed_program <- TRUE
 write_abstracts <- TRUE
 write_posters <- TRUE
 
@@ -93,14 +93,6 @@ parse_orgchair <- function(s) {
         s %>%
         str_match_all("\\*(.*):\\* \\*\\*(.*)\\*\\*(, (.*))*") %>%
         unlist
-    if (length(out) == 4) {
-        out <- out[-1]
-
-    } else if (length(out) == 5) {
-        out <- out[2:3]
-    } else {
-        out <- out[-c(1, 5)]
-    }
     out
 }
 
@@ -234,14 +226,14 @@ for (timeslot in list(morning, afternoon)) {
         lines_program <- c(lines_program, "")
 
         o <- session$orgchair
-        if (length(o) == 3) {
+        if (length(o) == 5) {
             lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}, %s",
-                                      o[1], o[2], o[3]))
-        } else if (length(o) == 6) {
+                                      o[2], o[3], o[5]))
+        } else if (length(o) == 10) {
             lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}, %s \\\\",
-                                      o[1], o[2], o[3]))
-            lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}, %s",
-                                      o[4], o[5], o[6]))
+                                      o[2], o[3], o[5]))
+            lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}%s",
+                                      o[7], o[8], o[9]))
         } else {
             lines_program <- c(lines_program, sprintf("\\emph{%s:} \\textbf{%s}", o[1], o[2]))
         }
