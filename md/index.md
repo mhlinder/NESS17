@@ -4,7 +4,7 @@ title: Home
 
 **Conference Dates:** Friday, April 21--Saturday, April 22, 2017<br />
 **Location:** University of Connecticut, Storrs, CT<br />
-**Conference Committee:** Haim Bar, Jun Yan (chair), and Yuping Zhang,
+**Conference Committee:** Haim Bar, Kun Chen, Jun Yan, and Yuping Zhang,
 University of Connecticut
 
 ## Celebrating 30 years of NESS

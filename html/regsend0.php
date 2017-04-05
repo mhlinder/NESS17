@@ -90,7 +90,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: NESS 2017<m.henry.linder@uconn.edu>' . "\r\n";
 $headers .= "Cc: $cc" . "\r\n";
 
-$fp = fopen('reg.csv', 'a');
+$fp = fopen('abstractdata/reg.csv', 'a');
 $fpcheck = fputcsv($fp, array($conf,$name, $email, $shortcourse, $sconly,
 			      $registration, $reception, $dinner,
 			      $donation, $comments, $charge, $diet, $special));

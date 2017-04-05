@@ -102,7 +102,7 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
     </tr>
 
     <?php // Only this number of people may register for dinner
-    if ($n < 35) { ?>
+    if ($n < 45) { ?>
 
       <tr>
         <td>Dinner<br /><small>Saturday evening. Cost $40. Limited seating.</small></td>

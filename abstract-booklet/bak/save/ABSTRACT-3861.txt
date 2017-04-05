@@ -1,0 +1,14 @@
+Right-truncated survival data arise when observations are sampled retrospectively and
+only those who had experienced the event of interest prior to some sampling time are
+included in a sample. As a result, the obtained sample is biased, since those who survive
+longer have lower probability to be selected.
+If the interest is in the nonparametric estimation of the lifetime distribution from right-
+truncated data, then this task can be approached by reversing time and transforming the
+problem of right-truncation into a well-developed problem of estimation under left truncation. However, when the goal is to explain survival by some covariates, it is unclear how
+to interpret results from the reverse time analysis in terms of the forward time effects of
+covariates. Other existing methods for the Cox regression under right truncation, although
+can be used for testing covariate effect, suffer from an identifiability problem in estimation
+or are computationally intensive.
+The proposed approach based on the Inverse-Probability-Weighting (IPW) estimating
+equations does not have an identifiability problem, it works in a forward time so that covariate effects can be interpreted as usual, it performs better than existing methods for both purposes of testing and estimation, and it is easily implemented using standard software.
+Methods are compared in simulations and through an application to real data.
