@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 APR 2017 13:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 APR 2017 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -660,15 +660,15 @@ Missing character: There is no  in font cmr12!
 [20]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¯ in font cmr12!
- [21]
+ [21] [22]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no œ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
- [22]
-Overfull \hbox (0.69287pt too wide) in paragraph at lines 135--138
+
+Overfull \hbox (0.69287pt too wide) in paragraph at lines 155--158
 \OT1/cmr/m/n/12 ``Asymptotic nor-mal-ity of in- and out-degree counts in a pref
 -er-en-tial at-tach-ment model'' 
  []
@@ -678,6 +678,30 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [24]
+Overfull \hbox (2.304pt too wide) in paragraph at lines 199--202
+\OT1/cmr/m/n/12 Steven Edel-man, Matthew Cape-horn, Anne Bel-ton, Su-san Down, 
+Aus Alzaid, Friederike
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+[25]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -687,16 +711,17 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [25] [26] [27] [28] [29]
-Overfull \hbox (5.69713pt too wide) in paragraph at lines 290--293
+ [26] [27] [28] [29] [30]
+Overfull \hbox (5.69713pt too wide) in paragraph at lines 337--340
 \OT1/cmr/m/n/12 ``A Thresholding-Based Prewhitened Long-Run Vari-ance Es-ti-ma-
 tor and Its Dependence-
  []
 
+[31]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[30]) [31] (./out/posters.tex [32] [33] [34] [35]
+) [32] (./out/posters.tex [33] [34] [35] [36]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -727,7 +752,7 @@ Missing character: There is no  in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [36] [37] [38] [39]
+ [37] [38] [39] [40]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -740,10 +765,10 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [40]
-[41] [42] [43]) [44]
+ [41]
+[42] [43] [44]) [45]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
- [45]
+ [46]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
  (./program.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
@@ -753,8 +778,8 @@ Package rerunfilecheck Info: File `program.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
- 7612 strings out of 493089
- 108102 string characters out of 6134842
+ 7613 strings out of 493089
+ 108109 string characters out of 6134842
  205848 words of memory out of 5000000
  10782 multiletter control sequences out of 15000+600000
  10450 words of font info for 39 fonts, out of 8000000 for 9000
@@ -767,10 +792,10 @@ usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on program.pdf (45 pages, 205532 bytes).
+Output written on program.pdf (46 pages, 209476 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 395 compressed objects within 4 object streams
- 197 named destinations out of 1000 (max. 500000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 398 compressed objects within 4 object streams
+ 198 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

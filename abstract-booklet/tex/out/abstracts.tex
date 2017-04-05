@@ -107,6 +107,26 @@ Daniel Nevo, Tsuyoshi Hamada, Shuji Ogino and Molin Wang
 
 We consider the association of a time-dependent binary treatment or exposure with time-to-event under the proportional hazard model. The exposure value is assumed zero at the beginning of the study and may change to one at any time point. The value of the exposure is observed only in certain time points, and thus its exact value is unknown for some participants, in each risk set. We are motivated by the assessment of post colorectal cancer diagnosis aspiring taking and survival. Naïve and popular methods are potentially biased, especially when the exposure is measured at a small number of time points. We present a class of calibration models that fit a distribution for the time to exposure starting time. Estimates obtained from these models are then incorporated in the partial likelihood in a natural way. We derive asymptotic theory for these methods. Our methodology allows for inclusion of further baseline covariates affecting the initiation time of the exposure of interest.  Certain bias is expected from our methods when the exposure effect is large, and we provide a less-biased alternative using a risk set calibration approach. 
 
+\item \textbf{Bella Vakulenko-Lagun}, Harvard University \\
+``Cox regression for right-truncated data'' \\
+Bella Vakulenko-Lagun, Rebecca Betensky, Micha Mandel
+
+
+Right-truncated survival data arise when observations are sampled retrospectively and
+only those who had experienced the event of interest prior to some sampling time are
+included in a sample. As a result, the obtained sample is biased, since those who survive
+longer have lower probability to be selected.
+If the interest is in the nonparametric estimation of the lifetime distribution from right-
+truncated data, then this task can be approached by reversing time and transforming the
+problem of right-truncation into a well-developed problem of estimation under left truncation. However, when the goal is to explain survival by some covariates, it is unclear how
+to interpret results from the reverse time analysis in terms of the forward time effects of
+covariates. Other existing methods for the Cox regression under right truncation, although
+can be used for testing covariate effect, suffer from an identifiability problem in estimation
+or are computationally intensive.
+The proposed approach based on the Inverse-Probability-Weighting (IPW) estimating
+equations does not have an identifiability problem, it works in a forward time so that covariate effects can be interpreted as usual, it performs better than existing methods for both purposes of testing and estimation, and it is easily implemented using standard software.
+Methods are compared in simulations and through an application to real data.
+
 \end{itemize}
 
 \subsubsection*{11. Extremes}
@@ -176,6 +196,19 @@ Xiaoyu Jia, Madhu Mazumdar
 
 Use of national registry databases for performing comparative effectiveness research is on rise as they present wonderful opportunity for answering questions about the effectiveness of treatments in the adjuvant or neoadjuvant setting and the associations of patient or tumor characteristics with treatment selection and clinical outcomes.  Advanced statistical regression models are available for finding answers to these questions. However, lack of analytic code sharing detailing how the data was manipulated, absence of details about modeling techniques and variables used, and in-sufficient validation of modeling present challenges in understanding how the results could be applicable to one’s practice. STROBE and RECORD guidelines are published to guide the design and reporting of observational studies (OS), particularly, those based on routinely collected health care data. Despite emerging evidence that use of reporting guidelines improve quality of reporting, many journals have still not adopted these guidelines and even when adopted, have not mandated their use. We focus our attention to published OS based on National Cancer Data Base (NCDB), a commonly used database in oncology research, and Journal of Clinical Oncology (JCO), a high-impact journal, and a recent time frame of Jan 2015 to March of 2017.  We checked the 16 publications found to assess how well they followed the 22 criteria specified by STROBE/RECORD guideline. Best-practices especially those recommended by RECORD on code sharing and model validation were followed at low-moderate rate in the range 0-25%. We call for JCO and others to adopt reporting guidelines seriously.  Despite availability of large sample size and a rich array of clinical variables, the results based on NCDB will not progress to clinical practice until we could improve the quality and reproducibility of these studies. 
 
+\item \textbf{Victoria Gamerman}, Boehringer-Ingelheim Pharmaceuticals, Inc. \\
+``Focusing on patients: going beyond RCTs'' \\
+Steven Edelman, Matthew Capehorn, Anne Belton, Susan Down, Aus Alzaid, Friederike Nagel, Jisoo Lee, William H. Polonsky
+
+
+Type 2 diabetes (T2D) presents challenges both for physicians, who often have limited time and resources, and for patients, who can experience psychological and behavioural issues. Effective communication between physicians and patients, especially during the early phases of T2D treatment, may lead to improvements in patient self-care and outcomes, which is important considering the clinical benefits associated with achieving good glycaemic control early in the course of T2D.
+
+IntroDia™ – a large cross-national survey in 26 countries – has investigated physician-patient communication during early T2D treatment. The survey was designed in partnership with the International Diabetes Federation and a multidisciplinary advisory board. Around 17,000 participants (physicians and patients with T2D) were surveyed using validated scales and novel questionnaires; these assessed physician-patient communication both at diagnosis and at first prescription of additional oral medication, as well as patient-reported outcomes. 
+
+Overall, findings from IntroDia™ suggest that patient-physician communication at diagnosis of T2D and at add-on may be enhanced by physicians using more collaborative and encouraging – and fewer discouraging – conversation elements, and this may contribute to patients subsequently experiencing greater well-being and managing the disease more effectively.
+
+Methodologies and results from the survey will be highlighted.
+
 \end{itemize}
 
 \subsubsection*{4. Biopharmaceutical Session}
@@ -203,6 +236,13 @@ Hee-Koung Joeng, Abidemi K. Adeniji, Naitee Ting and Ming-Hui Chen
 Standard survival methods are inappropriate for mismeasured outcomes. Previous research has shown that outcome misclassification can bias estimation of the survival function. We develop methods to accurately estimate the survival function when the diagnostic tool used to measure the outcome of disease is not perfectly sensitive and specific. Since the diagnostic tool used to measure disease outcome is not the gold standard, the true or error-free outcomes are latent, they cannot be observed. Our method uses the negative predictive value (NPV) and the positive predictive values (PPV) of the diagnostic tool to construct a bridge between the error-prone outcomes and the true
 outcomes. We formulate an exact relationship between the true (latent) survival function and the observed (error-prone) survival function as a formulation of time-varying NPV and PPV. We specify models for the NPV and PPV that depend only on parameters that can be easily estimated from a fraction of the observed data. Furthermore, we conduct an in depth study to accurately estimate the latent survival function based on the assumption that the biology that underlies the disease process follows a stochastic process. We further examine the performance of our method by applying it to the VIRAHEP-C data.
 
+\item \textbf{Bushi Wang}, Boehringer Ingelheim \\
+``How to Evaluate Type II Error Rate with Multiple Endpoints'' \\
+Bushi Wang; Naitee Ting
+
+
+The FDA draft guidance on multiple endpoints in clinical trials (January 2017) pointed out the regulatory concern of the type II error rate inflation with multiple endpoints. Many of the statistical adjustment to control the type I error rate for multiplicity decrease the study power because they lowered the alpha level used for each of the individual endpoint. The use of co-primary endpoints does not require multiplicity adjustment for type I error but will also increase the type II error rate and decrease study power. In this presentation, I provide a few detailed steps on how to evaluate sample size based on the objective of the clinical study and the selected multiplicity adjustment to control type I error. Analytic forms of power for individual endpoint hypothesis can be derived for most commonly seen scenarios. Simulation can be also easily set up. Optimal sample size is possible by fine tune the individual power for each endpoint with different effect size assumptions.
+
 \end{itemize}
 
 \subsubsection*{5. Complex Data/Network Modeling}
@@ -214,6 +254,13 @@ Xuan Bi, Liuqing Yang, Tengfei Li, Baisong Wang, Hongtu Zhu, Heping Zhang
 
 
 Heritability is well documented for psychiatric disorders and cognitive abilities which are, however, complex, involving both genetic and environmental factors. Hence, it remains challenging to discover which and how genetic variations contribute to such complex traits. In this article, we propose to use mediation analysis to bridge this gap, where neuroimaging phenotypes were utilized as intermediate variables. The Philadelphia Neurodevelopmental Cohort was investigated using genome-wide association studies (GWAS) and mediation analyses. Specifically, 951 participants were included with age ranging from 8 to 21 years. Two hundred and four neuroimaging measures were extracted from structural magnetic resonance imaging scans. GWAS were conducted for each measure to evaluate the SNP-based heritability. Furthermore, mediation analyses were employed to understand the mechanisms in which genetic variants have influence on pathological behaviors implicitly through neuroimaging phenotypes. Our analyses found, rs10494561, located within NMNAT2, to be associated with the severity of the prodromal symptoms of psychosis implicitly, mediated through the volume of the left hemisphere of the superior frontal region. Another SNP rs2285351 was found in the IFT122 gene that may be potentially associated with human spatial orientation ability through the area of the left hemisphere of the isthmuscingulate region.
+
+\item \textbf{henry7}, mhlinderm \\
+``hlin'' \\
+mlkj
+
+
+;L;
 
 \end{itemize}
 
