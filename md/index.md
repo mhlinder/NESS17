@@ -26,9 +26,9 @@ competition sponsored by our industrial partners.
 ## Timeline / Important Dates
 
 * <span style="color: grey;">Registration opens **December 1, 2016**</span>
-* <span style="color: grey;">Student papers must be submitted by **<span style="color:
-  red;">March 31, 2017</span>**. To submit a paper, submit a poster
-  abstract. You will receive a paper upload link in your email.</span>
+* <span style="color: grey;">Student papers must be submitted by
+  **March 31, 2017**. To submit a paper, submit a poster abstract. You
+  will receive a paper upload link in your email.</span>
 * Registration closes **<span style="color: red;">April 7, 2017</span>**
 * Abstracts for Invited Sessions and Student Posters must be submitted by **<span style="color: red;">April 10, 2017</span>**
 
