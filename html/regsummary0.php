@@ -1,6 +1,7 @@
 <?php
 
-$handle = fopen("reg.csv", "r");
+// $handle = fopen("reg.csv", "r");
+$handle = fopen("abstractdata/reg.csv", "r");
 
 $hdr = "invoice,name,email,shortcourse,sconly,registration,reception,dinner,donation,comments,charge";
 $n_total = 0;
