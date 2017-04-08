@@ -87,45 +87,37 @@ size n and the moment condition. To obtain cutoff values of our tests, we introd
 
 \end{itemize}
 
-\subsubsection*{10. Survival Analysis}
+\subsubsection*{10. Biopharmaceutical Statistics}
 
 \begin{itemize}
-\item \textbf{Sangwook Kang}, Yonsei University, Korea \\
-``Accelerated failure time modeling via nonparametric infinite scale mixtures'' \\
-Byungtae Seo, Sangwook Kang
+\item \textbf{Joseph C. Cappelleri}, Pfizer Inc \\
+``Meta-Analysis of Safety Data in Clinical Trials'' \\
+Joseph C Cappelleri
 
 
-A semiparamtric accelerated failure time (AFT) model resembles the usual linear regression model with the response variable being the logarithm of failure times while the random error term is left unspecified. Thus, it is more flexible than parametric AFT models that
-assume parametric distributions for the random error term. Estimation for model parameters is typically done through a rank-based procedure, in which the intercept term cannot be directly esitmated. This requires a separate estimation procedure for the intercept, which often leads to unstable estimates. For better estimation of the intercept essential in estimating mean failure times or survival functions, we propose to employ a mixture model approach. To leave the model as 
-flexible as possible, we consider nonparametric infinite scale mixtures of normal distributions. An expectation-maximization (EM) method is used to estimate model parameters. Finite sample properties of the proposed estimators are investigated via
-an extensive stimulation study. The proposed estimators are illustrated using a real data analysis.
+Meta-analyses of clinical trial safety data have risen in importance beyond regulatory submissions. During drug development, pharmaceutical sponsors need to recognize safety signals early and adjust the development program accordingly, so as to facilitate the assessment of causality. Once a medicinal product is marketed, sponsors add post-approval clinical trial data to the body of information to help understand existing safety concerns or those that arise from other post-approval data sources, such as spontaneous reports. The situation becomes more involved when interest centers on a network comparison of multiple active treatments.  This presentation highlights some of the major issues considered in meta-analysis of safety data – such as sparse events, reporting quality, and limited study duration – and identifies gaps requiring special attention.   
 
-\item \textbf{Daniel Nevo}, Harvard University \\
-``Calibration models for survival analysis with interval-censored exposure or treatment starting time'' \\
-Daniel Nevo, Tsuyoshi Hamada, Shuji Ogino and Molin Wang
+\item \textbf{QIQI DENG}, Boehringer Ingelheim \\
+``Choosing timing and boundary for futility analysis based on cost-effective assessment'' \\
+QiQi Deng, Xiaoqi Lu
 
 
-We consider the association of a time-dependent binary treatment or exposure with time-to-event under the proportional hazard model. The exposure value is assumed zero at the beginning of the study and may change to one at any time point. The value of the exposure is observed only in certain time points, and thus its exact value is unknown for some participants, in each risk set. We are motivated by the assessment of post colorectal cancer diagnosis aspiring taking and survival. Naïve and popular methods are potentially biased, especially when the exposure is measured at a small number of time points. We present a class of calibration models that fit a distribution for the time to exposure starting time. Estimates obtained from these models are then incorporated in the partial likelihood in a natural way. We derive asymptotic theory for these methods. Our methodology allows for inclusion of further baseline covariates affecting the initiation time of the exposure of interest.  Certain bias is expected from our methods when the exposure effect is large, and we provide a less-biased alternative using a risk set calibration approach. 
+When a futility analyses is included in a trial, it’s important to choose the right timing for the interim analysis as well as an appropriate futility boundary, so that the trial is likely to be stopped when the interim data suggests a reasonable treatment effect dose not likely exist. This idea is appealing from an ethical point of view since it may reduce the exposure of patients to ineffective treatments, and from a financial point of view since phase III trials are usually the most significant investment in drug development. However, the design may become inefficient if timing and boundary of futility analysis are not chosen carefully. In this presentation, we will use cost-effectiveness analysis to assess the performance of different futility rules, and introduce a graphical tool to guide the selection of design parameters. In addition, we will discuss how prior information/belief of the treatment effect and other factors may influence the futility decision.
 
-\item \textbf{Bella Vakulenko-Lagun}, Harvard University \\
-``Cox regression for right-truncated data'' \\
-Bella Vakulenko-Lagun, Rebecca Betensky, Micha Mandel
+\item \textbf{Abidemi Adeniji}, EMD Serono \\
+``Estimation of Discrete Survival Function Through the Modeling of Diagnostic Accuracy for Mismeasured Outcome Data'' \\
+Hee-Koung Joeng, Abidemi K. Adeniji, Naitee Ting and Ming-Hui Chen
 
 
-Right-truncated survival data arise when observations are sampled retrospectively and
-only those who had experienced the event of interest prior to some sampling time are
-included in a sample. As a result, the obtained sample is biased, since those who survive
-longer have lower probability to be selected.
-If the interest is in the nonparametric estimation of the lifetime distribution from right-
-truncated data, then this task can be approached by reversing time and transforming the
-problem of right-truncation into a well-developed problem of estimation under left truncation. However, when the goal is to explain survival by some covariates, it is unclear how
-to interpret results from the reverse time analysis in terms of the forward time effects of
-covariates. Other existing methods for the Cox regression under right truncation, although
-can be used for testing covariate effect, suffer from an identifiability problem in estimation
-or are computationally intensive.
-The proposed approach based on the Inverse-Probability-Weighting (IPW) estimating
-equations does not have an identifiability problem, it works in a forward time so that covariate effects can be interpreted as usual, it performs better than existing methods for both purposes of testing and estimation, and it is easily implemented using standard software.
-Methods are compared in simulations and through an application to real data.
+Standard survival methods are inappropriate for mismeasured outcomes. Previous research has shown that outcome misclassification can bias estimation of the survival function. We develop methods to accurately estimate the survival function when the diagnostic tool used to measure the outcome of disease is not perfectly sensitive and specific. Since the diagnostic tool used to measure disease outcome is not the gold standard, the true or error-free outcomes are latent, they cannot be observed. Our method uses the negative predictive value (NPV) and the positive predictive values (PPV) of the diagnostic tool to construct a bridge between the error-prone outcomes and the true
+outcomes. We formulate an exact relationship between the true (latent) survival function and the observed (error-prone) survival function as a formulation of time-varying NPV and PPV. We specify models for the NPV and PPV that depend only on parameters that can be easily estimated from a fraction of the observed data. Furthermore, we conduct an in depth study to accurately estimate the latent survival function based on the assumption that the biology that underlies the disease process follows a stochastic process. We further examine the performance of our method by applying it to the VIRAHEP-C data.
+
+\item \textbf{Bushi Wang}, Boehringer Ingelheim \\
+``How to Evaluate Type II Error Rate with Multiple Endpoints'' \\
+Bushi Wang; Naitee Ting
+
+
+The FDA draft guidance on multiple endpoints in clinical trials (January 2017) pointed out the regulatory concern of the type II error rate inflation with multiple endpoints. Many of the statistical adjustment to control the type I error rate for multiplicity decrease the study power because they lowered the alpha level used for each of the individual endpoint. The use of co-primary endpoints does not require multiplicity adjustment for type I error but will also increase the type II error rate and decrease study power. In this presentation, I provide a few detailed steps on how to evaluate sample size based on the objective of the clinical study and the selected multiplicity adjustment to control type I error. Analytic forms of power for individual endpoint hypothesis can be derived for most commonly seen scenarios. Simulation can be also easily set up. Optimal sample size is possible by fine tune the individual power for each endpoint with different effect size assumptions.
 
 \end{itemize}
 
@@ -211,37 +203,45 @@ Methodologies and results from the survey will be highlighted.
 
 \end{itemize}
 
-\subsubsection*{4. Biopharmaceutical Session}
+\subsubsection*{4. Survival Analysis}
 
 \begin{itemize}
-\item \textbf{Joseph C. Cappelleri}, Pfizer Inc \\
-``Meta-Analysis of Safety Data in Clinical Trials'' \\
-Joseph C Cappelleri
+\item \textbf{Sangwook Kang}, Yonsei University, Korea \\
+``Accelerated failure time modeling via nonparametric infinite scale mixtures'' \\
+Byungtae Seo, Sangwook Kang
 
 
-Meta-analyses of clinical trial safety data have risen in importance beyond regulatory submissions. During drug development, pharmaceutical sponsors need to recognize safety signals early and adjust the development program accordingly, so as to facilitate the assessment of causality. Once a medicinal product is marketed, sponsors add post-approval clinical trial data to the body of information to help understand existing safety concerns or those that arise from other post-approval data sources, such as spontaneous reports. The situation becomes more involved when interest centers on a network comparison of multiple active treatments.  This presentation highlights some of the major issues considered in meta-analysis of safety data – such as sparse events, reporting quality, and limited study duration – and identifies gaps requiring special attention.   
+A semiparamtric accelerated failure time (AFT) model resembles the usual linear regression model with the response variable being the logarithm of failure times while the random error term is left unspecified. Thus, it is more flexible than parametric AFT models that
+assume parametric distributions for the random error term. Estimation for model parameters is typically done through a rank-based procedure, in which the intercept term cannot be directly esitmated. This requires a separate estimation procedure for the intercept, which often leads to unstable estimates. For better estimation of the intercept essential in estimating mean failure times or survival functions, we propose to employ a mixture model approach. To leave the model as 
+flexible as possible, we consider nonparametric infinite scale mixtures of normal distributions. An expectation-maximization (EM) method is used to estimate model parameters. Finite sample properties of the proposed estimators are investigated via
+an extensive stimulation study. The proposed estimators are illustrated using a real data analysis.
 
-\item \textbf{QIQI DENG}, Boehringer Ingelheim \\
-``Choosing timing and boundary for futility analysis based on cost-effective assessment'' \\
-QiQi Deng, Xiaoqi Lu
-
-
-When a futility analyses is included in a trial, it’s important to choose the right timing for the interim analysis as well as an appropriate futility boundary, so that the trial is likely to be stopped when the interim data suggests a reasonable treatment effect dose not likely exist. This idea is appealing from an ethical point of view since it may reduce the exposure of patients to ineffective treatments, and from a financial point of view since phase III trials are usually the most significant investment in drug development. However, the design may become inefficient if timing and boundary of futility analysis are not chosen carefully. In this presentation, we will use cost-effectiveness analysis to assess the performance of different futility rules, and introduce a graphical tool to guide the selection of design parameters. In addition, we will discuss how prior information/belief of the treatment effect and other factors may influence the futility decision.
-
-\item \textbf{Abidemi Adeniji}, EMD Serono \\
-``Estimation of Discrete Survival Function Through the Modeling of Diagnostic Accuracy for Mismeasured Outcome Data'' \\
-Hee-Koung Joeng, Abidemi K. Adeniji, Naitee Ting and Ming-Hui Chen
+\item \textbf{Daniel Nevo}, Harvard University \\
+``Calibration models for survival analysis with interval-censored exposure or treatment starting time'' \\
+Daniel Nevo, Tsuyoshi Hamada, Shuji Ogino and Molin Wang
 
 
-Standard survival methods are inappropriate for mismeasured outcomes. Previous research has shown that outcome misclassification can bias estimation of the survival function. We develop methods to accurately estimate the survival function when the diagnostic tool used to measure the outcome of disease is not perfectly sensitive and specific. Since the diagnostic tool used to measure disease outcome is not the gold standard, the true or error-free outcomes are latent, they cannot be observed. Our method uses the negative predictive value (NPV) and the positive predictive values (PPV) of the diagnostic tool to construct a bridge between the error-prone outcomes and the true
-outcomes. We formulate an exact relationship between the true (latent) survival function and the observed (error-prone) survival function as a formulation of time-varying NPV and PPV. We specify models for the NPV and PPV that depend only on parameters that can be easily estimated from a fraction of the observed data. Furthermore, we conduct an in depth study to accurately estimate the latent survival function based on the assumption that the biology that underlies the disease process follows a stochastic process. We further examine the performance of our method by applying it to the VIRAHEP-C data.
+We consider the association of a time-dependent binary treatment or exposure with time-to-event under the proportional hazard model. The exposure value is assumed zero at the beginning of the study and may change to one at any time point. The value of the exposure is observed only in certain time points, and thus its exact value is unknown for some participants, in each risk set. We are motivated by the assessment of post colorectal cancer diagnosis aspiring taking and survival. Naïve and popular methods are potentially biased, especially when the exposure is measured at a small number of time points. We present a class of calibration models that fit a distribution for the time to exposure starting time. Estimates obtained from these models are then incorporated in the partial likelihood in a natural way. We derive asymptotic theory for these methods. Our methodology allows for inclusion of further baseline covariates affecting the initiation time of the exposure of interest.  Certain bias is expected from our methods when the exposure effect is large, and we provide a less-biased alternative using a risk set calibration approach. 
 
-\item \textbf{Bushi Wang}, Boehringer Ingelheim \\
-``How to Evaluate Type II Error Rate with Multiple Endpoints'' \\
-Bushi Wang; Naitee Ting
+\item \textbf{Bella Vakulenko-Lagun}, Harvard University \\
+``Cox regression for right-truncated data'' \\
+Bella Vakulenko-Lagun, Rebecca Betensky, Micha Mandel
 
 
-The FDA draft guidance on multiple endpoints in clinical trials (January 2017) pointed out the regulatory concern of the type II error rate inflation with multiple endpoints. Many of the statistical adjustment to control the type I error rate for multiplicity decrease the study power because they lowered the alpha level used for each of the individual endpoint. The use of co-primary endpoints does not require multiplicity adjustment for type I error but will also increase the type II error rate and decrease study power. In this presentation, I provide a few detailed steps on how to evaluate sample size based on the objective of the clinical study and the selected multiplicity adjustment to control type I error. Analytic forms of power for individual endpoint hypothesis can be derived for most commonly seen scenarios. Simulation can be also easily set up. Optimal sample size is possible by fine tune the individual power for each endpoint with different effect size assumptions.
+Right-truncated survival data arise when observations are sampled retrospectively and
+only those who had experienced the event of interest prior to some sampling time are
+included in a sample. As a result, the obtained sample is biased, since those who survive
+longer have lower probability to be selected.
+If the interest is in the nonparametric estimation of the lifetime distribution from right-
+truncated data, then this task can be approached by reversing time and transforming the
+problem of right-truncation into a well-developed problem of estimation under left truncation. However, when the goal is to explain survival by some covariates, it is unclear how
+to interpret results from the reverse time analysis in terms of the forward time effects of
+covariates. Other existing methods for the Cox regression under right truncation, although
+can be used for testing covariate effect, suffer from an identifiability problem in estimation
+or are computationally intensive.
+The proposed approach based on the Inverse-Probability-Weighting (IPW) estimating
+equations does not have an identifiability problem, it works in a forward time so that covariate effects can be interpreted as usual, it performs better than existing methods for both purposes of testing and estimation, and it is easily implemented using standard software.
+Methods are compared in simulations and through an application to real data.
 
 \end{itemize}
 

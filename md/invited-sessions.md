@@ -157,14 +157,17 @@ toc: true
 
 -----
 
-## 10. Survival Analysis
+## 10. Biopharmaceutical Statistics
 
-*Organizer and Chair:* **Sy Han Chiou**, Harvard
+*Organizer:* **Abidemi Adeniji**, EMD Serono<br />
+*Chair:* **Adina Soaita**
 
-* **Daniel Nevo**, Harvard
-* **Bella Vakulenko-Lagun**, Harvard
-* **Jing Qian**, UMass
-* **Sangwook Kang**
+* **Abidemi Adeniji**, EMD Serono
+* **Bushi Wang**, Boehringer-Ingelheim
+* **Joseph C Cappelleri**, Pfizer<br />
+  "Meta-Analysis of Safety Data in Clinical Trials"
+* **Qiqi Deng**, Boehringer Ingelheim
+* **Birol Emir**, Pfizer
 
 **Laurel Hall 302**
 
@@ -250,17 +253,14 @@ toc: true
 
 -----
 
-## 4. Biopharmaceutical session
+## 4. Survival Analysis
 
-*Organizer:* **Abidemi Adeniji**, EMD Serono<br />
-*Chair:* **Adina Soaita**
+*Organizer and Chair:* **Sy Han Chiou**, Harvard
 
-* **Abidemi Adeniji**, EMD Serono
-* **Bushi Wang**
-* **Joseph C Cappelleri**, Pfizer<br />
-  "Meta-Analysis of Safety Data in Clinical Trials"
-* **Qiqi Deng**, Boehringer Ingelheim
-* **Birol Emir**, Pfizer
+* **Daniel Nevo**, Harvard
+* **Bella Vakulenko-Lagun**, Harvard
+* **Jing Qian**, UMass
+* **Sangwook Kang**
 
 **Oak Hall 269**
 
