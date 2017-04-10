@@ -248,7 +248,7 @@ for (timeslot in list(morning, afternoon)) {
                 lineend <- "\\\\"
             }
 
-            if (speaker$affiliation != "") {
+            if (speaker$affiliation != "" && !is.na(speaker$affiliation)) {
                 lines_program <- c(lines_program, sprintf("\\item \\textbf{%s}, %s %s",
                                           speaker$name, speaker$affiliation, lineend))
             } else {

@@ -1,0 +1,5 @@
+Automating emotion recognition has many valuable applications today, especially in light the proliferation of mobile devices capable of capturing and processing images. Health monitoring, mental health follow up and marketing could see benefits with a low-cost and fast implementation of emotion detection.
+
+We have used Caffe and OpenFace, open source CNN libraries and tools, to classify emotions using human facial expressions. We have used pre-trained deep learning models in order to establish benchmarks.  We apply existing and newly trained networks to video data.
+
+Preliminarily, we have found that happiness is the easiest to classify.  The distinction between surprise and fear is difficult to make.  Disgust is the hardest to classify.

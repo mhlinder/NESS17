@@ -4,5 +4,5 @@
 \contentsline {section}{Detailed Program}{7}{section*.6}
 \contentsline {section}{NESS 2017 Committees}{17}{section*.33}
 \contentsline {section}{Abstracts of Invited Papers}{18}{section*.34}
-\contentsline {section}{Abstracts of Posters}{34}{section*.52}
-\contentsline {section}{NESS 2017 Participants}{47}{section*.54}
+\contentsline {section}{Abstracts of Posters}{39}{section*.55}
+\contentsline {section}{NESS 2017 Participants}{53}{section*.57}

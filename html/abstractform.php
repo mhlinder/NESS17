@@ -58,7 +58,8 @@
 	    <li><a href="invited-sessions">Invited Sessions</a></li>
 	    <li><a href="committees">Committees</a></li>
 	    <li><a href="short-courses">Short Courses</a></li>
-	    <li><a href="registration">Registration</a></li>
+	    <!-- <li><a href="registration">Registration</a></li> -->
+            <li><span style="color: grey;">Registration</span>&mdash;<strong>Closed</strong></li>
 	    <li><a href="call-for-participation">Call for Participation</a></li>
 	    <!-- <li><a href="abstracts">Abstract Submission</a></li> -->
 	    <li><a href="abstractform">Abstract Submission</a></li>

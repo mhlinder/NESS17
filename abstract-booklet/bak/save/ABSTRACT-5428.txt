@@ -1,12 +1,13 @@
-When large amounts of survival data arrive in streams, conventional estimation
-methods are difficult to implement due to the requirement of storing
-all the risk sets up to each accumulation point. In this paper, we apply
-the cumulative estimating equation(CEE) and cumulatively updating estimating
-equation(CUEE) to estimate the parameters for the Cox proportional hazards
-model. Also, to ensure that the proportional hazards assumption holds over time
-so that all estimators are valid,  we propose an online-updating test statistic
- as well as its variations for the proportional hazards assumption. Their
- reference distributions are also derived. In simulation studies and real
- data applications, the test statistic effectively identifies the failure of
- assumptions and is computationally
- efficient.
+For big survival data, conventional estimation methods for Cox
+proportional hazards models may become infeasible with standard
+routines because of the limit of computer memory. With big stream data
+partitioned into blocks, an online updating approach with cumulative
+estimating equations and cumulatively updated estimating equations is
+developed with minimal storage requirement to estimate the Cox model
+parameters. The methodology naturally leads to an online updating test
+procedure for the proportional hazards assumption. For certain
+specific alternatives, window versions of the cumulative statistic
+help to detect change point sooner. The proposed test procedures is
+shown to be hold their sizes and have substantial power in simulation
+studies. The usefulness of the methods is illustrated with a real
+application to prostate cancer.

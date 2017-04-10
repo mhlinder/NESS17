@@ -1,5 +1,5 @@
 <?php
-
+if (false) {
 $handle = fopen("reg.csv", "r");
 
 $n = 0;
@@ -152,3 +152,4 @@ while ( ($data = fgetcsv($handle)) !== FALSE ) {
   <span class="red">Items marked with * are required.</span>
 
 </form>
+<?php } else { ?> <p><h1>Registration has closed.</h1> <h2>See you at NESS!</h2></p> <?php } ?>

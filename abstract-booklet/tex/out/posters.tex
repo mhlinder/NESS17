@@ -274,21 +274,22 @@ We discuss the comparison of the intervals between a multiple linear regression 
 
 \item \textbf{Yishu Xue}, University of Connecticut \\
 ``Tests and Diagnostics for Cox Proportional Hazards Model in the Online Updating Setting'' \\
-Yishu Xue, Elizabeth Schifano, Jun Yan
+Yishu Xue, Jun Yan and Elizabeth Schifano
 
 
-When large amounts of survival data arrive in streams, conventional estimation
-methods are difficult to implement due to the requirement of storing
-all the risk sets up to each accumulation point. In this paper, we apply
-the cumulative estimating equation(CEE) and cumulatively updating estimating
-equation(CUEE) to estimate the parameters for the Cox proportional hazards
-model. Also, to ensure that the proportional hazards assumption holds over time
-so that all estimators are valid,  we propose an online-updating test statistic
- as well as its variations for the proportional hazards assumption. Their
- reference distributions are also derived. In simulation studies and real
- data applications, the test statistic effectively identifies the failure of
- assumptions and is computationally
- efficient.
+For big survival data, conventional estimation methods for Cox
+proportional hazards models may become infeasible with standard
+routines because of the limit of computer memory. With big stream data
+partitioned into blocks, an online updating approach with cumulative
+estimating equations and cumulatively updated estimating equations is
+developed with minimal storage requirement to estimate the Cox model
+parameters. The methodology naturally leads to an online updating test
+procedure for the proportional hazards assumption. For certain
+specific alternatives, window versions of the cumulative statistic
+help to detect change point sooner. The proposed test procedures is
+shown to be hold their sizes and have substantial power in simulation
+studies. The usefulness of the methods is illustrated with a real
+application to prostate cancer.
 
 \item \textbf{Indrani Mandal}, University of Rhode Island \\
 ``Correlation analysis of multivariate Smartwatch data'' \\
@@ -296,6 +297,24 @@ Indrani Mandal, Debanjan Borthakur
 
 
 The advanced smartwatch has multiple functionalities that includes measurements of physiological parameters such as heart rate, galvanic skin resistance(GSR), temperature, acceleration, etc.Analysis of Multifaceted sensor data provides us with the scope of tracking physiological, behavioral and environmental information.This work aims to find the correlation between the various sensor modalities using standard multivariate time series analysis.The correlation analysis proposed in this paper can be instrumental in differentiating actual medical condition and an artifact anomaly.This analysis can bring new insight into the possible hidden relationship between the sensor modalities and hence can be useful in recognizing the neurological state of the user.
+
+\item \textbf{Katherine Abramski}, University of Rhode Island \\
+``A Network Based Analysis of the European Refugee Crisis'' \\
+Katherine Abramski, Katio Dio, Natallia Katenka
+
+
+Europe is in the midst of the largest migration crisis the world has seen since WWII. Largely fueled by on-going conflicts in Africa and the Middle East, this mass migration is a multidimensional problem with numerous factors at play. To better understand this problem, we created a network representation of migration patterns between chosen countries in Europe, Africa, and the Middle East. Specifically, we observed the total number of refugees that migrated from one country to another in 2010 and 2015. One of our goals was to observe how migration patterns have changed over time and to understand what major events may have contributed to those changes. We also investigated various factors that could presumably influence migration patterns. We analyzed multiple descriptive measures of our network including degree and strength distribution, transitivity, assortativity, betweenness, graph partitioning, and node and edge attributes. We observed an overall increase in migration from 2010 to 2015, although we did observe a decrease in migration to and from some countries as well. For the most part, the changes we observed were consistent with recent world events. In the future, we plan to explore the use of dynamic networks, specifically, stochastic actor-based models for modelling the evolution of migration patterns over time. We also plan to explore the predictive capabilities of additional variables such as illegal border crossings, attitudes towards refugees, and legislation.
+
+\item \textbf{Gabriel De Pace}, University of Rhode Island \\
+``Applying CNNs to Human Facial Expressions for Emotion Recognition'' \\
+Gabriel De Pace, Terry Ferguson, Indrani Mandal
+
+
+Automating emotion recognition has many valuable applications today, especially in light the proliferation of mobile devices capable of capturing and processing images. Health monitoring, mental health follow up and marketing could see benefits with a low-cost and fast implementation of emotion detection.
+
+We have used Caffe and OpenFace, open source CNN libraries and tools, to classify emotions using human facial expressions. We have used pre-trained deep learning models in order to establish benchmarks.  We apply existing and newly trained networks to video data.
+
+Preliminarily, we have found that happiness is the easiest to classify.  The distinction between surprise and fear is difficult to make.  Disgust is the hardest to classify.
 
 \end{itemize}
 

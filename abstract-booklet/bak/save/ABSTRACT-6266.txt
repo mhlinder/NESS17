@@ -1,0 +1,5 @@
+Inference functions, such as the likelihood, are widely used throughout statistics. They have the virtue of providing methods for point estimation, set estimation, and hypothesis testing.
+Researchers often perform  inferences based on the asymptotic theory.  
+But, the asymptotic-based inferences may not be reliable if the amount of available information is not large relative to the number of parameters. 
+To address this long-standing problem, we have developed the methodologies to assess the adequacy of using the asymptotic
+theory for finite-sample inference.  They are based on confidence distribution sampling and volumetric error analysis.
