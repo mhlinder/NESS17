@@ -329,3 +329,5 @@ if (write_posters) {
     close(f)
 }
 
+save(sessions, morning, afternoon, schedule, file = "parsed.Rdata")
+

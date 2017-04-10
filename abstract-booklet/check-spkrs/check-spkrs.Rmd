@@ -1,0 +1,76 @@
+---
+title: NESS registration and abstract submission summary
+author: Henry Linder (mhlinder@gmail.com)
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  pdf_document:
+    template: ~/links/defaults/rmd/mhl.tex
+---
+
+# Setup
+
+```{r, message = FALSE, error = FALSE}
+library(magrittr)
+library(dplyr)
+
+library(readr)
+library(stringdist)
+
+abs <-
+    read_csv("../bak/abstracts.csv")
+reg <-
+    read_csv("../bak/reg.csv")
+
+```
+
+# Abstracts submitted without a registration
+
+```{r}
+regnums <- abs$reg %>% gsub("[\t ]", "", .)
+
+ix_missing <- which((regnums == "NESS17-1234") |
+                    (!regnums %in% reg$invoice))
+
+abs[ix_missing,]$presenter
+```
+
+# Speakers without an abstract
+
+```{r}
+
+load("../parsed.Rdata")
+df_sessions <-
+    lapply(sessions,
+       function(x) {
+           inspkrs <- x$speakers
+           outspkrs <- list()
+           for (i in 1:length(inspkrs)) {
+               s <- inspkrs[[i]]
+               outspkrs[[i]] <- data.frame(name        = ifelse(is.null(s$name), NA, s$name),
+                                           affiliation = ifelse(is.null(s$affiliation), NA, s$affiliation),
+                                           paper       = ifelse(is.null(s$paper), NA, s$paper),
+                                           session     = x$title,
+                                           stringsAsFactors = FALSE)
+           }
+           do.call(bind_rows, outspkrs)
+       }) %>%
+    do.call(bind_rows, .)
+
+titles <- sapply(sessions, . %>% use_series(title))
+
+df_sessions[c("ix_presenter", "ix_aff", "ix_title")] <- NA
+for (i in 1:nrow(df_sessions)) {
+    r <- df_sessions[i,]
+    ix_session <- stringdist(r$session, abs$session) %>% which.min
+    this_session <- abs$session[ix_session]
+    candidates <- abs %>% filter(session == this_session)
+    df_sessions$ix_presenter[i] <- stringdist(r$name, candidates$presenter) %>% which.min
+
+    if (!is.na(r$affiliation))
+        df_sessions$ix_aff[i] <- stringdist(r$affiliation, candidates$affiliation) %>% which.min
+    if (!is.na(r$paper))
+        df_sessions$ix_title[i] <- stringdist(r$paper, candidates$title) %>% which.min
+}
+
+```
+

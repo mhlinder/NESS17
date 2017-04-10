@@ -1,5 +1,5 @@
 <?php
-if (false) {
+if (true) {
 $handle = fopen("reg.csv", "r");
 
 $n = 0;
