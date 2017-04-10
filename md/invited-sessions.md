@@ -146,7 +146,7 @@ toc: true
 
 * **Mengyu Xu**, University of Central Florida<br />
   "Pearson’s Chi-Squared Statistics: Approximation Theory and Beyond"
-* **Kun Chen**, UConn<br />
+* **Kun Chen**, University of Connecticut<br />
   "Robust Dimension Reduction of Correlated Multivariate Data"
 * **Liliya Lavitas**, Boston University<br />
   "Unsupervised Self-Normalized Change-Point Testing for Time Series"
@@ -231,7 +231,7 @@ toc: true
   "A Common Factor Analysis of  Stock Market Trading Activity"
 * **Oleksii Mostovyi**, University of Connecticut<br />
   "Sensitivity analysis of the expected utility maximization problem"
-* **Kun Chen**, University of Connecticut<br />
+* **Aritra Halder, Shariq Mohammed, Matthew Lamoureux, Brien Aronov**, University of Connecticut<br />
   "Towards differential pricing in auto insurance via large-scale predictive modeling: a partnership between Travelers and UConn"
 
 **Oak Hall 267**
