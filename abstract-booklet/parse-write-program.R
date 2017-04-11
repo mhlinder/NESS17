@@ -1,12 +1,14 @@
 
-write_detailed_program <- TRUE
-write_abstracts <- TRUE
-write_posters <- TRUE
+write_detailed_program <- FALSE
+write_abstracts <- FALSE
+write_posters <- FALSE
+write_participants <- TRUE
 
 outdir <- "tex/out"
 outprogram <- file.path(outdir, "detailed-program.tex")
 outabstracts <- file.path(outdir, "abstracts.tex")
 outposters <- file.path(outdir, "posters.tex")
+outparticipants <- file.path(outdir, "participants.tex")
 
 library(magrittr)
 library(dplyr)
@@ -330,4 +332,24 @@ if (write_posters) {
 }
 
 save(sessions, morning, afternoon, schedule, file = "parsed.Rdata")
+
+## List of participants
+
+reg <- read_csv("bak/reg.csv")
+participants <-
+    reg$name %>%
+    tolower %>%
+    toTitleCase
+
+participants <-
+    participants %>%
+    gsub("^.* ", "", .) %>%
+    order %>%
+    participants[.]
+
+if (write_participants) {
+    f <-  file(outparticipants)
+    writeLines(participants, f, sep = "\\\\\n")
+    close(f)
+}
 
