@@ -14,7 +14,6 @@ library(magrittr)
 library(dplyr)
 
 library(readr)
-library(stringdist)
 
 abs <-
     read_csv("../bak/abstracts.csv")
@@ -36,9 +35,18 @@ abs[ix_missing,]$presenter
 
 # Speakers without an abstract
 
+Load data parsed from files:
+
+* Invited sessions schedule and program
+* Submitted abstracts
+* Registration
+
+We generate a data frame with rows representing an individual speaker.
+
 ```{r}
 
 load("../parsed.Rdata")
+
 df_sessions <-
     lapply(sessions,
        function(x) {
@@ -55,11 +63,22 @@ df_sessions <-
            do.call(bind_rows, outspkrs)
        }) %>%
     do.call(bind_rows, .)
+```
+
+Then we find the closest match to each row along three different
+fields in the submitted abstracts:
+
+* Presenter name
+* Affiliation
+* Paper title
+
+```{r, results = 'asis'}
 
 titles <- sapply(sessions, . %>% use_series(title))
 
 df_sessions[c("ix_presenter", "ix_aff", "ix_title")] <- NA
 for (i in 1:nrow(df_sessions)) {
+## for (i in 1:1) {
     r <- df_sessions[i,]
     ix_session <- stringdist(r$session, abs$session) %>% which.min
     this_session <- abs$session[ix_session]
@@ -70,6 +89,43 @@ for (i in 1:nrow(df_sessions)) {
         df_sessions$ix_aff[i] <- stringdist(r$affiliation, candidates$affiliation) %>% which.min
     if (!is.na(r$paper))
         df_sessions$ix_title[i] <- stringdist(r$paper, candidates$title) %>% which.min
+
+    r <- df_sessions[i,]
+
+    cat("\n")
+    cat(sprintf("# %s\n", r$session))
+
+    cat("\n")
+
+    cat(sprintf("**%s**, %s: %s\n\n",
+                  r$name,
+                  r$affiliation,
+                  r$paper))
+
+    out_presenter <- sprintf("**%s**, %s: %s",
+                             candidates$presenter[r$ix_presenter],
+                             candidates$affiliation[r$ix_presenter],
+                             candidates$title[r$ix_presenter])
+    cat(sprintf("* %s\n (matched by presenter)\n", out_presenter))
+
+    out_aff <- sprintf("**%s**, %s: %s",
+                       candidates$presenter[r$ix_aff],
+                       candidates$affiliation[r$ix_aff],
+                       candidates$title[r$ix_aff])
+    cat(sprintf("* %s\n (matched by affiliation)\n", out_aff))
+
+    if (!is.na(r$ix_title)) {
+        out_title <- sprintf("**%s**, %s: %s",
+                             candidates$presenter[r$ix_title],
+                             candidates$affiliation[r$ix_title],
+                             candidates$title[r$ix_title])
+        cat(sprintf("* %s\n (matched by title)\n", out_title))
+    }
+
+    cat("\n")
+    cat("-----\n")
+    cat("\n\n")
+
 }
 
 ```
