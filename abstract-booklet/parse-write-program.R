@@ -19,6 +19,12 @@ library(stringr)
 library(stringdist)
 library(tools)
 
+capitalize <- function(s) {
+    s %>%
+        tolower %>%
+        toTitleCase
+}
+
 ## Load CSV of abstract submissions
 
 indata <-
@@ -222,9 +228,9 @@ afternoon <- list(l = sessions[ix_afternoon:n_sessions],
 lines_program <- ""
 for (timeslot in list(morning, afternoon)) {
     l <- timeslot$l
-    lines_program <- c(lines_program, sprintf("\\subsection*{%s}", timeslot$label), "")
+    lines_program <- c(lines_program, sprintf("\\subsection*{%s}\n\\addcontentsline{toc}{subsection}{%s}", timeslot$label, timeslot$label), "")
     for (session in l) {
-        lines_program <- c(lines_program, sprintf("\\subsubsection*{%s}", session$title))
+        lines_program <- c(lines_program, sprintf("\\subsubsection*{%s}\n\\addcontentsline{toc}{subsubsection}{%s}", session$title, session$title))
         lines_program <- c(lines_program, "")
 
         o <- session$orgchair
@@ -252,13 +258,17 @@ for (timeslot in list(morning, afternoon)) {
 
             if (speaker$affiliation != "" && !is.na(speaker$affiliation)) {
                 lines_program <- c(lines_program, sprintf("\\item \\textbf{%s}, %s %s",
-                                          speaker$name, speaker$affiliation, lineend))
+                                                          capitalize(speaker$name),
+                                                          capitalize(speaker$affiliation),
+                                                          lineend))
             } else {
-                lines_program <- c(lines_program, sprintf("\\item \\textbf{%s} %s", speaker$name, lineend))
+                lines_program <- c(lines_program, sprintf("\\item \\textbf{%s} %s",
+                                                          capitalize(speaker$name),
+                                                          lineend))
             }
 
             if (!is.null(speaker$paper))
-                lines_program <- c(lines_program, sprintf("``%s''", speaker$paper))
+                lines_program <- c(lines_program, sprintf("``%s''", capitalize(speaker$paper)))
         }
         lines_program <- c(lines_program, "\\end{enumerate}", "")
         lines_program <- c(lines_program, sprintf("\\emph{%s} \\\\[.5em]", session$location), "")
@@ -285,8 +295,10 @@ for (timeslot in list(morning, afternoon)) {
                 ix <- session$df_papers_ix[i]
                 p <- df_papers[ix,]
 
-                lines_abstract <- c(lines_abstract, sprintf("\\item \\textbf{%s}, %s \\\\", p$presenter, p$affiliation))
-                lines_abstract <- c(lines_abstract, sprintf("``%s'' \\\\", p$title))
+                lines_abstract <- c(lines_abstract, sprintf("\\item \\textbf{%s}, %s \\\\",
+                                                            capitalize(p$presenter),
+                                                            capitalize(p$affiliation)))
+                lines_abstract <- c(lines_abstract, sprintf("``%s'' \\\\", capitalize(p$title)))
                 lines_abstract <- c(lines_abstract, p$authors, "", "")
 
                 intxt <-
@@ -336,10 +348,7 @@ save(sessions, morning, afternoon, schedule, file = "parsed.Rdata")
 ## List of participants
 
 reg <- read_csv("bak/reg.csv")
-participants <-
-    reg$name %>%
-    tolower %>%
-    toTitleCase
+participants <- capitalize(reg$name)
 
 participants <-
     participants %>%

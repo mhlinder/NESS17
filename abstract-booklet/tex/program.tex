@@ -5,19 +5,22 @@
 \usepackage{pdfpages,graphics}
 \usepackage{booktabs}
 \usepackage{multicol,fullpage}
+\usepackage[margin=1in]{geometry}
 %\setlength{\parindent}{0pt}
 %\setlength{\parskip}{2em}
 
 \begin{document}
 
+\addcontentsline{toc}{section}{Cover}
+
 \includepdf[pages={1}]{cover.pdf}
-\setcounter{page}{1}
 
 % \includepdf[pages={1},pagecommand={\thispagestyle{empty}}]{SponsorsheetwithlogosNESS2015.pdf}
 % \setcounter{page}{1}
 
 \section*{\centering NESS 2017 Program}
-{\centering \tableofcontents}
+\addcontentsline{toc}{section}{Table of Contents}
+{\centering \small \tableofcontents}
 
 \includepdf[pages=scale=0.8,pages=1,pagecommand=\section*{\centering
   Conference Map}\addcontentsline{toc}{section}{Conference Map}]{map.pdf}
@@ -35,7 +38,7 @@
 
 \input{lin.tex}
 
-\hrulefill \\[3em]
+\newpage
 
 \input{madigan.tex}
 
