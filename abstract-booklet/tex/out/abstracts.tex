@@ -60,6 +60,18 @@ In many applications where both predictors and responses are collected across ge
 
 \end{itemize}
 
+\subsubsection*{4. Graphical Models, Networks, Regulatome and Multivariate Analysis}
+
+\begin{itemize}
+\item \textbf{Kuang-Yao Lee}, Yale University \\
+``Learning causal networks via additive faithfulness'' \\
+Kuang-Yao Lee, Tianqi Liu, Bing Li, and Hongyu Zhao
+
+
+In this work, we propose a statistical model called additively faithful directed acyclic graph (AFDAG) for causal learning from observational data. Our approach is based on additive conditional independence (ACI), a recently proposed three-way statistical relation that shares many similarities with conditional independence but without resorting to multivariate kernels. This distinct feature strikes a balance between a parametric model and a fully nonparametric model, which makes the proposed model attractive to large networks. For graph inference, we develop an estimator  for AFDAG  based on a linear operator  that characterizes ACI, and establish the consistency and convergence rates of our estimator. Moreover, we prove the uniform consistency of the estimated DAG under a stronger additive faithfulness condition, which appears to be less restrictive than its linear counterpart. We introduce a modified PC-algorithm to implement the estimating procedures efficiently, so that their complexity is determined by the level of sparseness rather than the dimension of the network. Through simulation studies we show that our method outperforms  existing methods when commonly assumed conditions such as Gaussian or Gaussian copula distributions do not hold. Finally, the usefulness of AFDAG formulation is demonstrated through an application to a proteomics data set
+
+\end{itemize}
+
 \subsubsection*{5. Big Data}
 
 \begin{itemize}
@@ -260,6 +272,18 @@ Tiandong Wang, Sidney Resnick
 
 
 Preferential attachment in a directed scale-free graph is an often used paradigm for modeling the evolution of social networks. Social network data is usually given in a format allowing recovery of the number of nodes with in-degree i and out-degree j. Assuming a model with preferential attachment, formal statistical procedures for estimation can be based on such data summaries. Anticipating the statistical need for such node-based methods, we prove asymptotic normality of the node counts. Our approach is based on a martingale construction and a martingale central limit theorem.
+
+\item \textbf{Jingjing Zou}, Columbia University in the City of New York \\
+``Extreme Value Analysis Without the Largest Values: What Can Be Done?'' \\
+Jingjing Zou, Richard A. Davis, Gennady Samorodnitsky
+
+
+In this paper we are concerned with the analysis of heavy-tailed data when a portion of the extreme values are unavailable. 
+This research was motivated by an analysis of the degree distributions in a large social network. The degree distributions of such networks tend to have power law behavior in the tails. 
+We focus on the Hill estimator, which plays a starring role in heavy-tailed modeling. 
+The Hill estimator for this data exhibited a smooth and increasing ``sample path'' as a function of the number of upper order statistics used in constructing the estimator.  
+This behavior became more apparent as we artificially removed more of the upper order statistics. Building on this observation, we introduce a new parameterization into the Hill estimator that is a function of $\delta$ and $\theta$, that correspond, respectively, to the proportion of extreme values that are unavailable and the proportion of upper order statistics used in the estimation.
+As a function of $(\delta, \theta)$, we establish functional convergence of the normalized Hill estimator to a Gaussian random field. An estimation procedure is developed based on the limit theory to estimate the number of missing extremes and extreme value parameters including the tail index and the bias of Hill's estimate. We illustrate how this approach works in both simulations and real data examples.
 
 \end{itemize}
 

@@ -1,7 +1,7 @@
 
-write_detailed_program <- FALSE
-write_abstracts <- FALSE
-write_posters <- FALSE
+write_detailed_program <- TRUE
+write_abstracts <- TRUE
+write_posters <- TRUE
 write_participants <- TRUE
 
 outdir <- "tex/out"
