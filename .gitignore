@@ -5,3 +5,4 @@ web/*.gif
 web/*.php
 ref/
 secret.sh
+.DS_Store
