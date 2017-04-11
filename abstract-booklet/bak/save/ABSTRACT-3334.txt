@@ -1,0 +1,10 @@
+Speculative bubble phenomena may result in explosive trends followed by
+a sharp decline in financial time series. A bubble is formed when investors’
+future profits expectations influence the present market value of securities.
+Mixed causal-noncausal autoregressive processes are able to better model
+such behavior in comparison to traditional ARIMA models. In this work we
+propose Markov switching mixed causal-noncausal autoregressive processes
+(MSMAR) to account for changes in regime at different times. Parameter
+estimation is conducted in a Bayesian framework via MCMC algorithms. The
+model is tested for performance with a simulation study and then applied to
+Bitcoin/USD exchange rate and US inflation data.
