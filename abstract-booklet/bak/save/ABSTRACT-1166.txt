@@ -1,0 +1,18 @@
+Estimating the effect of an infectious disease intervention
+in a single interconnected population is challenging because subjects
+may transmit infection to others. Preventive treatment (e.g.
+vaccination) may exert a direct effect on the person who receives it,
+and may protect others by preventing infection in the recipient and
+thereby transmission to someone else, or by reducing the recipient’s
+infectiousness when infected. We outline a causal framework for
+estimating the direct and indirect effects of a vaccine in a single
+networked population. Epidemiological assumptions collapse subjects’
+outcomes over time into cumulative exposures experienced by
+susceptible subjects; conditional independence assumptions permit
+identification of the direct effect and partition of the indirect
+effect into distinct effects on susceptibility and transmissibility. I
+describe a semi-parametric class of infectious disease regression
+models motivated by a continuous-time Markov stochastic epidemic
+process. I describe the consequences of misspecification of the
+infection model, and discuss approaches to estimation when either the
+network or time series of infections are incompletely observed.
