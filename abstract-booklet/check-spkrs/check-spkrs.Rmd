@@ -83,7 +83,8 @@ for (i in 1:nrow(df_sessions)) {
     r <- df_sessions[i,]
     ix_session <- stringdist(r$session, abs$session) %>% which.min
     this_session <- abs$session[ix_session]
-    candidates <- abs %>% filter(session == this_session)
+    ## candidates <- abs %>% filter(session == this_session)
+    candidates <- abs
     df_sessions$ix_presenter[i] <- stringdist(r$name, candidates$presenter) %>% which.min
 
     if (!is.na(r$affiliation))
