@@ -4,7 +4,7 @@ toc: true
 ---
 
 * [Morning sessions](#morningsession)
-* [Afernoon sessions](#morningsession)
+* [Afernoon sessions](#afternoonsessions)
 
 -----
 
