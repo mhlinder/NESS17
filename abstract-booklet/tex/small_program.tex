@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+
+\usepackage{fullpage,amsmath,amssymb,amsfonts,booktabs,float,graphicx,longtable,parskip,hyperref}
+
+\usepackage{pdfpages,graphics}
+\usepackage{booktabs}
+\usepackage{multicol,fullpage}
+\usepackage[margin=1in]{geometry}
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{2em}
+
+\begin{document}
+
+\addcontentsline{toc}{section}{Cover}
+
+\includepdf[pages={1}]{cover.pdf}
+\includepdf[pages={1}]{sponsors.pdf}
+
+% \includepdf[pages={1},pagecommand={\thispagestyle{empty}}]{SponsorsheetwithlogosNESS2015.pdf}
+% \setcounter{page}{1}
+
+\section*{\centering NESS 2017 Program}
+\addcontentsline{toc}{section}{Table of Contents}
+{\centering \small \tableofcontents}
+
+\includepdf[pages=scale=0.8,pages=1,pagecommand=\section*{\centering
+  Conference Map}\addcontentsline{toc}{section}{Conference Map}]{map.pdf}
+
+\newpage
+
+\section*{\centering Welcoming Remarks}
+\addcontentsline{toc}{section}{Welcoming Remarks}
+% \input{welcome.tex}
+
+\newpage
+
+\section*{\centering Keynote Speakers}
+\addcontentsline{toc}{section}{Keynote Speakers}
+
+\input{lin.tex}
+
+\newpage
+
+\input{madigan.tex}
+
+\newpage
+
+\section*{\centering Schedule}
+\addcontentsline{toc}{section}{Schedule}
+\input{schedule.tex}
+
+\newpage
+
+\section*{\centering Detailed Program}
+\addcontentsline{toc}{section}{Detailed Program}
+\input{out/detailed-program.tex}
+
+\newpage
+
+\section*{\centering NESS 2017 Committees}
+\addcontentsline{toc}{section}{NESS 2017 Committees}
+% \input{committees.tex}
+
+\newpage
+
+\section*{\centering NESS 2017 Participants}
+\addcontentsline{toc}{section}{NESS 2017 Participants}
+\begin{multicols}{4}
+\footnotesize
+\input{out/participants.tex}
+\end{multicols}
+
+\end{document}

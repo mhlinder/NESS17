@@ -1,0 +1,37 @@
+\contentsline {section}{Cover}{1}{Doc-Start}
+\contentsline {section}{Table of Contents}{3}{section*.1}
+\contentsline {section}{Conference Map}{4}{section*.3}
+\contentsline {section}{Welcoming Remarks}{5}{section*.4}
+\contentsline {section}{Keynote Speakers}{6}{section*.5}
+\contentsline {subsection}{Dr. Xihong Lin}{6}{section*.6}
+\contentsline {subsection}{Dr. David Madigan}{7}{section*.6}
+\contentsline {section}{Schedule}{8}{section*.7}
+\contentsline {section}{Detailed Program}{9}{section*.8}
+\contentsline {subsection}{Morning sessions}{9}{section*.9}
+\contentsline {subsubsection}{1. New Vistas in Statistics with Applications}{9}{section*.10}
+\contentsline {subsubsection}{2. Non-Clinical in Pharmaceutical Industry}{9}{section*.11}
+\contentsline {subsubsection}{3. Space-Time Statistical Solutions at Ibm Research}{9}{section*.12}
+\contentsline {subsubsection}{4. Graphical Models, Networks, Regulatome and Multivariate Analysis}{10}{section*.13}
+\contentsline {subsubsection}{5. Big Data}{10}{section*.14}
+\contentsline {subsubsection}{6. Bayesian Applications in High-Dimensional and Multivariate Modeling}{10}{section*.15}
+\contentsline {subsubsection}{7. New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions}{11}{section*.16}
+\contentsline {subsubsection}{8. Machine Learning and Big Data Analytics}{11}{section*.17}
+\contentsline {subsubsection}{9. Statistical Approaches in Modeling and Incorporating Dependence}{11}{section*.18}
+\contentsline {subsubsection}{10. Biopharmaceutical Statistics}{12}{section*.19}
+\contentsline {subsubsection}{11. Extremes}{12}{section*.20}
+\contentsline {subsubsection}{12. Feinberg Memorial Session: Bayesian Statistics with Applications}{13}{section*.21}
+\contentsline {subsection}{Afternoon sessions}{13}{section*.22}
+\contentsline {subsubsection}{1. Panel Discussion on Careers in Statistics}{13}{section*.23}
+\contentsline {subsubsection}{2. Statistical Applications in Finance and Insurance}{13}{section*.24}
+\contentsline {subsubsection}{3. Application of Statistical/Predictive Modeling in Health Related Industry}{14}{section*.25}
+\contentsline {subsubsection}{4. Survival Analysis}{14}{section*.26}
+\contentsline {subsubsection}{5. Complex Data/Network Modeling}{14}{section*.27}
+\contentsline {subsubsection}{6. Spatial Analysis of Public Health Data}{15}{section*.28}
+\contentsline {subsubsection}{7. Network Data Analysis}{15}{section*.29}
+\contentsline {subsubsection}{8. Statistical Approaches to Data Modeling and Analysis}{15}{section*.30}
+\contentsline {subsubsection}{9. Social Networks and Causal Inference}{16}{section*.31}
+\contentsline {subsubsection}{10. Statistical Innovations in Genomics}{16}{section*.32}
+\contentsline {subsubsection}{11. Recent Developments on High-Dimensional Statistics and Regularized Estimation}{17}{section*.33}
+\contentsline {subsubsection}{12. Subgroup Analysis}{17}{section*.34}
+\contentsline {section}{NESS 2017 Committees}{18}{section*.35}
+\contentsline {section}{NESS 2017 Participants}{19}{section*.36}
