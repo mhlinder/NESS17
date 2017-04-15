@@ -79,8 +79,8 @@ toc: true
   "Learning Local Dependence in Ordered Data"
 * **Li Ma**, Duke University<br />
   "Fisher exact scanning for dependency"
-* **Pengsheng Ji**, University of Georgia<br />
-  "Flexible Spectral Methods for Community Detection"
+* **Yuwen Gu**, University of Minnesota<br />
+  "Penalized Composite Quantile Regression for High-Dimensional Data"
 * **Chihwa Kao**, University of Connecticut<br />
   "Large Dimensional Econometrics and Identification"
 

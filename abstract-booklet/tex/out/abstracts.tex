@@ -82,6 +82,13 @@ Li Ma, Jialiang Mao
 
 We introduce a method—called Fisher exact scanning (FES)—for testing and identifying variable dependency that generalizes Fisher’s exact test on 2-by-2 contingency tables to R-by-C contingency tables and continuous sample spaces. FES proceeds through scanning over the sample space using windows in the form of 2-by-2 tables of various sizes, and on each window completing a Fisher’s exact test. Based on a factorization of Fisher’s multivariate hypergeometric (MHG) likelihood into the product of the univariate hypergeometric likelihoods, we show that there exists a coarse-to-fine, sequential generative representation for the MHG model in the form of a Bayesian network, which in turn implies the mutual independence (up to deviation due to discreteness) among the Fisher’s exact tests completed under FES. This allows an exact characterization of the joint null distribution of the p-values and gives rise to an effective inference recipe through simple multiple testing procedures such as Sidak and Bonferroni corrections, eliminating the need for resampling. In addition, FES can characterize dependency through reporting significant windows after multiple testing control. The computational complexity of FES scales linearly with the sample size, which along with the avoidance of resampling makes it ideal for analyzing massive data sets. We use extensive numerical studies to illustrate the work of FES and compare it to several state-of-the-art methods for testing dependency in both statistical and computational performance. Finally, we apply FES to analyzing a microbiome data set and further investigate its relationship with other popular dependency metrics in that context.
 
+\item \textbf{Yuwen Gu}, University of Minnesota \\
+``Penalized Composite Quantile Regression for High-Dimensional Data'' \\
+Yuwen Gu
+
+
+Composite quantile regression (CQR) provides efficient estimation of the coefficients in linear models, regardless of the error distributions. We consider penalized CQR for both variable selection and efficient coefficient estimation in a linear model under ultrahigh dimensionality and possibly heavy-tailed error distribution. Both lasso and folded concave penalties are discussed. An L2 risk bound is derived for the lasso estimator to establish its estimation consistency and strong oracle property of the folded concave penalized CQR is shown for a feasible solution via the LLA algorithm. The nonsmooth nature of the penalized CQR poses great numerical challenges for high-dimensional data. We provide a unified and effective numerical optimization algorithm for computing penalized CQR via ADMM. We demonstrate the superior efficiency of penalized CQR estimator, as compared to the penalized least squares estimator, through simulated data under various error distributions. 
+
 \end{itemize}
 
 \subsubsection*{6. Bayesian Applications in High-Dimensional and Multivariate Modeling}
@@ -113,6 +120,13 @@ Dong Wang, Hongtu Zhu, and Haipeng Shen
 
 
 Traditional functional linear regression usually takes a one dimensional functional predictor as input and estimates the continuous coefficient function. Modern applications often generate two dimensional covariates, which when observed at grid points are matrices. To avoid inefficiency of the classical method involving estimation of a two dimensional coefficient function, we propose a bilinear regression model and obtain estimates via a smoothness regularization method. The proposed estimator exhibits minimax optimal property for prediction under the framework of Reproducing Kernel Hilbert Space. The merits of the method are further demonstrated by numerical experiments and an application on real imaging data. 
+
+\item \textbf{Yiyuan She}, Florida State University \\
+``On Cross-Validation for Sparse Reduced Rank Regression'' \\
+Yiyuan She, Hoang Tran
+
+
+In high-dimensional data analysis, regularization methods pursuing sparsity and/or low rank have received a lot of attention recently.  To provide a proper amount of shrinkage, it is typical to use a grid search and a model comparison criterion to find optimal regularization parameters. However, we show that fixing the parameters   across all folds may result in an inconsistency issue, and  it is more appropriate to cross-validate projection-selection patterns to obtain the best coefficient estimate. Our     in-sample error studies in jointly sparse and rank-deficient models lead to a new class of information criteria with four scale-free forms to bypass the estimation of  noise level. By use of an identity, we propose a novel scale-free  calibration to help cross-validation achieve the minimax optimal error rate non-asymptotically. Extensive simulations support the efficacy of the proposed methods.
 
 \end{itemize}
 
@@ -260,11 +274,11 @@ Jerry Lewis
 Outlier testing has a long and checkered history in the pharmaceutical/biopharmaceutical industry, and has undergone close regulatory scrutiny since the Barr decision (U.S.A. vs. Barr Labs, 1993).  This talk will include some basic observations on the philosophy and practice of outlier testing and proceed to the development of a novel outlier test for plate based relative potency dilution bioassays with limited replication.
 
 \item \textbf{Ray Liu}, Takeda \\
-``Building Predictive Genomics Signatures in Early Clinical Development – Statistical and Practical Considerations'' \\
-Ray Liu, Ling Wang, and Cong Li
+``Big Data, Statistical Innovation and Impact on Drug Development'' \\
+Ray Liu, Cong Li, Jacob Zhang
 
 
-Genomics signatures have enormous applications and impacts in medicine and drug development, such as disease diagnosis, disease prognosis, prediction of drug treatment response, and patient enrichment/stratification in clinical trial setting. The signatures are generally generated in early clinical development stage (phase I/II trials) and then validated in late clinical development stage (phase III).  However, the development of reliable genomics signatures is challenging, especially in early clinical development stage, as it frequently involves high-dimensional data with smaller sample size (small n large p). Two major issues statisticians face are (i) which variable selection method to use? (ii) how likely the signature can be replicated in late stage? In this presentation we will share our experience and perspectives on building reliable genomics signatures, and a Bayesian framework to estimate the probability of success for the proposed genomics signatures.
+Drug development is a lengthy process. Speeding up the drug development is a win-win for both patients and pharma companies. Thanks to the advancing technologies that generate data of new modalities with much richer information, the ‘Big Data’ has seen its adaption into drug development in the past 3-5 years. While ‘Big Data’ holds the promise to make drug development more efficient, its characteristics of high ‘volume’, ‘velocity’ and ‘variety’ present unique challenges to existing analytical infrastructures. In this talk I will use real examples to demonstrate how we use statistical innovations within Takeda to maximize the potential of Big Data and shorten the drug development.
 
 \item \textbf{Chi-Hse Teng}, Novartis \\
 ``Finding Needles in a Hay Stack – an Approach for a Small-Number-Factor High-Dimensional Data'' \\
