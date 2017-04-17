@@ -115,7 +115,7 @@ toc: true
   "Bilinear Regression with Matrix Covariates in High Dimensions"
 * **Pierre Bellec**, Rutgers University<br />
   "Slope Meets Lasso in Sparse Linear Regression"
-* **Yiyuan She**, Floriday State University<br />
+* **Yiyuan She**, Florida State University<br />
   "On cross-validation for sparse reduced rank regression"
 
 **Laurel Hall 206**
