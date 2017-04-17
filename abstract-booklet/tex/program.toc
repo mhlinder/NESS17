@@ -35,5 +35,5 @@
 \contentsline {subsubsection}{12. Subgroup Analysis}{17}{section*.34}
 \contentsline {section}{NESS 2017 Committees}{18}{section*.35}
 \contentsline {section}{Abstracts of Invited Papers}{19}{section*.36}
-\contentsline {section}{Abstracts of Posters}{45}{section*.61}
-\contentsline {section}{NESS 2017 Participants}{59}{section*.63}
+\contentsline {section}{Abstracts of Posters}{46}{section*.61}
+\contentsline {section}{NESS 2017 Participants}{60}{section*.63}

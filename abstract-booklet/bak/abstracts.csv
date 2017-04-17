@@ -105,3 +105,4 @@ session,presenter,email,affiliation,title,authors,conf,reg
 "10. Zhang, Statistical Approaches in Modeling and Incorporating Dependence","Forrest W. Crawford",forrest.crawford@yale.edu,"Yale University","Causal inference for network epidemics","Forrest W. Crawford, Olga Morozova, Xiaoxuan Cai, Ted Cohen",ABSTRACT-1166,NESS17-6530
 "04. Xie, New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions","Yiyuan She",yshe@stat.fsu.edu,"Florida State University","On Cross-validation for Sparse Reduced Rank Regression","Yiyuan She, Hoang Tran",ABSTRACT-4508,NESS17-3513
 "02. Bar, Big Data","Yuwen Gu",guxxx192@umn.edu,"University of Minnesota","Penalized Composite Quantile Regression for High-Dimensional Data","Yuwen Gu",ABSTRACT-8575,HENRY-20170415
+"02. Bar, Big Data","Jacob Bien",jbien@cornell.edu,"Cornell University","Learning Local Dependence in Ordered Data","Guo Yu, Jacob Bien",ABSTRACT-2393,NESS17-5172
