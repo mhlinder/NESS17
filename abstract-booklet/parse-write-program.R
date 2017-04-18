@@ -22,7 +22,11 @@ library(tools)
 capitalize <- function(s) {
     s %>%
         tolower %>%
-        toTitleCase
+        toTitleCase %>%
+        gsub("Ibm", "IBM", .) %>%
+        gsub("Emd", "EMD", .) %>%
+        gsub("A\\\\&m", "A\\\\&M", .) %>%
+        gsub("Ucla", "UCLA", .)
 }
 
 ## Load CSV of abstract submissions
@@ -143,8 +147,7 @@ for (i in 1:N) {
         regex_match[,"title"] %>%
         which %>%
         s[.] %>%
-        tolower %>%
-        toTitleCase %>%
+        capitalize %>%
         gsub(session_regexes["title"], "", .) %>%
         gsub("\v", " ", .)
     if (length(title) > 1) stop("More than one title!")
@@ -160,7 +163,7 @@ for (i in 1:N) {
         speaker$raw <- s[ix]
 
         tmp <- parse_raw_speaker(s[ix])
-        speaker$name <- tmp[1] %>% tolower %>% toTitleCase
+        speaker$name <- tmp[1] %>% capitalize
         if (length(tmp) > 1) {
             speaker$affiliation <- gsub("&", "\\\\&", tmp[2])
         }
@@ -354,7 +357,8 @@ participants <-
     participants %>%
     gsub("^.* ", "", .) %>%
     order %>%
-    participants[.]
+    participants[.] %>%
+    unique
 
 if (write_participants) {
     f <-  file(outparticipants)

@@ -76,8 +76,10 @@
             <li><a href="http://ww2.amstat.org/chapters/Connecticut/" target="_blank">ASA CT Chapter</a></li>
 	      <li><a href="http://stat.uconn.edu" target="_blank">Department of
 		  Statistics, UConn</a></li>
+              <li><a href="https://www.thehartford.com/" target="_blank">The Hartford</a></li>
 	      <li><a href="https://www.research.ibm.com/labs/watson/" target="_blank">IBM Watson Lab</a></li>
 	      <li><a href="https://www.libertymutual.com/" target="_blank">Liberty Mutual</a></li>
+              <li><a href="https://nestat.org/" target="_blank">New England Statistical Society</a></li>
               <li><a href="http://www.pfizer.com/">Pfizer</a></li>
               <li><a href="https://www.travelers.com/">Travelers Insurance</a></li>
 	      <li><a href="http://clas.uconn.edu/" target="_blank">UConn CLAS</a></li>

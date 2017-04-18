@@ -10,7 +10,7 @@
 \contentsline {subsection}{Morning sessions}{9}{section*.10}
 \contentsline {subsubsection}{1. New Vistas in Statistics with Applications}{9}{section*.11}
 \contentsline {subsubsection}{2. Non-Clinical in Pharmaceutical Industry}{9}{section*.12}
-\contentsline {subsubsection}{3. Space-Time Statistical Solutions at Ibm Research}{9}{section*.13}
+\contentsline {subsubsection}{3. Space-Time Statistical Solutions at IBM Research}{9}{section*.13}
 \contentsline {subsubsection}{4. Graphical Models, Networks, Regulatome and Multivariate Analysis}{10}{section*.14}
 \contentsline {subsubsection}{5. Big Data}{10}{section*.15}
 \contentsline {subsubsection}{6. Bayesian Applications in High-Dimensional and Multivariate Modeling}{10}{section*.16}

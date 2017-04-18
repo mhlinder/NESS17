@@ -60,11 +60,11 @@ toc: true
 
 *Organizer and Chair:* **Yuping Zhang**, University of Connecticut
 
-* **Forrest W. Crawford**, Yale<br />
+* **Forrest W. Crawford**, Yale Universitybr />
   "Causal Inference for Network Epidemics"
 * **Zhengqing Ouyang**, Jackson Labs
 * **Sijian Wang**, University of Wisconsin Madison
-* **Kuang-Yao Lee**, Yale<br />
+* **Kuang-Yao Lee**, Yale University<br />
   "Learning Causal Networks via Additive Faithfulness"
 
 **Oak Hall 268**
@@ -160,11 +160,11 @@ toc: true
 ## 10. Biopharmaceutical Statistics
 
 *Organizer:* **Abidemi Adeniji**, EMD Serono<br />
-*Chair:* **Adina Soaita**
+*Chair:* **Adina Soaita**, Pfizer
 
 * **Abidemi Adeniji**, EMD Serono
 * **Bushi Wang**, Boehringer-Ingelheim
-* **Joseph C Cappelleri**, Pfizer<br />
+* **Joseph C. Cappelleri**, Pfizer<br />
   "Meta-Analysis of Safety Data in Clinical Trials"
 * **Qiqi Deng**, Boehringer Ingelheim
 * **Birol Emir**, Pfizer
@@ -255,11 +255,11 @@ toc: true
 
 ## 4. Survival Analysis
 
-*Organizer and Chair:* **Sy Han Chiou**, Harvard
+*Organizer and Chair:* **Sy Han Chiou**, Harvard University
 
-* **Daniel Nevo**, Harvard
-* **Bella Vakulenko-Lagun**, Harvard
-* **Jing Qian**, UMass
+* **Daniel Nevo**, Harvard University
+* **Bella Vakulenko-Lagun**, Harvard University
+* **Jing Qian**, University of Massachusetts
 * **Sangwook Kang**
 
 **Oak Hall 269**
@@ -270,13 +270,13 @@ toc: true
 
 *Organizer and Chair:* **Yuan Huang**, Department of Biostatistics, Yale University
 
-* **Yize Zhao**, Weill Cornell Medical College, Cornell<br />
+* **Yize Zhao**, Weill Cornell Medical College, Cornell University<br />
   "Hierarchical Feature Selection of the Complex Biomedical Data"
 * **Heather Shappell**, Biostatistics, Boston University<br />
   "Methods for Longitudinal Complex Network Analysis in Neuroscience"
-* **Krista Gile**, Math and Statistics, UMASS<br />
+* **Krista Gile**, Math and Statistics, University of Massachusetts<br />
   "Inference from Link-Tracing Network Samples"
-* **Xizhen Cai**, Temple<br />
+* **Xizhen Cai**, Temple University<br />
   "Variable Selection for Dynamic Networks"
 * **Xuan Bi**, Department of Biostatistics, Yale University<br />
   "Genome-Wide Mediation Analysis of Psychiatric and Cognitive Traits in the Philadelphia Neurodevelopmental Cohort"
@@ -304,7 +304,7 @@ toc: true
 
 ## 7. Network Data Analysis
 
-*Organizer and Chair:* **Edoardo M. Airoldi**, Harvard
+*Organizer and Chair:* **Edoardo M. Airoldi**, Harvard University
 
 * **JP Onnela**, Harvard University<br />
 "Inference and model selection for mechanistic network models"
@@ -373,7 +373,7 @@ toc: true
 
 *Organizer and Chair:* **Kun Chen**, University of Connecticut
 
-* **Ethan Fang**, Penn State<br />
+* **Ethan Fang**, Pennsylvania State University<br />
   "Blessing of Massive Scale: Spatial Graphical Model Estimation with
   a Total Cardinality Constraint Approach"
 * **Cheng Yong Tang**, Temple University<br />
