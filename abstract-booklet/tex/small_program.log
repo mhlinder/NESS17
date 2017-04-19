@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 APR 2017 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 APR 2017 08:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,30 +598,37 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  (./welcome.tex
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
-
- []
-
+Missing character: There is no “ in font cmr10!
 [3{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
-) [4] (./lin.tex
+[4]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
+
+ []
+
+) [5] (./lin.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
@@ -636,12 +643,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--63
 
  []
 
-) [5] (./madigan.tex
+) [6] (./madigan.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
 
-) [6] (./schedule.tex) [7] (./out/detailed-program.tex
+) [7] (./schedule.tex) [8] (./out/detailed-program.tex
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
@@ -656,7 +663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -666,7 +673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -684,7 +691,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[10]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -699,7 +706,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
@@ -714,7 +721,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
@@ -724,7 +731,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
@@ -739,7 +746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
@@ -754,7 +761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-[15]
+[16]
 Overfull \hbox (1.79514pt too wide) in paragraph at lines 395--397
 \OT1/cmr/m/n/10.95 ``a Thresholding-Based Prewhitened Long-Run Vari-ance Es-ti-
 ma-tor and Its Dependence-Oracle
@@ -770,13 +777,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
 
-) [16] (./out/participants.tex)
+) [17] (./out/participants.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 1--65
 
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-[17]
+[18]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (./small_program.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
@@ -786,10 +793,10 @@ Package rerunfilecheck Info: File `small_program.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 8108 strings out of 493014
- 115831 string characters out of 6133351
- 237655 words of memory out of 5000000
- 11366 multiletter control sequences out of 15000+600000
+ 8092 strings out of 493014
+ 115533 string characters out of 6133351
+ 238655 words of memory out of 5000000
+ 11352 multiletter control sequences out of 15000+600000
  12458 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,18n,43p,232b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -799,12 +806,11 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on small_program.pdf (17 pages, 989567 bytes).
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on small_program.pdf (18 pages, 984857 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 424 compressed objects within 5 object streams
- 150 named destinations out of 1000 (max. 500000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 425 compressed objects within 5 object streams
+ 151 named destinations out of 1000 (max. 500000)
  321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

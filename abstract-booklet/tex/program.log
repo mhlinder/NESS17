@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 APR 2017 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 APR 2017 08:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,42 +598,42 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <map.pdf, id=284, 794.97pt x 614.295pt>
 File: map.pdf Graphic file (type pdf)
  <use map.pdf>
-Package pdftex.def Info: map.pdf used on input line 27.
+Package pdftex.def Info: map.pdf used on input line 24.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: map.pdf Graphic file (type pdf)
  <use map.pdf>
-Package pdftex.def Info: map.pdf used on input line 27.
+Package pdftex.def Info: map.pdf used on input line 24.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 
 <map.pdf, id=287, page=1, 794.97pt x 614.295pt>
 File: map.pdf Graphic file (type pdf)
  <use map.pdf, page 1>
-Package pdftex.def Info: map.pdf, page1 used on input line 27.
+Package pdftex.def Info: map.pdf, page1 used on input line 24.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: map.pdf Graphic file (type pdf)
 
 <use map.pdf, page 1>
-Package pdftex.def Info: map.pdf, page1 used on input line 27.
+Package pdftex.def Info: map.pdf, page1 used on input line 24.
 (pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
  [3{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 File: map.pdf Graphic file (type pdf)
  <use map.pdf, page 1>
-Package pdftex.def Info: map.pdf, page1 used on input line 27.
+Package pdftex.def Info: map.pdf, page1 used on input line 24.
 (pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
 File: map.pdf Graphic file (type pdf)
  <use map.pdf, page 1>
-Package pdftex.def Info: map.pdf, page1 used on input line 27.
+Package pdftex.def Info: map.pdf, page1 used on input line 24.
 (pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
 File: map.pdf Graphic file (type pdf)
 
 <use map.pdf, page 1>
-Package pdftex.def Info: map.pdf, page1 used on input line 27.
+Package pdftex.def Info: map.pdf, page1 used on input line 24.
 (pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
  [4 <./map.pdf, page is rotated 180 degrees>]
 (./welcome.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -641,22 +641,28 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
+
+ []
+
+[5]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
-) [5] (./lin.tex
+) [6] (./lin.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
@@ -671,12 +677,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--63
 
  []
 
-) [6] (./madigan.tex
+) [7] (./madigan.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
 
-) [7] (./schedule.tex) [8] (./out/detailed-program.tex
+) [8] (./schedule.tex) [9] (./out/detailed-program.tex
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
@@ -691,7 +697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -701,7 +707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-[10]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -719,7 +725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -734,7 +740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
@@ -749,7 +755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
@@ -759,7 +765,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
@@ -774,7 +780,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
-[15]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
@@ -789,7 +795,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-[16]
+[17]
 Overfull \hbox (1.79514pt too wide) in paragraph at lines 395--397
 \OT1/cmr/m/n/10.95 ``a Thresholding-Based Prewhitened Long-Run Vari-ance Es-ti-
 ma-tor and Its Dependence-Oracle
@@ -805,58 +811,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
 
-) [17] (./out/abstracts.tex [18]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
+) [18] (./out/abstracts.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
  [19]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [20] [21]
+Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [22] [23]
+ [20]
+[21]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [22]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [23] [24] [25]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no † in font cmr10!
- [24]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [25]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
  [26]
-[27]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [27] [28]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
@@ -911,63 +924,64 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [28]
+ [29]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [29] [30] [31]
+ [30] [31] [32]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [32]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ñ in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ñ in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no Ø in font cmr10!
  [33]
 Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ñ in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [34] [35] [36] [37] [38] [39]
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ñ in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [34]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no Ø in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [40] [41]
-Overfull \hbox (1.79514pt too wide) in paragraph at lines 662--665
+ [35]
+[36] [37] [38] [39] [40]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [41] [42]
+Overfull \hbox (1.79514pt too wide) in paragraph at lines 670--673
 \OT1/cmr/m/n/10.95 ``a Thresholding-Based Prewhitened Long-Run Vari-ance Es-ti-
 ma-tor and Its Dependence-Oracle
  []
 
-[42]
+[43]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [43]) [44] (./out/posters.tex [45] [46]
+ [44]) [45] (./out/posters.tex [46] [47]
 Overfull \hbox (1.2476pt too wide) in paragraph at lines 64--67
 \OT1/cmr/m/n/10.95 ``The Mul-ti-di-men-sional Cramer-Rao-Leibniz Lower Bound fo
 r Vector-Meaurement-based Like-
  []
 
-[47]
+[48]
 Overfull \hbox (2.43388pt too wide) in paragraph at lines 83--84
 []\OT1/cmr/m/n/10.95 Racial dis-par-i-ties in can-cer out-comes per-sist de-spi
 te re-cent im-prove-ments in mor-tal-ity, prompt-
@@ -1009,7 +1023,7 @@ Missing character: There is no Å in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[48] [49] [50]
+[49] [50] [51]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1022,7 +1036,7 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [51] [52] [53] [54] [55]
+ [52] [53] [54] [55] [56]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1041,7 +1055,7 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [56]
+ [57]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1057,25 +1071,25 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [57]) [58] (./out/participants.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--77
+ [58]) [59] (./out/participants.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--74
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-[59]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+[60]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (./program.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `program.out' has not changed.
 (rerunfilecheck)             Checksum: 3FE6A67C6F35224DE986D0A00ABE022C;3064.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 8197 strings out of 493014
- 116584 string characters out of 6133351
- 237644 words of memory out of 5000000
+ 8198 strings out of 493014
+ 116591 string characters out of 6133351
+ 238644 words of memory out of 5000000
  11377 multiletter control sequences out of 15000+600000
  12458 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1089,10 +1103,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on program.pdf (59 pages, 1626975 bytes).
+Output written on program.pdf (60 pages, 1630238 bytes).
 PDF statistics:
- 752 PDF objects out of 1000 (max. 8388607)
- 624 compressed objects within 7 object streams
- 220 named destinations out of 1000 (max. 500000)
+ 756 PDF objects out of 1000 (max. 8388607)
+ 627 compressed objects within 7 object streams
+ 221 named destinations out of 1000 (max. 500000)
  365 words of extra memory for PDF output out of 10000 (max. 10000000)
 
