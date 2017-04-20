@@ -72,7 +72,6 @@
 	      <li><a href="https://www.libertymutual.com/" target="_blank">Liberty Mutual</a></li>
               <li><a href="http://www.pfizer.com/">Pfizer</a></li>
               <li><a href="https://www.travelers.com/">Travelers Insurance</a></li>
-	      <li><a href="http://clas.uconn.edu/" target="_blank">UConn CLAS</a></li>
 	  </ul>
 
 	</div> <!-- .column -->
