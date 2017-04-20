@@ -56,13 +56,14 @@ toc: true
 
 -----
 
-## 4. Graphical Models, Networks, Regulatome and Multivariate Analysis
+## 4. Graphical Models, Networks, Regulomes and Multivariate Analysis
 
 *Organizer and Chair:* **Yuping Zhang**, University of Connecticut
 
-* **Forrest W. Crawford**, Yale Universitybr />
+* **Forrest W. Crawford**, Yale University<br />
   "Causal Inference for Network Epidemics"
-* **Zhengqing Ouyang**, Jackson Labs
+* **Zhengqing Ouyang**, The Jackson Laboratory for Genomic Medicine”<br />
+  "Understanding Dynamic Regulomes through 3D Genome and Transcriptome Modeling"
 * **Sijian Wang**, University of Wisconsin Madison
 * **Kuang-Yao Lee**, Yale University<br />
   "Learning Causal Networks via Additive Faithfulness"
@@ -361,7 +362,8 @@ toc: true
 * **Hongkai Ji**, Johns Hopkins Bloomberg School of Public Health
 * **Pei Wang**, Mount Sinai School of Medicine<br />
   "Constructing Tumor-Specific Gene Regulatory Networks Based on Samples with Tumor Purity Heterogeneity"
-* **Yuping Zhang**, University of Connecticut
+* **Yuping Zhang**, University of Connecticut<br />
+  "Integrating Diverse Genomic Data to Estimate Multiple Networks"
 * **Kai Wang**, Columbia University<br />
   "Long Read Sequencing to Study Human Genome Variation"
 
