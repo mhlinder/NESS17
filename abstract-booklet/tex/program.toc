@@ -10,29 +10,29 @@
 \contentsline {subsection}{Morning sessions}{10}{section*.10}
 \contentsline {subsubsection}{1. New Vistas in Statistics with Applications}{10}{section*.11}
 \contentsline {subsubsection}{2. Non-Clinical in Pharmaceutical Industry}{10}{section*.12}
-\contentsline {subsubsection}{3. Space-Time Statistical Solutions at IBM Research}{10}{section*.13}
-\contentsline {subsubsection}{4. Graphical Models, Networks, Regulomes and Multivariate Analysis}{11}{section*.14}
+\contentsline {subsubsection}{3. Space-Time Statistical Solutions at IBM Research}{11}{section*.13}
+\contentsline {subsubsection}{4. Graphical Models, Networks, Regulatome and Multivariate Analysis}{11}{section*.14}
 \contentsline {subsubsection}{5. Big Data}{11}{section*.15}
-\contentsline {subsubsection}{6. Bayesian Applications in High-Dimensional and Multivariate Modeling}{11}{section*.16}
+\contentsline {subsubsection}{6. Bayesian Applications in High-Dimensional and Multivariate Modeling}{12}{section*.16}
 \contentsline {subsubsection}{7. New Advances in Analysis of Complex Data: Heterogeneity and High Dimensions}{12}{section*.17}
 \contentsline {subsubsection}{8. Machine Learning and Big Data Analytics}{12}{section*.18}
 \contentsline {subsubsection}{9. Statistical Approaches in Modeling and Incorporating Dependence}{13}{section*.19}
 \contentsline {subsubsection}{10. Biopharmaceutical Statistics}{13}{section*.20}
-\contentsline {subsubsection}{11. Extremes}{13}{section*.21}
+\contentsline {subsubsection}{11. Extremes}{14}{section*.21}
 \contentsline {subsubsection}{12. Feinberg Memorial Session: Bayesian Statistics with Applications}{14}{section*.22}
 \contentsline {subsection}{Afternoon sessions}{14}{section*.23}
 \contentsline {subsubsection}{1. Panel Discussion on Careers in Statistics}{14}{section*.24}
-\contentsline {subsubsection}{2. Statistical Applications in Finance and Insurance}{14}{section*.25}
+\contentsline {subsubsection}{2. Statistical Applications in Finance and Insurance}{15}{section*.25}
 \contentsline {subsubsection}{3. Application of Statistical/Predictive Modeling in Health Related Industry}{15}{section*.26}
 \contentsline {subsubsection}{4. Survival Analysis}{15}{section*.27}
-\contentsline {subsubsection}{5. Complex Data/Network Modeling}{15}{section*.28}
+\contentsline {subsubsection}{5. Complex Data/Network Modeling}{16}{section*.28}
 \contentsline {subsubsection}{6. Spatial Analysis of Public Health Data}{16}{section*.29}
-\contentsline {subsubsection}{7. Network Data Analysis}{16}{section*.30}
+\contentsline {subsubsection}{7. Network Data Analysis}{17}{section*.30}
 \contentsline {subsubsection}{8. Statistical Approaches to Data Modeling and Analysis}{17}{section*.31}
 \contentsline {subsubsection}{9. Social Networks and Causal Inference}{17}{section*.32}
-\contentsline {subsubsection}{10. Statistical Innovations in Genomics}{17}{section*.33}
+\contentsline {subsubsection}{10. Statistical Innovations in Genomics}{18}{section*.33}
 \contentsline {subsubsection}{11. Recent Developments on High-Dimensional Statistics and Regularized Estimation}{18}{section*.34}
-\contentsline {subsubsection}{12. Subgroup Analysis}{18}{section*.35}
+\contentsline {subsubsection}{12. Subgroup Analysis}{19}{section*.35}
 \contentsline {section}{Abstracts of Invited Papers}{20}{section*.36}
 \contentsline {section}{Abstracts of Posters}{47}{section*.61}
 \contentsline {section}{NESS 2017 Participants}{61}{section*.63}
