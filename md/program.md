@@ -2,6 +2,9 @@
 title: Program
 ---
 
+**The program booklet is available
+[<span style="color: red;">here</span>](program.pdf)**.
+
 A mixer will be held concurrently with the poster session on Saturday,
 April 22, from 5:55pm--6:30pm. The conference dinner will follow at
 7:00pm at Sichuan Pepper, in Vernon.

@@ -2,6 +2,11 @@
 title: Home
 ---
 
+## NESS has begun!
+
+The program booklet is available
+**[<span style="color: red;">here</span>](program.pdf)**.
+
 **Conference Dates:** Friday, April 21--Saturday, April 22, 2017<br />
 **Location:** University of Connecticut, Storrs, CT<br />
 **Conference Committee:** Haim Bar, Kun Chen, Jun Yan, and Yuping Zhang,
