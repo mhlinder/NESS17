@@ -1,0 +1,367 @@
+\subsection*{Posters}
+\begin{itemize}
+\item \textbf{Suzanne Thornton}, Rutgers, The State University of New Jersey \\
+``Approximate confidence distribution computing: An effective likelihood-free method with statistical guarantees'' \\
+Suzanne Thornton, Min-ge Xie
+
+
+Approximate Bayesian computing (ABC) is a likelihood-free method that has grown increasingly popular since early applications in population genetics. However, the theoretical justification for inference based on this method has yet to be fully developed especially pertaining to the use of non-sufficient summary statistics. We introduce a more general computational technique, approximate confidence distribution computing (ACC) to overcome two defects of the ABC method, namely, lack of theory supporting the use of non-sufficient summary statistics and lack of guardian for the selection of prior. Specifically, we establish frequentist coverage properties for the outcome of the ACC method by using the theory of confidence distributions, and thus inference based on ACC is justified (even if reliant upon a non-sufficient summary statistic). Furthermore, the ACC method is very broadly applicable; in fact, the ABC algorithm can be viewed as a special case of an ACC method without damaging the integrity of ACC based inference. We supplement the theory with simulation studies and an epidemiological application to illustrate the benefits of the ACC method. It is also demonstrated that a well-tended ACC algorithm can greatly increase its computing efficiency over a typical ABC algorithm.
+
+\item \textbf{Shaoyang Ning}, Harvard University \\
+``A Nonparametric Bayesian Approach to Copula Estimation'' \\
+Shaoyang Ning, Neil Shephard
+
+
+We propose a novel Dirichlet-based P\'olya tree (D-P tree) prior on the copula and based on the D-P tree prior, a nonparametric Bayesian inference procedure. Through theoretical analysis and simulations, we are able to show that the flexibility of the D-P tree prior ensures its consistency in copula estimation, thus able to detect more subtle and complex copula structures than earlier nonparametric Bayesian models, such as a Gaussian copula mixture. Further, the continuity of the imposed D-P tree prior leads to a more favorable smoothing effect in copula estimation over classic frequentist methods, especially with small sets of observations. We also apply our method to the copula prediction between the S\&P 500 index and the IBM stock prices during the 2007-08 financial crisis, finding that D-P tree-based methods enjoy strong robustness and flexibility over classic methods under such irregular market behaviors.
+
+\item \textbf{Xinran Li}, Harvard University \\
+``Asymptotic Theory of Rerandomization in Treatment-Control Experiments'' \\
+Xinran Li, Peng Ding, Donald B. Rubin
+
+
+Although complete randomization ensures covariate balance on average, the chance for observing significant differences between treatment and control covariate distributions increases with many covariates. Rerandomization discards randomizations that do not satisfy a predetermined covariate balance criterion, generally resulting in better covariate balance and more precise estimates of causal effects. Previous theory has derived finite sample theory for rerandomization under the assumptions of equal treatment group sizes, Gaussian covariate and outcome distributions, or additive causal effects, but not for the general sampling distribution of the difference-in-means estimator for the average causal effect. To supplement existing results, we develop asymptotic theory for rerandomization without these assumptions, which reveals a non-Gaussian asymptotic distribution for this estimator, specifically a linear combination of a Gaussian random variable and a truncated Gaussian random variable. This distribution follows because rerandomization affects only the projection of potential outcomes onto the covariate space but does not affect the corresponding orthogonal residuals. We also demonstrate that, compared to complete randomization, rerandomization reduces the asymptotic sampling variances and quantile ranges of the difference-in-means estimator. Moreover, our work allows the construction of accurate large-sample confidence intervals for the average causal effect, thereby revealing further advantages of rerandomization over complete randomization.
+
+\item \textbf{Jean Pouget-Abadie}, Harvard University \\
+``Randomizing over randomized experiments to test for network interference'' \\
+Jean Pouget-Abadie, Martin Saveski, Guillaume Saint-Jacques, Weitao Duan, Ya Xu, Souvik Ghosh, Edoardo Maria Airoldi
+
+
+We propose an experimental design for testing whether the stable unit value assumption holds, by comparing two different estimates of the total treatment effect obtained through two different assignment strategies: a completely randomized assignment and a cluster-based randomized assignment. We provide a methodology for obtaining these two estimates simultaneously and provide theoretical guarantees for rejecting the null hypothesis that the stable unit value assumption holds without specifying a model of interference. We provide a discussion on how to apply our methodology to large internet experimentation platforms. Finally, we illustrate the proposed multilevel design to a live experiment on the LinkedIn platform.
+
+\item \textbf{Zach Branson}, Harvard University \\
+``A Nonparametric Bayesian Methodology for Analyzing Regression Discontinuity Designs'' \\
+Zach Branson, Maxime Rischard, Luke Bornn, and Luke Miratrix
+
+
+Regression discontinuity designs (RDDs) are natural experiments where treatment assignment is determined by a covariate value (or "running variable") being above or below a predetermined threshold. Because the treatment effect will be confounded by the running variable, RDD analyses focus on the local average treatment effect (LATE) at the threshold, where treated and control units are most similar in terms of the running variable. The most popular methodology for estimating the LATE in an RDD is local linear regression (LLR), which is a weighted linear regression that places larger weight on units closer to the threshold. While LLR exhibits promising bias-reducing properties, LLR tends to yield confidence intervals that undercover, in part because LLR assumes the weighting scheme is fixed, when really there is uncertainty in the weighting scheme choice. We propose an alternative nonparametric methodology utilizing Gaussian process regression that, unlike LLR, (1) does not require specifying a functional form for the expected treatment and control response, and (2) automatically incorporates the uncertainty in how units are weighted when estimating the treatment effect.  We prove our methodology is consistent for the LATE, and we replicate previous simulation studies in the literature to show that our method exhibits better coverage and mean square error properties than current methodologies.
+
+\pagebreak
+\item \textbf{Elizabeth Upton}, Boston University \\
+``Bayesian Network Regularized Regression for Modeling Urban Crime Occurrences'' \\
+Elizabeth Upton, Luis Carvalho
+
+
+We consider the problem of statistical inference and prediction for
+processes defined on networks. We assume that the network is known and measures similarity, 
+and our goal is to learn about an attribute
+associated with its vertices. Classical regression methods are not immediately
+applicable to this setting, as we would like our model to incorporate
+information from both network structure and pertinent covariates. Our proposed
+model consists of a generalized linear model with vertex indexed predictors
+and a basis expansion of their coefficients, allowing the coefficients to vary
+over the network. We employ a regularization procedure, cast as a prior
+distribution on the regression coefficients under a Bayesian setup, so that
+the predicted responses vary smoothly according to the topology of the
+network. We first motivate the need for this model by examining occurrences of
+residential burglary in Boston, Massachusetts. Noting that crime rates are
+not spatially homogeneous, and that the rates appear to vary sharply across
+regions or hot zones in the city, we construct a hierarchical model that
+addresses these issues and gives insight into spatial patterns of crime
+occurrences. Furthermore, we examine an efficient expectation-maximization
+fitting algorithm and provide computationally-friendly methods for eliciting
+hyper-prior parameters. We demonstrate the performance of the proposed model
+in a simulation study and a case study in Boston.
+
+\item \textbf{Qin Lu}, University of Connecticut \\
+``The Multidimensional Cramer-Rao-Leibniz Lower Bound for Vector-Meaurement-based Likelihood Functions with Parameter-Dependent Support'' \\
+Qin Lu, Yaakov Bar-Shalom, Peter Willett, Francesco Palmieri, Fred Daum
+
+
+One regularity condition  for the classical Cramer-Rao lower bound (CRLB) of an unbiased estimator to hold --- that the support of the likelihood function (LF) should be independent of the parameter to be estimated --- has recently been relaxed to the case of parameter-dependent support as long as the LF is continuous at the boundary of its support. For the case where the LF is not continuous on the boundary of its support, a new modified CRLB --- designated the Cramer-Rao-Leibniz lower bound (CRLLB) as it relies on the Leibniz integral rule --- has also been presented for the scalar parameter case. The present work derives the multidimensional CRLLB for the case of LF based on vector measurements with parameter-dependent support by applying the general Leibniz integral rule to complete the framework of the CRLLB. Some illustrative examples have been provided to demonstrate the evaluation of the CRLLB.
+
+\item \textbf{Tom Chen}, Harvard University \\
+``A stochastic second-order generalized estimating equations approach for estimating intraclass correlation in the presence of informative missing data'' \\
+Tom Chen, Eric J. Tchetgen Tchetgen, Rui Wang
+
+
+Design and analysis of cluster randomized trials must take into account correlation among outcomes from the same clusters. When applying standard generalized estimating equations (GEE), the first-order (e.g. treatment) effects can be estimated consistently even with a misspecified correlation structure. In settings for which the correlation is of interest, one could estimate this quantity via second-order generalized estimating equations (GEE2). We build upon GEE2 in the setting of missing data, for which we incorporate a "second-order" inverse-probability weighting (IPW) scheme and "second-order" double robustness (DR) equations that guard against model misspecification. We highlight the need to model correlation among missingness indicators in such settings. In addition, the computational difficulties in solving these second-order equations have motivated our development of stochastic algorithms for solving GEE2s, which alleviates the reliance on starting points and provides substantially faster convergence and a higher convergence rate than deterministic root-solving methods.
+
+\item \textbf{Jessica Hoag}, University of Connecticut \\
+``Hemoglobinopathies and adverse cancer-related outcomes: A multi-technique approach for analyzing tumor registry data linked to Medicare claims'' \\
+Jessica Hoag, Biree Andemariam, Xiaoyan Wang, David Gregorio, Helen Swede
+
+
+Racial disparities in cancer outcomes persist despite recent improvements in mortality, prompting investigations into the prognostic interplay of biological, individual, and social factors. Preclinical and case report evidence have shown that malformed red blood cells present in individuals with inherited hemoglobin variants such as sickle cell trait can interact with the tumor microenvironment to induce treatment failure and systemic adverse events. Hemoglobinopathies are disproportionately prevalent among African American/Blacks (AA/B) compared to non-Hispanic whites (NHW), but the distinct and synergistic effects of hemoglobin variants with treatment completion and adverse events on cancer survival is unknown. 
+
+Given this lack of background understanding, multiple statistical approaches were employed to quantify the contribution of hemoglobinopathies to black-white differences in cancer-related outcomes in a large observational study cohort.
+
+We identified 162,357 older breast (n=75,633) and prostate (n=86,904) cancer patients diagnosed 2007-2013 using the SEER-Medicare linked database. AA/B and NHW patients were grouped by hemoglobinopathy status (AA/B+, AA/B-, NHW-) and three-way propensity score weighting using generalized boosted models (GBM) was performed to control for imbalances in demographic and clinicopathological features across study groups. The relative risk (RR) of treatment failure and occurrence of one or more adverse event was modeled using a modified Poisson regression approach with robust error variance, and interactions between treatment completion and adverse events by hemoglobinopathy status were evaluated for their relative contributions to all-cause, cancer-specific, and competing risks survival.
+
+After propensity score weighting, no significant association was observed in treatment completion status between AA/B+ and AA/B- or NHW-. Among treated patients, however, AA/B+ status conferred increased RR of experiencing one or more adverse event compared to either AA/B- (RR: 1.15, 95% CI: 1.07 – 1.24) or NHW- (RR: 1.18, 95% CI: 1.10 – 1.26). The all-cause, cancer-specific, and competing risks mortality hazard for AA/B+ was proportionally higher among patients who both completed treatment and experienced one or more adverse event compared to AA/B- and NHW-, suggesting that hemoglobinopathies modify the effects of treatment completion and adverse events on survival. This study illustrates the robustness of findings across multiple analytical techniques for use in a complex data environment, and provides novel evidence of hemoglobinopathies as prognostic biomarkers in cancer.
+
+\item \textbf{Yeongjin Gwon}, University of Connecticut \\
+``Network Meta-Regression for Ordinal Outcomes: Applications in Comparing Crohn’s Disease Treatments'' \\
+Yeongjin Gwon, May Mo, Ming-Hui Chen, Juan Li, H. Xia Amy, Joseph Ibrahim
+
+
+Crohn’s Disease is a life-long condition associated with recurrent relapses characterized by abdominal
+pain, weight loss, anemia, and persistent diarrhea. In the U.S., there are approximately 780,000 Crohn’s disease
+patients and 33,000 new cases are added each year. In this paper, we propose a new network meta-regression approach
+for modeling ordinal outcomes in order to assess the eﬃcacy of treatments for Crohn’s disease. Speciﬁcally, we develop
+regression models based on aggregate trial-level covariates for the underlying cut-oﬀ points of the ordinal outcomes
+as well as for the variances of the random eﬀects to capture heterogeneity across trials. Our proposed models are
+particularly useful for indirect comparisons of multiple treatments that have not been compared head-to-head within
+the network meta-analysis framework. Moreover, we introduce Pearson residuals to detect outlying trials and construct
+an invariant test statistic to evaluate goodness-of-ﬁt in the setting of ordinal outcome meta-data. A detailed case
+study demonstrating the usefulness of the proposed methodology is carried out using aggregate ordinal outcome data
+from 16 clinical trials for treating Crohn’s disease. 
+
+\item \textbf{Yujing Jiang}, University of Connecticut \\
+``Fingerprinting Changes in Climate Extremes with   Joint Modeling of Observations and Climate Model Simulation'' \\
+Yujing Jiang, Jun Yan, Xuebin Zhang
+
+
+ Detection and attribution (D\&A) analysis for climate extremes plays an
+  important role in understanding the human influence on the observed change
+  in climate extremes. Recent developed methodologies for D\&A analysis use
+  signal estimated from climate model simulation under external forcing as
+  covariate in the model of observed extremes and carry out statistical
+  analysis on the coefficient of the signal. The estimated signal contains
+  statistical error, however, which may yield bias in the following
+  analysis. In this study, we propose a method which combines the two stages
+  of signal estimation and D\&A analyis, and estimate the signal jointly
+  from both the simulated and the observed extremes. We show that this
+  method can reduce the bias effectively in the estimation compared to the
+  previous method using a simulation study. 
+
+\item \textbf{Phyllis Wan}, Columbia University in the City of New York \\
+``Threshold Selection for Multivariate Heavy-Tailed Data'' \\
+Phyllis Wan, Richard A. Davis
+
+
+Regular variation is often used as the starting point for modeling multivariate heavy-tailed data. A random vector is regularly varying if and only if its radial part $R$ is regularly varying and is asymptotically independent of the angular part $\Theta$ as $R$ goes to infinity. The conditional limiting distribution of $\Theta$ given $R$ is large characterizes the tail dependence of the random vector and hence its estimation is the primary goal of applications. A typical strategy is to look at the angular components of the data for which the radial parts exceed some threshold. While a large class of methods has been proposed to model the angular distribution from these exceedances, the choice of threshold has been scarcely discussed in the literature. In this paper, we describe a procedure for choosing the threshold by formally testing the independence of $R$ and $\Theta$ using a measure of dependence called distance covariance. We generalize the limit theorem for distance covariance to our unique setting and propose an algorithm which automatically selects the threshold for $R$. This algorithm incorporates a subsampling scheme, which avoids the heavy computation in the calculation of the distance covariance, a typical disadvantage for this measure. The performance of our method is illustrated on both simulated and real data.
+
+\item \textbf{Kendra Plourde}, Boston University \\
+``Differences in Estimation between the Longitudinal Model and the Longitudinal portion of the Joint Model'' \\
+Kendra Plourde, Yorghos Tripodis
+
+
+We investigate the effect of a joint survival and longitudinal models on the precision and accuracy of the longitudinal estimates. Mixed effects analysis has allowed investigators to incorporate more information in their models by allowing subjects to have repeated measures. More recently, joint models consisting of a cox proportional hazards model and a longitudinal mixed effects model have been proposed allowing investigators to additionally incorporate time-to-event data. By incorporating more information, we expect the estimates of the longitudinal portion of the joint model to be less biased and more precise on average. Extensive research has been done to show the improvement in estimation of the hazard function using joint models, but not much research has been done to investigate the differences in estimation of the longitudinal model. In this study, we compared the longitudinal model with the longitudinal portion of the joint model in terms of coverage, bias, and precision using the same simulation structure used previously (Mayeda, 2015). Our results showed that although the estimate of the longitudinal portion of the joint model was on average more precise, it had a higher root mean square error and was more susceptible to survival bias and type I error compared to the longitudinal model alone.
+
+\item \textbf{Dongah Kim}, University of Massachusetts-Amherst \\
+``Multivariate association in Respondent-Driven Sampling data'' \\
+Dongah Kim, Krista J.Gile, Pedro Mateu-Gelabert, Honoria Guarino
+
+
+Respondent-Driven Sampling (Heckathorn 1997) is a sampling method designed to collect data for hard-to-reach populations; injected drug users, sex workers, and man who have sex with man. Beginning with a convenience sample, the sample recruits other participants using small number of uniquely-identified coupons to distribute among his/her social network. Coupon recipients can accept or reject participation of the survey study, and he/she also get small number of coupon to recruit other participants. Using these process, survey team can reach a desire sample size of the target population.
+This method is very effective to collect a data for hard-to-reach populations. However, valid statistical inference for these kinds of data relies on many strong assumptions. Most of all, statistical tests for between pairs of variables has strong limitation. In standard survey samples, we can assume the two pairs of variables from each individual are independent. In RDS condition, however, this assumption does not be satisfied because of the sampling dependence between individuals. Therefore, we propose to design methods to non-parametrically estimate the null distributions of standard test statistics in the presence of sampling dependence, allowing for more valid statistical testing.
+
+\item \textbf{Gregory Vaughan}, University of Connecticut \\
+``Efficient Interaction Selection via Stagewise Generalized Estimating Equations'' \\
+Gregory Vaughan, Robert Aseltine, Kun Chen, Jun Yan
+
+
+Stagewise estimation is a slow-brewing approach for 
+model building that has recently experienced a revival
+due to its computational efficiency, its flexibility in 
+handling complex data structure, and its intrinsic connections 
+with penalized estimation. Built upon generalized estimating 
+equations, we propose
+general stagewise estimation approaches for variable and 
+interaction selection in non-Gaussian/non-linear models with 
+clustered data. As it is often required
+that main effect terms be included when an interaction term is part of 
+a model, the key is to perform variable selection that maintains
+the variable hierarchy. We develop two techniques
+to address this challenge. The first is a hierarchical
+lasso stagewise estimating equations (hlSEE) approach,
+which is shown to directly correspond to the hierarchical lasso
+penalized regression. The second is an interaction stagewise
+estimating equations (iSEE) approach, which enforces the variable 
+hierarchy by conforming the selection to a properly growing active 
+set in each stagewise estimation step. Simulation studies are presented
+to show the efficacy and superior computational efficiency of the 
+proposed approaches. We apply the proposed approaches to study the 
+association between the suicide-related hospitalization rates of the
+15--19 age group and the characteristics of the school districts in 
+the State of Connecticut.
+
+\item \textbf{Daoyuan Shi}, University of Connecticut \\
+``New Partition Based Measures for Data Compatibility and Information Gain'' \\
+Daoyuan Shi, Lynn Kuo, Ming-Hui Chen
+
+
+It is of great practical importance to compare and combine data from different studies in order to carry out appropriate and more powerful statistical inference. In this paper, to quantify the compatibility of two data sets we first propose a partition based measure in terms of the corresponding posterior distributions of the parameters. We further propose an information gain to measure the information increase in combining two data sets. These measures are well calibrated. Efficient computational algorithms are developed for calculating these measures. We illustrate how these two measures are useful in combining historical data to current data with a benchmark toxicology example.
+
+\item \textbf{Suzanne Thornton}, Rutgers University-New Brunswick \\
+``Approximate confidence distribution computing: An effective likelihood-free method with statistical guarantees'' \\
+Suzanne Thornton, Min-ge Xie
+
+
+Approximate Bayesian computing (ABC) is a likelihood-free method that has grown increasingly popular since early applications in population genetics. However, the theoretical justification for inference based on this method has yet to be fully developed especially pertaining to the use of non-sufficient summary statistics. We introduce a more general computational technique, approximate confidence distribution computing (ACC) to overcome two defects of the ABC method, namely, lack of theory supporting the use of non-sufficient summary statistics and lack of guardian for the selection of prior. Specifically, we establish frequentist coverage properties for the outcome of the ACC method by using the theory of confidence distributions, and thus inference based on ACC is justified (even if reliant upon a non-sufficient summary statistic). Furthermore, the ACC method is very broadly applicable; in fact, the ABC algorithm can be vi ewed as a special case of an ACC method without damaging the integrity of ACC based inference. We supplement the theory with simulation studies and an epidemiological application to illustrate the benefits of the ACC method. It is also demonstrated that a well-tended ACC algorithm can greatly increase its computing efficiency over a typical ABC algorithm.
+
+\item \textbf{Qiongshi Lu}, Yale University \\
+``A powerful approach to estimating annotation-stratified genetic covariance using GWAS summary statistics'' \\
+Qiongshi Lu, Boyang Li, Derek Ou, Margret Erlendsdottir, Ryan Powles, Tony Jiang, Yiming Hu, David Chang, Chentian Jin, Wei Dai, Qidu He, Zefeng Liu, Shubhabrata Mukherjee, Paul Crane, Hongyu Zhao
+
+
+Despite the success of large-scale genome-wide association studies (GWASs) on complex traits, our understanding of their genetic architecture is far from complete. Jointly modeling multiple traits’ genetic profiles has provided insights into the shared genetic basis of many complex traits. However, large-scale inference sets a high bar for both statistical power and biological interpretability. Here we introduce a principled framework to estimate annotation-stratified genetic covariance between traits using GWAS summary statistics. Through theoretical and numerical analyses we demonstrate that our method provides accurate covariance estimates, thus enabling researchers to dissect both the shared and distinct genetic architecture across traits to better understand their etiologies. Among 50 complex traits with publicly accessible GWAS summary statistics (Ntotal ≈ 4.5 million), we identified more than 170 pairs with statistically significant genetic covariance. In particular, we found strong genetic covariance between late-onset Alzheimer’s disease (LOAD) and amyotrophic lateral sclerosis (ALS), two major neurodegenerative diseases, in single-nucleotide polymorphisms (SNPs) with high minor allele frequencies and in SNPs located in the predicted functional genome. Joint analysis of LOAD, ALS, and other traits highlights LOAD’s correlation with cognitive traits and hints at an autoimmune component for ALS.
+
+\item \textbf{David Cheng}, Harvard T.H. Chan School of Public Health \\
+``Efficient and Robust Semi-Supervised Estimation of Average Treatment Effects in Electronic Medical Records Data'' \\
+David Cheng, Ashwin Ananthakrishnan, Tianxi Cai
+
+
+There is strong interest in conducting comparative effectiveness research (CER) in electronic medical records (EMR) data to evaluate treatment strategies among real-world patients.  A primary challenge of working with EMR data is the lack of direct observation on a pre-specified true outcome, prompting the need for phenotyping algorithms that impute the outcome given available data.  It is often unclear whether such imputations are adequate when used to estimate the treatment effect.  We frame the problem of estimating average treatment effects (ATE) in a semi-supervised learning setting, where we suppose a small set of observations labeled with the true outcome and a large set of unlabeled observations are available.  We develop an approach for imputing the outcome and an estimator for the ATE that such that the treatment effect estimator is robust to mis-specification of the imputation model. As a result, information from surrogate variables that predict the outcome in the unlabeled data can safely be leveraged to improve the efficiency in estimating the ATE.  The estimator is also doubly-robust in that it will be consistent under correct specification of either an initial propensity score model or a baseline outcome model.  It is more efficient than complete-case estimators that neglect the unlabeled data and related missing data and causal inference estimators we adapt to this setting to make use of the unlabeled data.  Simulations exhibit the efficiency and robustness benefits of the proposed estimator in finite samples.  We illustrate the method in an EMR study to compare rates of treatment response to two anti-TNF therapies for the management of inflammatory bowel disease.
+
+\item \textbf{Wenjie Wang}, University of Connecticut \\
+``Extended Cox Model by ECM Algorithm for Uncertain Survival Records Due  to Imperfect Data Integration'' \\
+Wenjie Wang, Kun Chen, Jun Yan
+
+
+  In the era of big data, there has been an increasing need in using data
+  integrated from disparate sources to conduct statistical analysis. The
+  potential benefits from data integration, however, may be compromised by the
+  induced data uncertainty due to incomplete/imperfect linkage, causing
+  potential bias in statistical inference. It is thus pivotal to take into
+  account the uncertainty associated with data integration.  Motivated by a
+  suicide prevention study, we consider a survival analysis setup to handle
+  uncertainty event records arising from data integration.  Specifically, a
+  survival dataset constructed from hospital discharge fails to capture the
+  events of interest for all the subjects, and the missing events may be
+  recovered from a complete death record database that contains all the event
+  records of a much larger population.  Nonetheless, the original dataset can
+  only be linked to the database by matching basic characteristics of
+  subjects. As such, a censored subject from the original dataset could find
+  multiple possible event times in the second database, which may or may not
+  contain the true event time.  We propose an extended the Cox regression
+  approach, in which such uncertainty and mismeasurement of survival data are
+  modeled probabilistically. The estimation procedure is derived in the spirit
+  of expectation conditional maximization (ECM) algorithm and profile likelihood
+  function.  It takes regular the Cox model as a special case and reduces to the
+  Cox model when there is not uncertainty in the data.  The performance of the
+  proposed method is evaluated through simulation studies.  The proposed method
+  outperforms the naive approaches under slight and severe censoring when the
+  data matching leads to more true outcomes than noise. We show that the extend
+  Cox model is practically attractive by applying it to the 2005--2012 suicide
+  attempt data from the State of Connecticut, which suggests interesting and
+  insightful results.
+
+\item \textbf{Michael C. Burkhart}, Brown University \\
+``The discriminative Kalman filter for nonlinear and non-Gaussian sequential Bayesian filtering'' \\
+Michael C. Burkhart, David M. Brandman, Matthew T. Harrison
+
+
+The Kalman filter is used in a variety of applications for computing the posterior distribution of latent states in a state space model.  The model requires a linear relationship between states and observations. Extensions to the Kalman filter have been proposed that incorporate linear approximations to nonlinear models such as the extended Kalman filter (EKF) and the unscented Kalman filter (UKF). However, we argue that in cases where the dimensionality of observed variables greatly exceeds the dimensionality of state variables, a model for $p(\text{state}|\text{observation})$ proves both easier to learn and more accurate for latent state estimation.  We derive and validate what we call the discriminative Kalman filter (DKF): a closed-form discriminative version of Bayesian filtering that readily incorporates off-the-shelf discriminative learning techniques. We demonstrate how highly non-linear models for $p(\text{state}|\text{observation})$ can be specified. We validate on synthetic datasets.  Finally, we discuss how the DKF has been successfully implemented for neural filtering in human volunteers in the BrainGate clinical trial.
+
+\item \textbf{Xinyu Chen}, Worcester Polytechnic Institute \\
+``Restricted Inference In Multiple Linear Regression'' \\
+Xinyu Chen
+
+
+Regression analyses constitutes an important part of the statistical inference and has great applications in many areas. In some applications, we strongly believe that the regression function changes monotonically with some or all of the predictor variables in a region of interest. Deriving analyses under such constraints will be an enormous task. In our work, the restricted prediction interval for the mean of the regression function is constructed when two predictors are present. We use a modified likelihood ratio test(LRT) to construct confidence and prediction intervals. 
+
+\item \textbf{Benedict Wong}, Harvard University \\
+``A Bayesian Approach to Correcting for Risk Factor Misclassification in the Partial Population Attributable Risk'' \\
+Benedict Wong
+
+
+Estimation of the population attributable risk (PAR) has become an important goal in public health research, because it describes the proportion of disease cases that could be prevented if an exposure were entirely eliminated from a target population as a result of some intervention. In epidemiological studies, categorical covariates are often misclassified. We present methods for obtaining point and interval estimates of the PAR in the presence of misclassification, using a Bayesian approach to estimate parameters of the logistic regression models for the disease and for the misclassification process, under two different study designs. We compare this method to a likelihood-based method in a simulation study, using estimates from data in the Health Professionals Follow-Up Study of risk factors for colorectal cancer.
+
+\item \textbf{Timothy Leonard}, University of Rhode Island \\
+``Predicting Authorship with Assortative Mixture of English Parts of Speech'' \\
+Timothy Leonard
+
+
+Authorship attribution is a classification problem with two main objectives: 1) to accurately predict some characteristic of a piece of text (e.g. authorship), and 2) to provide a descriptive model of writing that contributes to our knowledge of language.  This article presents an assortative mixture model of English parts of speech that accurately predicts authorship in a supervised learning environment.  By  measuring the tendency for same parts of speech to collocate, the model offers a detailed and unbiased glimpse into the stylometric features of grammar.   Assortative mixture is a single coefficient that can be applied to each part of speech in a word graph to generate a small but inclusive feature set.  Comprised of only a single estimator, the assortative mixture model is simple yet captures many fundamental language characteristics including what grammar types exhibit selective linking.  As a network graph model, words are vertices and edges represent sequential words (i.e. word bigrams or adjacencies) that appear in a sample of writing.  To calculate assortativity and generate a feature set, vertices have as an attribute a part of speech that can be compared to other vertices.  Such graphs are not new to the literature, however, previous models ignore grammar or fail to represent all grammar types due to computational limitations or deliberate choice of the model.  Research on word graphs sought to discover predictive features using network analysis but did not include the part of speech as an attribute of a vertex.  These studies showed that other descriptive characteristics such as transitivity, density, degree assortativity, etc., do not stand alone as significant predictors in a feature set.   By comparison,  grammar assortativity alone is highly predictive of authorship.  The statistical analysis of graphs aided with an accurate speech tagger empowers a more mathematically descriptive examination of grammar now that entire collections of writing can be tagged efficiently.
+
+\item \textbf{Jinxin Tao}, Worcester Polytechnic Institute \\
+``Comparison between confidence intervals of multiple linear regression models with and without restriction'' \\
+Jinxin Tao   Thelge Buddika Peiris
+
+
+Regression analysis is one of the most applied statistical techniques. The statistical inference of a linear regression model with a monotone constraint had been discussed in early analysis. A natural question arises when it comes to the difference between the cases of with and without the constraint. Although the comparison between confidence intervals of linear regression models with and without restriction for one predictor variable had been considered, this discussion for multiple regression is required.
+We discuss the comparison of the intervals between a multiple linear regression model with and without constraints.
+
+\item \textbf{Yishu Xue}, University of Connecticut \\
+``Tests and Diagnostics for Cox Proportional Hazards Model in the Online Updating Setting'' \\
+Yishu Xue, Jun Yan and Elizabeth Schifano
+
+
+For big survival data, conventional estimation methods for Cox
+proportional hazards models may become infeasible with standard
+routines because of the limit of computer memory. With big stream data
+partitioned into blocks, an online updating approach with cumulative
+estimating equations and cumulatively updated estimating equations is
+developed with minimal storage requirement to estimate the Cox model
+parameters. The methodology naturally leads to an online updating test
+procedure for the proportional hazards assumption. For certain
+specific alternatives, window versions of the cumulative statistic
+help to detect change point sooner. The proposed test procedures is
+shown to be hold their sizes and have substantial power in simulation
+studies. The usefulness of the methods is illustrated with a real
+application to prostate cancer.
+
+\item \textbf{Indrani Mandal}, University of Rhode Island \\
+``Correlation analysis of multivariate Smartwatch data'' \\
+Indrani Mandal, Debanjan Borthakur
+
+
+The advanced smartwatch has multiple functionalities that includes measurements of physiological parameters such as heart rate, galvanic skin resistance(GSR), temperature, acceleration, etc.Analysis of Multifaceted sensor data provides us with the scope of tracking physiological, behavioral and environmental information.This work aims to find the correlation between the various sensor modalities using standard multivariate time series analysis.The correlation analysis proposed in this paper can be instrumental in differentiating actual medical condition and an artifact anomaly.This analysis can bring new insight into the possible hidden relationship between the sensor modalities and hence can be useful in recognizing the neurological state of the user.
+
+\item \textbf{Katherine Abramski}, University of Rhode Island \\
+``A Network Based Analysis of the European Refugee Crisis'' \\
+Katherine Abramski, Katio Dio, Natallia Katenka
+
+
+Europe is in the midst of the largest migration crisis the world has seen since WWII. Largely fueled by on-going conflicts in Africa and the Middle East, this mass migration is a multidimensional problem with numerous factors at play. To better understand this problem, we created a network representation of migration patterns between chosen countries in Europe, Africa, and the Middle East. Specifically, we observed the total number of refugees that migrated from one country to another in 2010 and 2015. One of our goals was to observe how migration patterns have changed over time and to understand what major events may have contributed to those changes. We also investigated various factors that could presumably influence migration patterns. We analyzed multiple descriptive measures of our network including degree and strength distribution, transitivity, assortativity, betweenness, graph partitioning, and node and edge attributes. We observed an overall increase in migration from 2010 to 2015, although we did observe a decrease in migration to and from some countries as well. For the most part, the changes we observed were consistent with recent world events. In the future, we plan to explore the use of dynamic networks, specifically, stochastic actor-based models for modelling the evolution of migration patterns over time. We also plan to explore the predictive capabilities of additional variables such as illegal border crossings, attitudes towards refugees, and legislation.
+
+\item \textbf{Gabriel De Pace}, University of Rhode Island \\
+``Applying CNNs to Human Facial Expressions for Emotion Recognition'' \\
+Gabriel De Pace, Terry Ferguson, Indrani Mandal
+
+
+Automating emotion recognition has many valuable applications today, especially in light the proliferation of mobile devices capable of capturing and processing images. Health monitoring, mental health follow up and marketing could see benefits with a low-cost and fast implementation of emotion detection.
+
+We have used Caffe and OpenFace, open source CNN libraries and tools, to classify emotions using human facial expressions. We have used pre-trained deep learning models in order to establish benchmarks.  We apply existing and newly trained networks to video data.
+
+Preliminarily, we have found that happiness is the easiest to classify.  The distinction between surprise and fear is difficult to make.  Disgust is the hardest to classify.
+
+\item \textbf{Anton Lobach}, University of Rhode Island, Dept. of Computer Science and Statistics \\
+``A Markov Switching Causal-Noncausal Autoregressive Model with Application to Economic Bubbles'' \\
+Anton Lobach, Gavino Puggioni
+
+
+Speculative bubble phenomena may result in explosive trends followed by
+a sharp decline in financial time series. A bubble is formed when investors’
+future profits expectations influence the present market value of securities.
+Mixed causal-noncausal autoregressive processes are able to better model
+such behavior in comparison to traditional ARIMA models. In this work we
+propose Markov switching mixed causal-noncausal autoregressive processes
+(MSMAR) to account for changes in regime at different times. Parameter
+estimation is conducted in a Bayesian framework via MCMC algorithms. The
+model is tested for performance with a simulation study and then applied to
+Bitcoin/USD exchange rate and US inflation data.
+
+\item \textbf{Isabel Nowinowski}, University of Rhode Island, Statistics \\
+``The Deadliest Days for Drivers: A Bayesian Nonparametric Analysis of Fatal Car Accidents'' \\
+Isabel Nowinowski, Katie Abramski, Hilary Aroke, Kaitlin Dio,  Eugene Quinn, Daniel M. Smith, Gavino Puggioni
+
+
+Highway road signs displaying witty messages promoting safe driving are not an uncommon sight on the morning commute in New England, especially around major holidays. As departments of transportation and public health and safety place more emphasis on safe driving, understanding factors that affect the occurrence of motor vehicle accidents is becoming increasingly relevant. The aim of this analysis was to investigate periodic day of week and day of year effects and the influence of certain holidays on counts of fatal accidents in the United States. Using data from the Fatality Analysis Reporting System (FARS), we examined patterns in the number of fatal car accidents from 1975 to 2015 using a nonparametric Gaussian process model with additive components. Special days included in the analysis were New Year’s Eve and Day, Valentine’s Day, Memorial Day, Fourth of July, Labor Day, Halloween, Thanksgiving, and Christmas. Our results demonstrate a day of week effect, a day of year effect, and an effect of certain special days. This approach can be used to inform the timing of interventions and allocation of resources aimed at reducing road traffic accidents at particular times of the week, year, and around holidays.
+
+\pagebreak
+
+\item \textbf{Kaitlin Dio}, University of Rhode Island \\
+``Exploring Feedback in an Introductory Biostatistics Course: A Repeated Measures Analysis'' \\
+Kaitlin Dio, Natallia Katenka
+
+
+The generation of millennials is phasing out of undergraduate courses and the next generation is replacing them. Titled “Generation Z” these students were born into a world with technology where their phones contained the answers to nearly any question they could ask. In response to this changing landscape of learners and their new educational needs, we implemented additional feedback procedures (weekly quizzes with varying grade incentives, an introductory survey and two SATS-36 surveys) in an introductory biostatistics course at the University of Rhode Island. Our purpose was two-fold. First, explore the effect of grade incentives on weekly quizzes by building a piecewise linear mixed effect longitudinal model. Next, investigate the change in attitudes throughout the semester using multiple linear regression to control for the starting attitude of the students. Results from this analysis will be extended to a larger goal to model URI undergraduate students’ attitudes towards statistics and its relationship with course outcomes. 
+
+\item \textbf{Joseph Langan}, University of Rhode Island \\
+``Fracking Activity and Earthquakes in Oklahoma, 2011-2015'' \\
+Joseph Langan, Divana Boukari, Marjana Catanzaro, Ayako Miura, John Ragland, Michael Weir, Xin Zhou, Gavino Puggioni
+
+
+One of the most contentious and pressing environmental issues today facing oil-producing states in the central US is the interaction of fracking activity with earthquake frequency. Exploratory analysis of fracking and earthquake data collected in Oklahoma from 2011 to 2015 suggest that gas extraction is closely associated with seismically active fault lines. In this analysis, generalized linear models are used with two main objectives. The first object is to model the number of earthquakes as a function of monthly fracking wastewater injection volume and location; second, to investigate the potential link between earthquake magnitude and injection volumes, while controlling for location within the state. Inference is carried out within the Bayesian framework using MCMC algorithms. One of the main challenges of this analysis is harmonizing several data sources recorded at different spatial scales. The results of this work aim to provide a deeper understanding of how induced earthquakes are related to wastewater injection volumes and assist in improved spatial planning of fracking activity in order to strike a balance between Oklahoma's energy industry and the protection of its community and infrastructure.
+
+\item \textbf{Alicia S Chua}, Boston University \\
+``Incorporation of time series method for latent trajectory of longitudinal Mini-Mental State Examination in Alzheimer’s patients'' \\
+Alicia S Chua, Yorghos Tripodis
+
+
+In Alzheimer’s patients, the Mini-Mental State Examination (MMSE) is a commonly used measure of general cognitive function. Longitudinal cognitive patient reported outcomes (CPRO) in Alzheimer patients are often highly nonlinear. This nonlinear feature of the data violates the major assumptions of commonly used statistical models such as linear mixed-effect (LME) models and generalized estimating equations (GEE) models. An alternative approach to this issue involves the incorporation of time series methods for the latent trajectory in multivariate time series of the MMSE. Data from 432 participants of the National Alzheimer’s Coordinating Center were used in this study. We examined the trajectories of participants’ MMSE across study visits (up to 8 visits) via time series plots. Next, we examined the assumptions of a LME model for the data, and investigated alternative models that correctly explains MMSE in our cohort. Time series plots revealed violations of the linearity assumption of MMSE as an outcome over time, and the plots appeared to exhibit a certain trend and random effects across time. When we fit an LME model, we observed no significant association for MMSE over time (p=0.3884). However, when we fit an autoregressive integrated moving average (ARIMA) model, namely ARIMA (1,1,1), we observed a significant improvement in model fit in comparison to the LME model. The findings from this study may deepen our understanding on how to unbiasedly and efficiently model longitudinal CPRO data in Alzheimer patients and provide more insights in the pathway of disease at the initial pre-symptomatic stage of Alzheimer’s disease.
+
+\end{itemize}
+
