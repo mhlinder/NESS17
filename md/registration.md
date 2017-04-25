@@ -2,8 +2,5 @@
 title: Registration
 ---
 
-<?php include("registration0.php"); ?>
-
-If you are experiencing technical difficulties, contact our
-[webmaster](m.henry.linder@uconn.edu).
+Registration for NESS has closed: NESS has begun.
 

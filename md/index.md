@@ -2,10 +2,15 @@
 title: Home
 ---
 
-## NESS has begun!
+## NESS 2017 is complete!
 
 The program booklet is available
 **[<span style="color: red;">here</span>](program.pdf)**.
+
+Congratulations to the [winners](awards) of the **IBM Best Paper
+Award** and **Liberty Mutual Best Poster Award**.
+
+-----
 
 **Conference Dates:** Friday, April 21--Saturday, April 22, 2017<br />
 **Location:** University of Connecticut, Storrs, CT<br />
